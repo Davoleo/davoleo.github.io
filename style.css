@@ -1,0 +1,518 @@
+@import url('http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic');
+@import url('http://fonts.googleapis.com/css?family=Montserrat:400,400italic,700,700italic');
+@import url('http://fonts.googleapis.com/css?family=Montserrat:400,400italic,700,700italic');
+
+/*
+ * 01: Main
+ */
+
+body {
+	background-color: #E4EBF0;
+	font-size: 16px;
+	font-family: 'Lora';
+}
+
+
+
+/* Link */
+a,
+.widget-linklist {
+	color: #4180ab;
+}
+#page .ap-slider .ap-control-bullets li.ap-active a,
+#page .ap-slider .ap-control-bullets li a:hover,
+.site-paged #page .ap-slider .ap-control-bullets li.ap-active a,
+.site-paged #page .ap-slider .ap-control-bullets li a:hover,
+.site-boxed #page .ap-slider .ap-control-bullets li.ap-active a,
+.site-boxed #page .ap-slider .ap-control-bullets li a:hover {
+	background-color: #4180ab;
+}
+
+/* Text */
+body {
+	color: #333333;
+}
+
+/* Title Primary */
+h1, .logo-title {
+	color: #172935;
+	font-size: 44px;
+	font-family: 'Montserrat';
+}
+
+.logo-title a,
+.logo-title a:hover {
+	color: #172935;
+}
+
+/* Title Secondary */
+h2, h3 {
+	color: #172935;
+	font-size: 26px;
+	font-family: 'Montserrat';
+}
+
+/* Borders */
+
+.site-minimal .site-navigation #navigation,
+.site-minimal .site-navigation .menu ul,
+.site-minimal .site-navigation .menu ul li,
+.site-minimal #sidebar .widget {
+	border-color: #d1d8dc;
+}
+table, th, td {
+	border-color: #d1d8dc;
+}
+
+
+/* Forms */
+button,
+input[type="button"],
+input[type="submit"] {
+	background-color: #4180ab;
+}
+button:active,
+button:hover,
+input[type="button"]:active,
+input[type="button"]:hover,
+input[type="submit"]:active,
+input[type="submit"]:hover {
+	background-color: #397298;
+}
+
+/* Navigation Minimal */
+.site-minimal .site-navigation .menu a {
+	color: #333333;
+}
+.site-minimal .site-navigation .menu a:hover {
+	color: #4180ab;
+}
+.site-minimal .site-navigation .menu > li:hover > a:before {
+	border-top-color: #4180ab;
+}
+.site-minimal .site-navigation .menu ul {
+	background-color: #fff;
+}
+
+
+/* Slider */
+
+.ap-slider.slideshow-light .ap-thumbs .ap-thumbs-left,
+.ap-slider.slideshow-light .ap-thumbs .ap-thumbs-right {
+	background-color: #4180ab;
+}
+.ap-slider.slideshow-light .ap-thumbs .ap-thumbs-left:hover,
+.ap-slider.slideshow-light .ap-thumbs .ap-thumbs-right:hover {
+	background-color: #397298;
+}
+
+/*
+ * 02: Header
+ */
+
+
+
+
+
+
+#header {
+	color: #333333;
+}
+
+
+
+#header h1,
+#header h2,
+#header .logo-title,
+#header .logo-title a,
+#header .logo-title a:hover {
+	color: #40d07a;
+}
+
+
+
+#header a,
+#header .widget-linklist  {
+	color: #4180ab;
+}
+#header button,
+#header input[type="button"],
+#header input[type="submit"] {
+	background-color: #4180ab;
+}
+#header button:active,
+#header button:hover,
+#header input[type="button"]:active,
+#header input[type="button"]:hover,
+#header input[type="submit"]:active,
+#header input[type="submit"]:hover {
+	background-color: #397298;
+}
+#header .ap-slider .ap-control-bullets li.ap-active a,
+#header .ap-slider .ap-control-bullets li a:hover {
+	background-color: #4180ab;
+}
+#header .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-left,
+#header .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-right {
+	background-color: #4180ab
+}
+#header .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-left:hover,
+#header .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-right:hover {
+	background-color: #397298;
+}
+
+
+/*
+ * 03: Navigation
+ */
+
+
+.site-paged .site-navigation #navigation,
+.site-boxed .site-navigation #navigation,
+.site-fullwidth .site-navigation,
+#header .menu .sub-menu  {
+	background-color: #4180ab;
+}
+.site-paged .site-navigation .menu a,
+.site-boxed .site-navigation .menu a,
+.site-fullwidth .site-navigation .menu a,
+#header .menu .sub-menu a {
+	color: rgba(0,0,0,.8);
+}
+.site-paged .site-navigation .menu > li:hover > a,
+.site-paged .site-navigation .menu ul,
+.site-boxed .site-navigation .menu > li:hover > a,
+.site-boxed .site-navigation .menu ul,
+.site-fullwidth .site-navigation .menu > li:hover > a,
+.site-fullwidth .site-navigation .menu ul {
+	background-color: #397298;
+}
+
+/* Mobile */
+
+#navigation-mobile .navigation-mobile-area {
+	color: rgba(0,0,0,.8);
+	background-color: #4180ab;
+}
+#navigation-mobile .menu {
+	color: rgba(0,0,0,.8);
+	background-color: #397298;
+}
+#navigation-mobile .menu a {
+	color: rgba(0,0,0,.8);
+	border-bottom-color: rgba(0,0,0,.1);
+}
+#navigation-mobile h2.site-title {
+	color: rgba(0,0,0,.8);
+	font-family: 'Montserrat';
+}
+
+
+
+/*
+ * 04: Content
+ */
+
+
+.site-paged #page,
+.site-boxed #content {
+	background-color: #ffffff;
+}
+@media (max-width: 767px) {
+	.site-boxed #content {padding: 5%;}
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+	.site-boxed #content {padding: 15px;}
+}
+@media (min-width: 1280px) {
+	.site-boxed #content {padding: 20px;}
+}
+
+
+/*
+ * 05: Sidebar
+ */
+ 
+
+.site-paged #sidebar,
+.site-boxed #sidebar,
+.site-fullwidth #sidebar {
+	background-color: #bbcfdc;
+}
+
+@media (max-width: 767px) {
+	.site-paged #sidebar, .site-boxed #sidebar, .site-fullwidth #sidebar {padding: 5%;}
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+	.site-paged #sidebar, .site-boxed #sidebar, .site-fullwidth #sidebar {padding: 15px;}
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+	#sidebar .widget-adv {margin-left: -15px;margin-right: -15px;}
+}
+@media (min-width: 1280px) {
+	.site-paged #sidebar, .site-boxed #sidebar, .site-fullwidth #sidebar {padding: 20px;}
+}
+
+.site-minimal #sidebar .widget {
+	background-color: #bbcfdc;
+}
+
+
+
+#sidebar {
+	color: #38444d;
+}
+
+
+
+#sidebar h1,
+#sidebar h2 {
+	color: #38444d;
+}
+
+
+
+#sidebar a,
+#sidebar .widget-linklist {
+	color: #4180ab;
+}
+#sidebar button,
+#sidebar input[type="button"],
+#sidebar input[type="submit"] {
+	background-color: #4180ab;
+}
+#sidebar button:active,
+#sidebar button:hover,
+#sidebar input[type="button"]:active,
+#sidebar input[type="button"]:hover,
+#sidebar input[type="submit"]:active,
+#sidebar input[type="submit"]:hover {
+	background-color: #397298;
+}
+#sidebar .ap-slider .ap-control-bullets li.ap-active a,
+#sidebar .ap-slider .ap-control-bullets li a:hover {
+	background-color: #4180ab;
+}
+#sidebar .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-left,
+#sidebar .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-right {
+	background-color: #4180ab
+}
+#sidebar .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-left:hover,
+#sidebar .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-right:hover {
+	background-color: #397298;
+}
+
+
+
+/*
+ * 06: Footer
+ */
+
+
+
+
+#footer {
+	color: #333333;
+}
+
+
+
+#footer h1,
+#footer h2 {
+	color: #172935;
+}
+
+
+
+#footer a,
+#footer .widget-linklist {
+	color: #4180ab;
+}
+#footer button,
+#footer input[type="button"],
+#footer input[type="submit"] {
+	background-color: #4180ab;
+}
+#footer button:active,
+#footer button:hover,
+#footer input[type="button"]:active,
+#footer input[type="button"]:hover,
+#footer input[type="submit"]:active,
+#footer input[type="submit"]:hover {
+	background-color: #397298;
+}
+#footer .ap-slider .ap-control-bullets li.ap-active a,
+#footer .ap-slider .ap-control-bullets li a:hover {
+	background-color: #4180ab;
+}
+#footer .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-left,
+#footer .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-right {
+	background-color: #4180ab
+}
+#footer .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-left:hover,
+#footer .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-right:hover {
+	background-color: #397298;
+}
+
+
+
+/*
+ * 07: Dark
+ */
+
+
+/* Main */
+
+
+
+
+button,
+input[type="button"],
+input[type="submit"],
+.ap-slider.slideshow-light .ap-thumbs .ap-thumbs-left,
+.ap-slider.slideshow-light .ap-thumbs .ap-thumbs-right {
+	color: #fff;
+}
+
+
+
+/* Header */
+
+
+
+	
+
+
+
+
+
+#header button,
+#header input[type="button"],
+#header input[type="submit"],
+#header .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-left,
+#header .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-right {
+	color: #fff;
+}
+
+
+/* Navigation */
+
+
+.site-paged .site-navigation .menu a,
+.site-boxed .site-navigation .menu a,
+.site-fullwidth .site-navigation .menu a,
+#header .menu .sub-menu a {
+	color: #fff;
+}
+
+/* Mobile */
+
+#navigation-mobile .navigation-mobile-area,
+#navigation-mobile .menu a {
+	color: #fff;
+}
+
+#navigation-mobile .menu a {
+	border-bottom-color: rgba(255,255,255,.1);
+}
+
+#navigation-mobile h2.site-title {
+	color: #fff;
+}
+
+
+/* Content */
+
+
+
+	
+	#content input[type="email"],
+	#content input[type="date"],
+	#content input[type="password"],
+	#content input[type="text"],
+	#content textarea {
+		color: #777;
+		background-color: rgba(0,0,0,.05);
+	}
+	#content input[type="date"]:focus,
+	#content input[type="email"]:focus,
+	#content input[type="password"]:focus,
+	#content input[type="text"]:focus,
+	#content textarea:focus {
+		color: #333;
+		background-color: rgba(0,0,0,.1);
+	}
+	#content .altervista-chat,
+	#content .av_newsletter {
+		background-color: rgba(0,0,0,.05);
+    	border: 1px solid rgba(0,0,0,.05);
+	}
+	.site-paged #content .ap-slider .ap-control-bullets li a,
+	.site-boxed #content .ap-slider .ap-control-bullets li a {
+	background-color: rgba(0,0,0,.1);
+	}
+	
+
+
+
+/* Sidebar */
+
+
+
+	
+	#sidebar input[type="email"],
+	#sidebar input[type="date"],
+	#sidebar input[type="password"],
+	#sidebar input[type="text"],
+	#sidebar textarea {
+		color: #777;
+		background-color: rgba(0,0,0,.05);
+	}
+	#sidebar input[type="date"]:focus,
+	#sidebar input[type="email"]:focus,
+	#sidebar input[type="password"]:focus,
+	#sidebar input[type="text"]:focus,
+	#sidebar textarea:focus {
+		color: #333;
+		background-color: rgba(0,0,0,.1);
+	}
+	#sidebar .altervista-chat,
+	#sidebar .av_newsletter {
+		background-color: rgba(0,0,0,.05);
+    	border: 1px solid rgba(0,0,0,.05);
+	}
+	#sidebar .ap-slider .ap-control-bullets li a {
+	background-color: rgba(0,0,0,.1);
+	}
+	
+
+
+
+
+
+#sidebar button,
+#sidebar input[type="button"],
+#sidebar input[type="submit"],
+#sidebar .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-left,
+#sidebar .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-right {
+	color: #fff;
+}
+
+
+/* Footer */
+
+
+
+	
+
+
+
+
+#footer button,
+#footer input[type="button"],
+#footer input[type="submit"],
+#footer .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-left,
+#footer .ap-slider.slideshow-light .ap-thumbs .ap-thumbs-right {
+	color: #fff;
+}
+
