@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<body>
+
+<form style="background-color: orange; width: 45%; border: solid 2px red; padding: 5px"
+ 		id="inserimentoDati" name="inserimento" action="elaboraDati.php" method="get">
+<table>
+	<tr>
+		<td>Nickname </td>
+		<td><input required autocomplete="on" placeholder="ItHurtsLikeHell" autofocus style="background-color: yellow" type="text" name="cognome" id="cognome"/></td>
+	</tr>
+   <tr>
+		<td> Nome VERO </td>
+		<td> <input required placeholder="GESU'" size="15px" maxlength="15" style="background-color: yellow" type="text" name="nome" id="nome"/> </td>
+	</tr>
+   <tr>
+		<td> Email </td>
+		<td> <input required style="background-color: yellow" type="email" name="email" id="email"/> </td>
+	</tr>
+		<tr>
+			<td>p455w0rd</td>
+			<td><input type="password" placeholder="passwording the password" name="password" id="password" style="background-color: yellow" /></td>
+		</tr>
+	<tr>
+		<td> Numero Carta di credito </td>
+		<td> <input size="16" maxlength="16" style="background-color: yellow;"
+				placeholder="non so dimmi tu :)" type="text" name="credit_card_number" id="credit_card_number" required/> </td>
+	</tr>
+
+		<tr>
+			<td> Sesso </td>
+			<td> Maschio<input type="radio" name="SessoRadio" value="maschio"/>
+				  Femmina<input type="radio" name="SessoRadio" value="femmina"/>
+			  	  Non Specificato<input type="radio" name"SessoRadio" value="non_specificato"/></td>
+		</tr>
+
+		<tr>
+			<td> Hobby </td>
+			<td> Sport<input type="checkbox" name=hobbyCheck value="sport">
+				  Gaming<input type="checkbox" name="hobbyCheck" value="gaming">
+			     Arte<input type="checkbox" name="hobbyCheck" value="art">
+				  Lettura<input type="checkbox" name="hobbyCheck" value="check"></td>
+		</tr>
+
+		<tr>
+			<td>Luogo in cui vivi</td>
+			<td>
+				<select style="background-color: yellow" required>
+					<option value="AN"> ANCONA </option>
+					<option value="BG" selected> BERGAMO </option>
+					<option value="CT"> CATANIA </option>
+					<option value="other"> ALTRO... </option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Commenti?</td>
+			<td> <textarea style="background-color: yellow;" cols="25" rows="3" name="note" id="note"> ...Non sarà effettuato nessun pregiudizio nei tuoi confronti :) </textarea> </td>
+		</tr>
+
+		<tr>
+			<td>Inviami una Foto profilo</td>
+			<td> <input type="file" accept="image/*"/ name="avatar" id="avatar" enctype="multipart/form-data"/> </td>
+		</tr>
+
+      <tr>
+         <td>Data di nascita</td>
+         <td> <input style="background-color: yellow" type="date" name="dataNascita" id="dataNascita" min="2000-01-01" max="2018-09-17"/> </td>
+      </tr>
+      <tr>
+         <td>Orario di nascita</td>
+         <td> <input style="background-color: yellow" type="time" name="orarioNascita" id="orarioNascita" step="360"/> </td>
+      </tr>
+      <tr>
+         <td>Età</td>
+         <td> <input style="background-color: yellow" type="number" name="age" id="age" min="5" max="110"/> </td>
+      </tr>
+      <tr>
+         <td>Stipendio</td>
+         <td> <input type="range" min="800" max="2000" step="300"/> </td>
+      </tr>
+      <tr>
+         <td>Indirizzo Web</td>
+         <td> <input type="url" style="background-color: yellow"/> </td>
+      </tr>
+      <tr>
+         <td>Colore Preferito</td>
+         <td> <input type="color"/> </td>
+      </tr>
+      <tr>
+         <td>Browser Preferito</td>
+         <td> <input list="elencoBrowser" name="browser" id="browser" style="background-color: yellow"/> </td>
+      </tr>
+<datalist>
+   <option value="Internet Explorer">
+   <option value="Microsoft Edge">
+   <option value="Google Chrome">
+   <option value="Mozilla Firefox">
+   <option value="Opera Browser">
+   <option value="Safari Browser">
+</datalist>
+
+</table>
+
+<input type="hidden" name="userCode" id="userCode" value="19283">
+
+<input type="image" src="img/submit_icon.png" alt="Submit" width="48" height="48"/><br/>
+<input type="submit" value="INVIAMI I DATI" name="registra" formaction="elaboraDati.php" formtarget="_blank"/>
+<input type="reset" value="CLS" name="reset">
+
+</form>
+
+</body>
+</html>
