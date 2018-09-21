@@ -8,6 +8,19 @@
 <html>
 <head>
 	<title>TEST</title>
+
+<!-- Foglio di stile incorporato -->
+<style type="text/css">
+
+body {background-color: #FFFF99;}
+
+.Paragrafo { text-align: center; font-weight: bold;
+	font-family: "Arial, Helvetica, sans-serif";
+	font-size: 20px; color: red;
+}
+
+</style>
+
 </head>
 
 <body contenteditable="false" style="margin: 0px;">
@@ -28,7 +41,7 @@
 		<span style="color: green";> Il primo paragrafo </span>
 </p>
 
-<button type="button" onclick="getElementById('paragrafo').setAttribute('hidden','');"> NASCONDI </button>
+<button class="Paragrafo" type="button" onclick="getElementById('paragrafo').setAttribute('hidden','');"> NASCONDI </button>
 <br/>
 
 <img width="200" height="100" src="img/coding.jpg">
