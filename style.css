@@ -3,5 +3,12 @@ body{
    background-image: url(img/micio.jpg);
    background-repeat: repeat-x;
    background-position: bottom;
+   }
 
-}
+   .Corsivo {font-style: italic;}
+
+   .Paragrafo { text-align: center; font-weight: bold;
+   	font-family: "Arial, Helvetica, sans-serif";
+   	font-size: 20px; color: red; }
+
+   .TitoloGigante {font-size: 100px; color: blue; border: aqua solid thick;}
