@@ -2,7 +2,7 @@ body{
    background-color: rgba(39,152,227,0.47);
    background-image: url(img/micio.jpg);
    background-repeat: repeat-x;
-   background-position: bottom;
+   background-position: center;
    }
 
    .Corsivo {font-style: italic;}
