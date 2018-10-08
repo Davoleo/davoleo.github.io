@@ -25,6 +25,18 @@ body{
 
    li:first-child {color: blue; font-family: italic}
 
+table + p {background-color: pink;}
+
+td > p {font-size: 0.5em; color: aquamarine}
+
+td   p {font-size: 1em; color: indianred}
+
+a:link {color: darkgoldenrod;}
+a:visited {color: mediumseagreen; background-color: darksalmon}
+p:hover {background-color: limegreen}
+p:first-letter {background-color: white; font-size: 30px}
+p:first-line {color: darkslategray}
+
 /* applica la formattazione solo all'elemento di id <nome dopo il cancelletto> */
 
 #javascript {color: yellow;}
