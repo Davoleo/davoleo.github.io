@@ -43,4 +43,15 @@ p:first-line {color: darkslategray}
 #css {color: #2791CE;}
 #html {color: red;}
 
+#logo{ position: fixed; left: 80%; top: 90%;
+    background-color: yellow; color: black;}
+
 #javascript, #css, #html {background-color: black}
+
+#div1 {background-color: red; width: 50%; height: 100px; float: left;}
+#div2 {background-color: green; width: 50%; height: 100px; float: right;}
+#div3 {background-color: blue; width: 50%; height: 100px; float: left;}
+#div4 {background-color: black; width: 50%; height: 100px; float: right;}
+#div5 {position: absolute; background-color: yellow; width: 5%; height: 50px; 
+    left: 46%; top: 10%; padding: 15px;}
+#micio {width: 100%; height: 100%;}
