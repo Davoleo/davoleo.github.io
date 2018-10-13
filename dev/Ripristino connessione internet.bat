@@ -29,31 +29,31 @@ color 0b
 echo.
 echo Il prossimo comando sara': netsh winsock reset
 PAUSE
-REM netsh winsock reset
+netsh winsock reset
 
 color 0c
 echo.
 echo Il prossimo comando sara': netsh int ip reset
 PAUSE
-REM netsh int ip reset
+netsh int ip reset
 
 color 0d
 echo.
 echo Il prossimo comando sara': ipconfig /flushdns
 PAUSE
-REM ipconfig /flushdns
+ipconfig /flushdns
 
 color 0e
 echo.
 echo Il prossimo comando sara': ipconfig /release
 PAUSE
-REM ipconfig /release
+ipconfig /release
 
 color 0f
 echo.
 echo Il prossimo comando sara' ipconfig /renew
 PAUSE
-REM ipconfig /renew
+ipconfig /renew
 
 cls
 color f3
@@ -71,7 +71,7 @@ SET /p reboot=Inserisci "SI" oppure "NO":
 
 IF "%reboot%"=="SI" (
 echo Arresto e Riavvio in corso... 
-REM shutdown -r 
+shutdown -r 
 PAUSE
 exit
 )
@@ -91,31 +91,31 @@ color 0b
 echo.
 echo The next command is: netsh winsock reset
 PAUSE
-REM netsh winsock reset
+netsh winsock reset
 
 color 0c
 echo.
 echo The next command is: netsh int ip reset
 PAUSE
-REM netsh int ip reset
+netsh int ip reset
 
 color 0d
 echo.
 echo The next command is: ipconfig /flushdns
 PAUSE
-REM ipconfig /flushdns
+ipconfig /flushdns
 
 color 0e
 echo.
 echo The next command is: ipconfig /release
 PAUSE
-REM ipconfig /release
+ipconfig /release
 
 color 0f
 echo.
 echo The next command is: ipconfig /renew
 PAUSE
-REM ipconfig /renew
+ipconfig /renew
 
 cls
 color f3
@@ -133,7 +133,7 @@ SET /p reboot=Write "Y" or "N":
 
 IF "%reboot%"=="Y" (
     echo Shutdown and reboot in progress...
-    REM shutdown -r
+    shutdown -r
     PAUSE
     exit
 )
