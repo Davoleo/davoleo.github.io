@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS 3</title>
+
+    <style type="text/css">
+        p~ul {background: crimson;} /*Per tutti i blocchi ul presenti dopo un blocco p*/
+        [id] {background: magenta;} /*Per tutti gli elementi che possiedono l'attributo id | Si può anche restringere il campo ad un certo elemento*/
+        a[href*=".net"] {background: lightgrey} /* '*=' : contiene | '=' è uguale a */
+        a[href^="https"] {background: palegreen} /* '^=' : inizia con | '$=' finisce con */
+        li:first-of-type {background: slategrey} /*primo di quel tipo a seconda del suo genitore*/
+        li:nth-of-type(2) {background: mediumseagreen} /*l'ennesimo di quel tipo a seconda del suo genitore*/
+        li:last-of-type {background:antiquewhite} /*ultimo di quel tipo a seconda del suo genitore*/
+    </style>
+
+</head>
+<body>
+<h1>TITOLO</h1>
+
+<div>
+    <ul id="primaLista">
+        <li>Mele</li>
+        <li><a href="lal.net"> Pere </a></li>
+        <li>Pesche</li>
+        <li>Albicocche</li>
+    </ul>
+
+    <h1>Non sono un paragrafo</h1>
+    <p>IO sono un paragrafo</p>
+</div>
+    <ul>
+        <li>Mele</li>
+        <li>Pere</li>
+        <li><a href="lel.com">Pesche</a></li>
+        <li>Albicocche</li>
+    </ul>
+
+    <h2>Neppure io sono un paragrafo ma prima di me ce n'è uno</h2>
+    <ul>
+        <li>Mele</li>
+        <li>Pere</li>
+        <li>Pesche</li>
+        <li><a href="https://www.lul.com">Albicocche</a></li>
+    </ul>
+
+</body>
+</html>
