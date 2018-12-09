@@ -1,0 +1,126 @@
+<Canvas Height="793.7" Name="Workspace" Width="1122.5" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<!-- Page Tessuti Muscolari -->
+	<Canvas Width="1122.5" Height="793.7" Name="D">
+		<Canvas.Background>
+			<SolidColorBrush Color="#FFFFFFFF"/>
+		</Canvas.Background>
+		<Canvas Tag="_1" Name="_1" RenderTransform="1, 0, 0, 1, 487.937007, -703.559055">
+			<Path Name="_1_G0" StrokeThickness="1.3333" StrokeDashCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round"
+					StrokeStartLineCap="Round" Data="F0 M0 760.63 A66.1417 33.0709 0 0 1 132.28 760.63 A66.1417 33.0709 0 0 1 0 760.63 Z">
+				<Path.Stroke>
+					<SolidColorBrush Color="#99FFFFFF"/>
+				</Path.Stroke>
+				<Path.Fill>
+					<LinearGradientBrush StartPoint="0.969846,0.32899" EndPoint="0.0301537,0.67101">
+						<LinearGradientBrush.GradientStops>
+							<GradientStop Color="#FF945F25" Offset="0.45"/>
+							<GradientStop Color="#FFAB6D2B" Offset="0.45"/>
+							<GradientStop Color="#FFAB6D2B" Offset="0.6"/>
+							<GradientStop Color="#FFA06628" Offset="0.6"/>
+							<GradientStop Color="#FFA06628" Offset="0.85"/>
+							<GradientStop Color="#FF7A4E1F" Offset="0.85"/>
+						</LinearGradientBrush.GradientStops>
+					</LinearGradientBrush>
+				</Path.Fill>
+			</Path>
+			<Canvas>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="55" OriginX="0.39627" OriginY="0.28616">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="72" OriginX="0.52188" OriginY="0.28616">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="86" OriginX="0.60486" OriginY="0.28616">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="86" OriginX="0.67778" OriginY="0.28616">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="88" OriginX="0.75069" OriginY="0.28616">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="87" OriginX="0.85608" OriginY="0.28616">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="76" OriginX="0.929" OriginY="0.28616">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="48" OriginX="0.29193" OriginY="0.51949">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="88" OriginX="0.4558" OriginY="0.51949">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="86" OriginX="0.56118" OriginY="0.51949">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="70" OriginX="0.6341" OriginY="0.51949">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="82" OriginX="0.71708" OriginY="0.51949">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="79" OriginX="0.8124" OriginY="0.51949">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="68" OriginX="0.8651" OriginY="0.51949">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="85" OriginX="0.96042" OriginY="0.51949">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+				<Glyphs RenderTransform="96, 0, 0, 96, 0, 727.559055" FontRenderingEmSize="0.19444"
+						FontUri="41BB5AF1-26E9-01EB-B30B-A62EDB123C15.odttf" Indices="76" OriginX="1.0333" OriginY="0.51949">
+					<Glyphs.Fill>
+						<SolidColorBrush Color="#FFFFFFFF"/>
+					</Glyphs.Fill>
+				</Glyphs>
+			</Canvas>
+		</Canvas>
+	</Canvas>
+</Canvas>

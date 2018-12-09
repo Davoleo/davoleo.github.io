@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Pagina 1" NameU="Page-1">
+			<PageProps>
+				<PageScale Unit="MM">0.039370078740157</PageScale>
+				<DrawingScale Unit="MM">0.039370078740157</DrawingScale>
+			</PageProps>
+			<Layer IX="0">
+				<Name>Connettore</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Layer IX="1">
+				<Name>Contenitore</Name>
+				<NameUniv>Container</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Layer IX="2">
+				<Name>Elettrico</Name>
+				<NameUniv>Electrical</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="94" UniqueID="{44983AE9-D4A2-446B-B6FD-C76C18EEF6C5}" Name="alternato" NameU="Alternating" Master="14">
+					<Text>Metodo induttivo</Text>
+					<XForm>
+						<PinX Unit="MM">1.066929146127313</PinX>
+						<PinY Unit="MM">7.475012751888054</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="1" UniqueID="{874911FC-B2E4-44B6-9EDE-8A2FCF831EC7}" Name="Cerchio" NameU="Circle" Master="2">
+					<Text>Gnoseologia
+Empiristica</Text>
+					<XForm>
+						<PinX Unit="MM">6.062992334452430</PinX>
+						<PinY Unit="MM">7.473753393084411</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{BF5F6B3B-DD5B-420D-8038-5DC8B728626C}" Name="Albero multiplo ad angolo retto" NameU="Multi-tree square" Master="4">
+					<XForm>
+						<PinX Unit="MM">6.062992334452430</PinX>
+						<PinY Unit="MM">7.009514597324191</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{1C0F2CDE-9405-46DA-9D11-2EBAAE8EC9E3}" Name="Casella 3D" NameU="3-D box" Master="5">
+					<Text>Thomas Hobbes</Text>
+					<XForm>
+						<PinX Unit="MM">1.574803204377432</PinX>
+						<PinY Unit="MM">6.299212817509730</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{B656393A-2706-49FC-831B-984DA35FA105}" Name="Casella 3D.8" NameU="3-D box.8" Master="5">
+					<Text>John Locke</Text>
+					<XForm>
+						<PinX Unit="MM">4.330708812037940</PinX>
+						<PinY Unit="MM">6.299212817509730</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{B22F25C1-CDBD-48D3-8532-71FB9D7BAFC2}" Name="Casella 3D.12" NameU="3-D box.12" Master="5">
+					<Text>George Berkeley</Text>
+					<XForm>
+						<PinX Unit="MM">7.874016021887162</PinX>
+						<PinY Unit="MM">6.299212817509730</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{EEFC3D76-B605-4270-9627-CA149636CC56}" Name="Casella 3D.16" NameU="3-D box.16" Master="5">
+					<Text>David Hume</Text>
+					<XForm>
+						<PinX Unit="MM">10.236220828453311</PinX>
+						<PinY Unit="MM">6.299212817509730</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="20" UniqueID="{9A492FEB-A3AA-4F4C-9797-418ABEA9C2FE}" Name="Casella" NameU="Box" Master="6">
+					<Text>Visione pessimistica dell’uomo</Text>
+					<XForm>
+						<PinX Unit="MM">2.598425274899259</PinX>
+						<PinY Unit="MM">4.685039510803209</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="21" UniqueID="{4F4E4495-A7FB-4C92-8844-600565BD703E}" Name="Rombo" NameU="Diamond" Master="7">
+					<Text>Corporeismo</Text>
+					<XForm>
+						<PinX Unit="MM">1.574803204377432</PinX>
+						<PinY Unit="MM">5.610236440334973</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{FD76B0BB-8788-4F49-BD53-BAA8BC4D1825}" Name="Casella.23" NameU="Box.23" Master="6">
+					<Text>L’uomo è imperfetto e tende sempre a ragionare per un bene personale</Text>
+					<XForm>
+						<PinX Unit="MM">2.598425274899259</PinX>
+						<PinY Unit="MM">3.651574848180195</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="24" UniqueID="{102D6789-94CF-449A-92B6-AC8205321720}" Name="Connettore dinamico" NameU="Dynamic connector" Master="8">
+					<XForm>
+						<PinX Unit="MM">1.574803204377432</PinX>
+						<PinY Unit="MM">6.003937221823755</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="25" UniqueID="{85ADC43F-1E2C-43E6-AB60-D40E7A78A667}" Name="Connettore dinamico.25" NameU="Dynamic connector.25" Master="8">
+					<XForm>
+						<PinX Unit="MM">2.598425274899259</PinX>
+						<PinY Unit="MM">4.168307179491702</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="26" UniqueID="{B7FE5082-C4F4-4835-95A8-674F8CFBF4C8}" Name="Casella.26" NameU="Box.26" Master="6">
+					<Text>Desiderio di oggetti
+------------------------------
+Desiderio di possedimento</Text>
+					<XForm>
+						<PinX Unit="MM">1.023622077990617</PinX>
+						<PinY Unit="MM">4.685039510803209</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="30" UniqueID="{AED1245D-8C35-4E03-8126-19A5754D5A78}" Name="Rombo.30" NameU="Diamond.30" Master="7">
+					<Text>Determinismo</Text>
+					<XForm>
+						<PinX Unit="MM">2.598425274899259</PinX>
+						<PinY Unit="MM">2.726377918648431</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="31" UniqueID="{D6CCE543-B8AA-44EC-95C8-566B3C0C60C1}" Name="Connettore dinamico.31" NameU="Dynamic connector.31" Master="8">
+					<XForm>
+						<PinX Unit="MM">2.598425274899259</PinX>
+						<PinY Unit="MM">3.134842516868687</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="34" UniqueID="{4BDACA8C-0960-45CE-9FE0-5479D3C8C1C2}" Name="Connettore dinamico.34" NameU="Dynamic connector.34" Master="8">
+					<XForm>
+						<PinX Unit="MM">1.299212641184024</PinX>
+						<PinY Unit="MM">5.201771842114717</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="35" UniqueID="{79C2ABAF-D288-4913-9B4C-AA9DFB55C387}" Name="Connettore dinamico.35" NameU="Dynamic connector.35" Master="8">
+					<XForm>
+						<PinX Unit="MM">2.086614239638346</PinX>
+						<PinY Unit="MM">5.201771842114717</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="36" UniqueID="{C6F5A407-6E5B-49BC-97B5-8D947166649F}" Name="Rombo.36" NameU="Diamond.36" Master="7">
+					<Text>Utilitarismo</Text>
+					<XForm>
+						<PinX Unit="MM">1.023622077990617</PinX>
+						<PinY Unit="MM">3.651574848180195</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="37" UniqueID="{13495086-C7FC-49B7-95FD-48F9ADAD6982}" Name="Connettore dinamico.37" NameU="Dynamic connector.37" Master="8">
+					<XForm>
+						<PinX Unit="MM">1.023622077990617</PinX>
+						<PinY Unit="MM">4.114173312946076</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="38" UniqueID="{ED78A2ED-4358-4B83-B22A-34D9C4A8794A}" Name="Connettore dinamico.38" NameU="Dynamic connector.38" Master="8">
+					<XForm>
+						<PinX Unit="MM">1.834645724398567</PinX>
+						<PinY Unit="MM">3.651574848180195</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="40" UniqueID="{5A964229-69B9-4318-980B-1F629DC5CEFB}" Name="Casella.40" NameU="Box.40" Master="6">
+					<Text>Se Dio non è determinato (corporeo), allora non esiste</Text>
+					<XForm>
+						<PinX Unit="MM">1.023622077990617</PinX>
+						<PinY Unit="MM">2.726377918648431</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="41" UniqueID="{33CEF87B-10DF-4B31-85F4-78ABEEF6A307}" Name="Connettore dinamico.41" NameU="Dynamic connector.41" Master="8">
+					<XForm>
+						<PinX Unit="MM">1.807086668452666</PinX>
+						<PinY Unit="MM">2.726377918648431</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="42" UniqueID="{58A6BC89-C14B-4AB3-A61E-6FD821EC3C4B}" Name="Casella.42" NameU="Box.42" Master="6">
+					<Text>Si può conoscere solo ciò che è materiale</Text>
+					<XForm>
+						<PinX Unit="MM">2.598425274899259</PinX>
+						<PinY Unit="MM">1.801180989116670</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="43" UniqueID="{77FC85AF-7A4F-42D9-A254-CB179C1EAD6F}" Name="Connettore dinamico.43" NameU="Dynamic connector.43" Master="8">
+					<XForm>
+						<PinX Unit="MM">2.598425274899259</PinX>
+						<PinY Unit="MM">2.317913320428176</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="55" UniqueID="{32FAB9A6-BDB2-44AB-ADAD-60F09C561AFE}" Name="Rombo.55" NameU="Diamond.55" Master="7">
+					<Text>Liberalismo</Text>
+					<XForm>
+						<PinX Unit="MM">4.330708812037940</PinX>
+						<PinY Unit="MM">5.610236440334973</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="56" UniqueID="{70340D8A-82D1-447F-BF75-6D1AED292D2B}" Name="Connettore dinamico.56" NameU="Dynamic connector.56" Master="8">
+					<XForm>
+						<PinX Unit="MM">4.330708812037940</PinX>
+						<PinY Unit="MM">6.003937221823755</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="57" UniqueID="{17EDEDF3-02F0-4991-9FA9-1A526E5AC7F8}" Name="Casella.57" NameU="Box.57" Master="6">
+					<Text>I sensi portano ad idee base che elaborate dalla mente diventano poi idee complesse</Text>
+					<XForm>
+						<PinX Unit="MM">4.330708791498765</PinX>
+						<PinY Unit="MM">4.606299350957777</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="58" UniqueID="{5944C6D1-E176-479B-8CFA-40DC0AFDFCE5}" Name="Connettore dinamico.58" NameU="Dynamic connector.58" Master="8">
+					<XForm>
+						<PinX Unit="MM">4.330708801768353</PinX>
+						<PinY Unit="MM">5.201771842114717</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="63" UniqueID="{0CF0DD7A-99AC-4B14-A7D1-BB9503D92E19}" Name="Casella dimensioni automatiche" NameU="Auto-size box" Master="13">
+					<Text>Esse est percipi</Text>
+					<XForm>
+						<PinX Unit="MM">6.968504183477976</PinX>
+						<PinY Unit="MM">5.610236440334972</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="62" UniqueID="{6B22A2E0-E0BC-40A7-965A-407E6A0760D4}" Name="Connettore dinamico.62" NameU="Dynamic connector.62" Master="8">
+					<XForm>
+						<PinX Unit="MM">7.421260102682569</PinX>
+						<PinY Unit="MM">5.959645886197475</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="64" UniqueID="{C6995F1B-6185-4798-B58C-BD0C78824DE8}" Name="Casella.64" NameU="Box.64" Master="6">
+					<Text>Si esiste quando si è percepiti/pensati da qualcuno</Text>
+					<XForm>
+						<PinX Unit="MM">6.968504169287273</PinX>
+						<PinY Unit="MM">5.102362357984000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="65" UniqueID="{8DE203A9-E02D-46A6-8EA3-6D4BA9896BDA}" Name="Connettore dinamico.65" NameU="Dynamic connector.65" Master="8">
+					<Text>Quindi</Text>
+					<XForm>
+						<PinX Unit="MM">7.854330965401107</PinX>
+						<PinY Unit="MM">4.992126134200394</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="66" UniqueID="{AFAB7C7E-CC7F-48FF-8E16-0347F1963161}" Name="Casella.66" NameU="Box.66" Master="6">
+					<Text>Se non sei percepito/pensato non esisti?</Text>
+					<XForm>
+						<PinX Unit="MM">8.267716802442347</PinX>
+						<PinY Unit="MM">4.586614325000400</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="67" UniqueID="{05F4E7A0-1581-4572-9868-C0C732F6D818}" Name="Casella.67" NameU="Box.67" Master="6">
+					<Text>Dimostrazione dell’esistenza di un Dio eterno che percepisce tutti quanti pensandoli</Text>
+					<XForm>
+						<PinX Unit="MM">7.427821745419093</PinX>
+						<PinY Unit="MM">3.572834688334763</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="68" UniqueID="{DAF045EC-7090-4E38-827F-FBF439247C27}" Name="Connettore dinamico.68" NameU="Dynamic connector.68" Master="8">
+					<Text>No</Text>
+					<XForm>
+						<PinX Unit="MM">7.847769273930720</PinX>
+						<PinY Unit="MM">4.148622153534325</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="69" UniqueID="{DFC76B65-ECB7-4C62-81E1-A3000712168E}" Name="Casella.69" NameU="Box.69" Master="6">
+					<Text>Filosofia incentrata sulla teologia</Text>
+					<XForm>
+						<PinX Unit="MM">8.779527798678830</PinX>
+						<PinY Unit="MM">5.610236440334973</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="70" UniqueID="{810F6212-B3E8-42A6-B472-67CB44D0CC93}" Name="Connettore dinamico.70" NameU="Dynamic connector.70" Master="8">
+					<XForm>
+						<PinX Unit="MM">8.129921520005404</PinX>
+						<PinY Unit="MM">5.880905728717160</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="71" UniqueID="{82376F26-2EB1-4AD7-8A6D-59C1CA42F437}" Name="Connettore dinamico.71" NameU="Dynamic connector.71" Master="8">
+					<XForm>
+						<PinX Unit="MM">8.392388691482211</PinX>
+						<PinY Unit="MM">4.443897771626673</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="72" UniqueID="{901F391E-9FAB-44AD-91B4-631B44B31E4B}" Name="Connettore dinamico.72" NameU="Dynamic connector.72" Master="8">
+					<XForm>
+						<PinX Unit="MM">7.660761372802456</PinX>
+						<PinY Unit="MM">2.898622098121720</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="73" UniqueID="{899B93B9-2F6E-4FB4-BB22-A02FFCC83621}" Name="Casella.73" NameU="Box.73" Master="6">
+					<Text>Natura: Linguaggio con cui Dio parla all’uomo</Text>
+					<XForm>
+						<PinX Unit="MM">8.366141959258412</PinX>
+						<PinY Unit="MM">2.657480387058554</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="74" UniqueID="{746FCCBD-F1CB-46DA-8DAA-80717DD8D3B7}" Name="Connettore dinamico.74" NameU="Dynamic connector.74" Master="8">
+					<Text>Conoscenza per</Text>
+					<XForm>
+						<PinX Unit="MM">10.492126309124290</PinX>
+						<PinY Unit="MM">5.693897811527483</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="75" UniqueID="{7184E342-0623-412D-B262-59552A7ED50C}" Name="Connettore dinamico.75" NameU="Dynamic connector.75" Master="8">
+					<XForm>
+						<PinX Unit="MM">10.019685340611311</PinX>
+						<PinY Unit="MM">5.693897811527483</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="77" UniqueID="{09C62B20-29E7-4D9E-8F89-BC3CE745FB23}" Name="Casella dimensioni automatiche.77" NameU="Auto-size box.77" Master="13">
+					<Text>Impressioni</Text>
+					<XForm>
+						<PinX Unit="MM">9.803149852769318</PinX>
+						<PinY Unit="MM">5.078740290994990</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="78" UniqueID="{07ED1730-FB2B-4C37-A935-E0792D72890E}" Name="Casella dimensioni automatiche.78" NameU="Auto-size box.78" Master="13">
+					<Text>Idee</Text>
+					<XForm>
+						<PinX Unit="MM">10.748031789795281</PinX>
+						<PinY Unit="MM">5.078740290994989</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="79" UniqueID="{9CCABC7E-1EFE-4335-BDFD-9B2D076D1000}" Name="Casella.79" NameU="Box.79" Master="6">
+					<Text>La sensazione stessa
+------------------------
+L’atto del percepire</Text>
+					<XForm>
+						<PinX Unit="MM">9.803149852769319</PinX>
+						<PinY Unit="MM">4.370078894584767</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="80" UniqueID="{172C6071-AB62-47CC-8F90-F2A7CB26A4BE}" Name="Casella.80" NameU="Box.80" Master="6">
+					<Text>Ricordo dell’impressione
+(tende ad indebolirsi)</Text>
+					<XForm>
+						<PinX Unit="MM">10.748031789795270</PinX>
+						<PinY Unit="MM">4.370078781329191</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="81" UniqueID="{8137E65E-9C8D-41A4-BBC2-118A55DD2EAD}" Name="Connettore dinamico.81" NameU="Dynamic connector.81" Master="8">
+					<XForm>
+						<PinX Unit="MM">9.803149852769319</PinX>
+						<PinY Unit="MM">4.822834794961786</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="82" UniqueID="{0011B9A4-AC66-486E-A524-BEDA3B6C0D82}" Name="Connettore dinamico.82" NameU="Dynamic connector.82" Master="8">
+					<XForm>
+						<PinX Unit="MM">10.748031789795270</PinX>
+						<PinY Unit="MM">4.822834738333997</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="83" UniqueID="{82E18574-F756-4EF0-AD2A-092970D91B07}" Name="Sheet.83" NameU="Sheet.83">
+					<Text>G</Text>
+					<XForm>
+						<PinX Unit="MM">1.017716546963017</PinX>
+						<PinY Unit="MM">7.526269344612238</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="84" UniqueID="{EC9068CA-0F54-42F9-9BDE-6A999A4EB9B2}" Name="Sheet.84" NameU="Sheet.84">
+					<Text>P</Text>
+					<XForm>
+						<PinX Unit="MM">1.012204226250264</PinX>
+						<PinY Unit="MM">7.198411615605302</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="85" UniqueID="{4DB08FE2-0DFD-4003-B2D5-DD3B0B8173C8}" Name="Sheet.85" NameU="Sheet.85">
+					<Text>P</Text>
+					<XForm>
+						<PinX Unit="MM">1.327164860901757</PinX>
+						<PinY Unit="MM">7.198411615605302</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="86" UniqueID="{E5C2DD18-AE3F-4BBB-964A-EECF22B9A280}" Name="Sheet.86" NameU="Sheet.86">
+					<Text>P</Text>
+					<XForm>
+						<PinX Unit="MM">0.702755912311522</PinX>
+						<PinY Unit="MM">7.198411615605302</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="87" UniqueID="{B7FDC1B6-59B2-449F-B7BE-90F6C5EB23F4}" Name="Sheet.87" NameU="Sheet.87">
+					<XForm>
+						<PinX Unit="MM">0.872151955481170</PinX>
+						<PinY Unit="MM">7.382090005213236</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="88" UniqueID="{C4E164E4-69F7-4E95-A860-80AF5C950CA7}" Name="Sheet.88" NameU="Sheet.88">
+					<XForm>
+						<PinX Unit="MM">1.037795287422049</PinX>
+						<PinY Unit="MM">7.369834371057499</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="89" UniqueID="{0EEED4EA-0565-476F-B22C-462EF5DF22DE}" Name="Sheet.89" NameU="Sheet.89">
+					<XForm>
+						<PinX Unit="MM">1.219291353139973</PinX>
+						<PinY Unit="MM">7.380138471112003</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="91" UniqueID="{F4C51A8E-A6C5-403C-ABDE-3BC681AF8B04}" Name="Connettore dinamico.91" NameU="Dynamic connector.91" Master="8">
+					<XForm>
+						<PinX Unit="MM">0.505905515654339</PinX>
+						<PinY Unit="MM">7.362340480108769</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="99" UniqueID="{ADB0C70A-2C44-44BC-9AB7-91E3569604E4}" Name="Connettore dinamico.99" NameU="Dynamic connector.99" Master="8">
+					<XForm>
+						<PinX Unit="MM">3.658464687148880</PinX>
+						<PinY Unit="MM">7.474383072486232</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="100" UniqueID="{785E946F-46C1-460F-A27A-D1E0397572CD}" Name="Connettore dinamico.100" NameU="Dynamic connector.100" Master="8">
+					<XForm>
+						<PinX Unit="MM">10.639764005477300</PinX>
+						<PinY Unit="MM">3.582677204269843</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="101" UniqueID="{01CDEC90-5CB4-4D7D-B4F5-C4215C9C05F9}" Name="Casella.101" NameU="Box.101" Master="6">
+					<Text>La teoria dell’indebolimento delle idee può arrivare allo scetticismo se estremizzata</Text>
+					<XForm>
+						<PinX Unit="MM">10.000000146637261</PinX>
+						<PinY Unit="MM">3.149606346514940</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

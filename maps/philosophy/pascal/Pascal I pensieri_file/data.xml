@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Pagina 1" NameU="Page-1">
+			<PageProps>
+				<PageScale Unit="MM">0.039370078740157</PageScale>
+				<DrawingScale Unit="MM">0.039370078740157</DrawingScale>
+			</PageProps>
+			<Layer IX="0">
+				<Name>Connettore</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="1" UniqueID="{4EB515E1-2A64-420F-AB8F-DFD5AE30C012}" Name="Cerchio" NameU="Circle" Master="2">
+					<Text>Pascal «Pensieri»</Text>
+					<XForm>
+						<PinX Unit="MM">5.669291298514814</PinX>
+						<PinY Unit="MM">15.454724418739559</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{2F36F8AB-AC47-49D2-A624-6BB1FB05FFCF}" Name="Casella" NameU="Box" Master="4">
+					<Text>Assassino o uomo di valore?
+[47]</Text>
+					<XForm>
+						<PinX Unit="MM">0.754921255390534</PinX>
+						<PinY Unit="MM">6.980314933244355</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{0EF9081C-0EF0-44D4-9361-82BB8FFCED81}" Name="Casella.4" NameU="Box.4" Master="4">
+					<Text>L’uomo ha un desiderio di felicità</Text>
+					<XForm>
+						<PinX Unit="MM">2.126968689155241</PinX>
+						<PinY Unit="MM">14.372047481561770</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{C769EEB8-285B-4867-A4DD-8686306C34E7}" Name="Casella.5" NameU="Box.5" Master="4">
+					<Text>Non può raggiungerlo</Text>
+					<XForm>
+						<PinX Unit="MM">2.126968689155242</PinX>
+						<PinY Unit="MM">13.102239417408381</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{B55CADCE-0E39-4C19-8442-EE6C05016412}" Name="Casella.6" NameU="Box.6" Master="4">
+					<Text>Immaginazione 
+VS 
+Realtà</Text>
+					<XForm>
+						<PinX Unit="MM">3.235236355005867</PinX>
+						<PinY Unit="MM">13.043799452430820</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{5F978EF2-EE89-4A3C-9CA4-C8D97E51CE02}" Name="Casella.8" NameU="Box.8" Master="4">
+					<Text>Una sola cosa che manchi, mi renderà infelice
+[129]</Text>
+					<XForm>
+						<PinX Unit="MM">0.852362213408709</PinX>
+						<PinY Unit="MM">12.950541583910489</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{0ABE6AE7-12E7-4737-9877-0A462A52D415}" Name="Casella.9" NameU="Box.9" Master="4">
+					<Text>L’uomo impari a conoscere le sue misure
+[185]</Text>
+					<XForm>
+						<PinX Unit="MM">10.518208664843950</PinX>
+						<PinY Unit="MM">14.312745877160021</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{D9CE09D2-ACCB-4950-95E2-52D72235550D}" Name="Casella.10" NameU="Box.10" Master="4">
+					<Text>Noi non viviamo mai nel presente
+[43]</Text>
+					<XForm>
+						<PinX Unit="MM">2.314960585416504</PinX>
+						<PinY Unit="MM">11.689714686825191</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{491B913F-774B-4772-B42D-1E046A8098DF}" Name="Casella.11" NameU="Box.11" Master="4">
+					<Text>Il presente non è mai il nostro scopo [43]</Text>
+					<XForm>
+						<PinX Unit="MM">0.898622056484893</PinX>
+						<PinY Unit="MM">11.684003451582210</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{F49FC215-17D8-4C63-BF0A-A870065D006A}" Name="Casella.12" NameU="Box.12" Master="4">
+					<Text>Il silenzio eterno di questo spazio infinito mi atterrisce
+[187]</Text>
+					<XForm>
+						<PinX Unit="MM">10.518208664843950</PinX>
+						<PinY Unit="MM">12.976623977488790</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{41244AE2-9D31-488A-AD99-083C58C2B9C6}" Name="Casella.13" NameU="Box.13" Master="4">
+					<Text>Noi conosciamo la verità non soltanto con la ragione, ma anche con il cuore
+[101]</Text>
+					<XForm>
+						<PinX Unit="MM">4.133858411490761</PinX>
+						<PinY Unit="MM">6.980314933244355</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{5F73909D-55F8-49DB-81DA-234710D36E33}" Name="Casella.14" NameU="Box.14" Master="4">
+					<Text>Non è bene avere tutto il necessario
+[326]</Text>
+					<XForm>
+						<PinX Unit="MM">8.511811444678344</PinX>
+						<PinY Unit="MM">10.192913490966991</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{1280B91F-6A06-49C8-AD26-27F353ADE2E2}" Name="Connettore dinamico.17" NameU="Dynamic connector.17" Master="5">
+					<XForm>
+						<PinX Unit="MM">2.126968689155241</PinX>
+						<PinY Unit="MM">13.707923466996290</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="18" UniqueID="{B6B38416-3F52-4AEC-9FF5-BA0796BE670F}" Name="Connettore dinamico.18" NameU="Dynamic connector.18" Master="5">
+					<XForm>
+						<PinX Unit="MM">2.933563149775821</PinX>
+						<PinY Unit="MM">13.850640003507580</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="19" UniqueID="{427D98E2-381F-40F0-BBE8-4E9C05811DF3}" Name="Casella.19" NameU="Box.19" Master="4">
+					<Text>Conoscenza limitata
+Scienza e Filosofia complementari</Text>
+					<XForm>
+						<PinX Unit="MM">6.187992363213553</PinX>
+						<PinY Unit="MM">11.114173344735111</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="20" UniqueID="{FC8F1142-86E7-4234-AD9E-80F50706FC4B}" Name="Casella.20" NameU="Box.20" Master="4">
+					<Text>La curiosità è vanità
+[90]</Text>
+					<XForm>
+						<PinX Unit="MM">9.928149973609955</PinX>
+						<PinY Unit="MM">10.193023561076370</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="21" UniqueID="{45021743-F72C-4FAA-B6EE-FC362CB92727}" Name="Connettore dinamico.21" NameU="Dynamic connector.21" Master="5">
+					<XForm>
+						<PinX Unit="MM">1.237204823586708</PinX>
+						<PinY Unit="MM">13.850640003507580</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="22" UniqueID="{C564B3B8-72F2-40B0-BA8F-9B363E59B6B1}" Name="Casella.22" NameU="Box.22" Master="4">
+					<Text>L’uomo è una canna che pensa [186]</Text>
+					<XForm>
+						<PinX Unit="MM">6.030512049365917</PinX>
+						<PinY Unit="MM">6.980314933244355</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{E7517C1B-7D89-4E59-AFA6-55F52EC119A7}" Name="Casella.23" NameU="Box.23" Master="4">
+					<Text>La descrizione dell’uomo [73]</Text>
+					<XForm>
+						<PinX Unit="MM">1.939468670723529</PinX>
+						<PinY Unit="MM">6.980314933244355</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="24" UniqueID="{2121AE95-7852-466E-A3D9-7711E0703333}" Name="Casella.24" NameU="Box.24" Master="4">
+					<Text>La quiete è insopportabile perché porta a pensare alle disgrazie 
+[126]</Text>
+					<XForm>
+						<PinX Unit="MM">8.798228401070396</PinX>
+						<PinY Unit="MM">12.977251413741500</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="26" UniqueID="{09324DB3-CB72-4342-B6EA-FE3349CF18CA}" Name="Connettore dinamico.26" NameU="Dynamic connector.26" Master="5">
+					<XForm>
+						<PinX Unit="MM">9.696850272208453</PinX>
+						<PinY Unit="MM">12.976937695615140</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="28" UniqueID="{E60531F7-70A0-45C5-8E1A-250326E28037}" Name="Connettore dinamico.28" NameU="Dynamic connector.28" Master="5">
+					<XForm>
+						<PinX Unit="MM">9.219980709144149</PinX>
+						<PinY Unit="MM">10.192968526021680</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="29" UniqueID="{4A61DDD0-C177-4DAD-8FBD-38BD59A58FD5}" Name="Connettore dinamico.29" NameU="Dynamic connector.29" Master="5">
+					<XForm>
+						<PinX Unit="MM">1.606791320950698</PinX>
+						<PinY Unit="MM">11.686859069203701</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="31" UniqueID="{CAF22AEA-0AB8-4321-93AF-6E5437955F6F}" Name="Casella.31" NameU="Box.31" Master="4">
+					<Text>Dunque è vero che c’è un infinito nel numero ma non sappiamo cos’è
+[397]</Text>
+					<XForm>
+						<PinX Unit="MM">10.518208664843950</PinX>
+						<PinY Unit="MM">11.483636854844020</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="32" UniqueID="{C116445A-1887-4BED-B053-A84A3AE9D9B3}" Name="Connettore dinamico" NameU="Dynamic connector" Master="5">
+					<XForm>
+						<PinX Unit="MM">10.518208664843950</PinX>
+						<PinY Unit="MM">12.279077891120039</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="33" UniqueID="{6CAB1F2F-408A-47BC-85F7-4FD22A37A25A}" Name="Connettore dinamico.33" NameU="Dynamic connector.33" Master="5">
+					<XForm>
+						<PinX Unit="MM">10.518208664843950</PinX>
+						<PinY Unit="MM">13.674170063857520</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="36" UniqueID="{7989F3D1-B142-4E2A-BCAD-8D151E61B200}" Name="Casella.15" NameU="Box.15" Master="4">
+					<Text>Nel pensiero comprendo l’universo
+[104]</Text>
+					<XForm>
+						<PinX Unit="MM">7.261319307775095</PinX>
+						<PinY Unit="MM">6.980314933244355</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="37" UniqueID="{80E762E3-A5AC-4FB3-8EA7-24E073F71023}" Name="Casella.37" NameU="Box.37" Master="4">
+					<Text>Differenza tra lo spirito di geometria e lo spirito di finezza [466]</Text>
+					<XForm>
+						<PinX Unit="MM">8.656988689421301</PinX>
+						<PinY Unit="MM">6.980314933244355</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="38" UniqueID="{FBF74CA8-A1C0-42FD-8080-8871D43E76B2}" Name="Casella.38" NameU="Box.38" Master="4">
+					<Text>Non posso concepire l’uomo senza pensiero. Sarebbe una pietra o un bruto [102]</Text>
+					<XForm>
+						<PinX Unit="MM">5.374508113265788</PinX>
+						<PinY Unit="MM">5.011810927772563</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="39" UniqueID="{9D199D4C-4E8F-4587-8575-6E31A73C96BB}" Name="Casella.39" NameU="Box.39" Master="4">
+					<Text>L’uomo desidera essere felice, e non può volerlo essere. Ha scelto di impedirsi di pensarci [124]</Text>
+					<XForm>
+						<PinX Unit="MM">2.161909393969049</PinX>
+						<PinY Unit="MM">5.405511728866922</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>
