@@ -1,9 +1,21 @@
 /* Homepage */
-#sottotitolo_scorrevole {float: left; color: maroon; animation-name: slide; animation-iteration-count: infinite; animation-timing-function: linear; animation-duration: 10s}
-#title {text-align: center; color: maroon; text-shadow: 2px 2px 8px rgb(192, 132, 29)}
-#index_body {background-image: url(img/2019.png); background-size: contain}
+#sottotitolo_scorrevole {
+    float: left; 
+    color: maroon; 
+    animation-name: slide; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear; 
+    animation-duration: 10s
+}
+div.container > h1 {text-align: center; 
+    color: maroon; 
+    text-shadow: 2px 2px 8px rgb(192, 132, 29);
+    font-weight: 400;
+}
 
-.Title {font-size: 25px; font-weight: bold;}
+body {
+    background-color: #000000;
+}
 
 @keyframes slide
 {
