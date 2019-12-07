@@ -1,46 +1,132 @@
 /* Homepage */
 #sottotitolo_scorrevole {
-    float: left;
-    color: maroon;
-    animation-name: slide;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-duration: 10s
-}
-
-div.container > h1 {text-align: center; 
-    color: maroon; 
-    text-shadow: 0 0 9px maroon;
-    font-weight: 400;
+  float: left;
+  color: maroon;
+  animation-name: slide;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 10s;
 }
 
 body {
-    background-color: #000000;
-    font-family: 'Gruppo', cursive;
+  background-color: #000000;
+  font-family: "Gruppo", cursive;
 }
 
 a:hover {
-    text-decoration: none;
-    text-shadow: 0 0 10px #0056b3;
+  text-decoration: none;
+  text-shadow: 0 0 10px #0056b3;
 }
 
-@keyframes slide
-{
-    from {left: 100%; top: 0px}
-    to {right: -0%; top: 0px;}
+@keyframes slide {
+  from {
+    left: 100%;
+    top: 0px;
+  }
+  to {
+    right: 0%;
+    top: 0px;
+  }
 }
-
 @font-face {
-    font-family: "Poiret One";
-    src: url('res/font/PoiretOne-Regular.ttf')
+  font-family: "Poiret One";
+  src: url("res/font/PoiretOne-Regular.ttf");
+}
+@font-face {
+  font-family: "Gruppo";
+  src: url("res/font/Gruppo-Regular.ttf");
+}
+@font-face {
+  font-family: "Nixie One";
+  src: url("res/font/NixieOne-Regular.ttf");
+}
+/* Accent color classes */
+.AccentGold {
+  color: #ff9933;
+}
+.AccentGold a {
+  color: #b35900;
+}
+.AccentGold a:hover {
+  color: #ff9933;
+  text-decoration: underline;
 }
 
-@font-face {
-    font-family: "Gruppo";
-    src: url('res/font/Gruppo-Regular.ttf')
+.AccentLime {
+  color: #ccff33;
+}
+.AccentLime a {
+  color: #86b300;
+}
+.AccentLime a:hover {
+  color: #ccff33;
+  text-decoration: underline;
 }
 
-@font-face {
-    font-family: "Nixie One";
-    src: url('res/font/NixieOne-Regular.ttf')
+.AccentGreen {
+  color: #00cc00;
 }
+.AccentGreen a {
+  color: #004d00;
+}
+.AccentGreen a:hover {
+  color: #00cc00;
+  text-decoration: underline;
+}
+
+.AccentAqua {
+  color: #00ff99;
+}
+.AccentAqua a {
+  color: #00804d;
+}
+.AccentAqua a:hover {
+  color: #00ff99;
+  text-decoration: underline;
+}
+
+.AccentLightBlue {
+  color: #00ccff;
+}
+.AccentLightBlue a {
+  color: #006680;
+}
+.AccentLightBlue a:hover {
+  color: #00ccff;
+  text-decoration: underline;
+}
+
+.AccentPink {
+  color: #cc66ff;
+}
+.AccentPink a {
+  color: #9900e6;
+}
+.AccentPink a:hover {
+  color: #cc66ff;
+  text-decoration: underline;
+}
+
+.AccentRed {
+  color: #c00000;
+}
+.AccentRed a {
+  color: #410000;
+}
+.AccentRed a:hover {
+  color: #c00000;
+  text-decoration: underline;
+}
+
+.AccentClearSky {
+  color: #66ffff;
+}
+.AccentClearSky a {
+  color: #00e6e6;
+}
+.AccentClearSky a:hover {
+  color: #66ffff;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,87 @@
+/* Homepage */
+#sottotitolo_scorrevole {
+  float: left;
+  color: maroon;
+  animation-name: slide;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 10s
+}
+
+body {
+  background-color: #000000;
+  font-family: 'Gruppo', cursive;
+}
+
+a:hover {
+  text-decoration: none;
+  text-shadow: 0 0 10px #0056b3;
+}
+
+@keyframes slide
+{
+  from {left: 100%; top: 0px}
+  to {right: -0%; top: 0px;}
+}
+
+@font-face {
+  font-family: "Poiret One";
+  src: url('res/font/PoiretOne-Regular.ttf')
+}
+
+@font-face {
+  font-family: "Gruppo";
+  src: url('res/font/Gruppo-Regular.ttf')
+}
+
+@font-face {
+  font-family: "Nixie One";
+  src: url('res/font/NixieOne-Regular.ttf')
+}
+
+/* Accent color classes */
+@mixin apply-accent-color($color) {
+  color: $color;
+
+  a {
+    color: adjust_color($color, $lightness: -25%);
+  }
+
+  a:hover {
+    color: $color;
+    text-decoration: underline;
+  }
+
+}
+
+.AccentGold {
+  @include apply-accent-color(#ff9933);
+}
+
+.AccentLime {
+  @include apply-accent-color(#ccff33);
+}
+
+.AccentGreen {
+  @include apply-accent-color(#00cc00);
+}
+
+.AccentAqua {
+  @include apply-accent-color(#00ff99);
+}
+
+.AccentLightBlue {
+  @include apply-accent-color(#00ccff);
+}
+
+.AccentPink {
+  @include apply-accent-color(#cc66ff);
+}
+
+.AccentRed {
+  @include apply-accent-color(#c00000);
+}
+
+.AccentClearSky {
+  @include apply-accent-color(#66ffff);
+}
