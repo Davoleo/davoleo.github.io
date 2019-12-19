@@ -1,6 +1,7 @@
 /* Homepage */
-#sottotitolo_scorrevole {
-  float: left;
+
+//Sliding Title -----------------------------
+#sliding-title {
   color: maroon;
   animation-name: slide;
   animation-iteration-count: infinite;
@@ -8,22 +9,47 @@
   animation-duration: 10s
 }
 
-body {
-  background-color: #000000;
-  font-family: 'Gruppo', cursive;
-}
-
-a:hover {
-  text-decoration: none;
-  text-shadow: 0 0 10px #0056b3;
-}
-
 @keyframes slide
 {
-  from {left: 100%; top: 0px}
-  to {right: -0%; top: 0px;}
+  from {left: 100%; top: 0}
+  to {right: 0; top: 0;}
 }
 
+//General -------------------------------------------
+body {
+  background-color: #000000;
+  font-family: Raleway, sans-serif;
+}
+
+body h1 {
+  font-family: 'Gruppo', sans-serif;
+}
+
+//Card Customization -------------------------------
+.card {
+  background-color: black;
+}
+
+.card-body {
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.card-title a {
+  font-weight: normal;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+h4.card-title a:hover {
+  text-decoration: none;
+}
+
+//Load Fonts ---------------------------------------
 @font-face {
   font-family: "Poiret One";
   src: url('res/font/PoiretOne-Regular.ttf')
@@ -39,17 +65,30 @@ a:hover {
   src: url('res/font/NixieOne-Regular.ttf')
 }
 
-/* Accent color classes */
+
+/* Accent color classes ***************************/
 @mixin apply-accent-color($color) {
   color: $color;
 
   a {
-    color: adjust_color($color, $lightness: -25%);
+    color: adjust_color($color, $lightness: -20%);
   }
 
   a:hover {
     color: $color;
     text-decoration: underline;
+  }
+
+  .card {
+    border: solid 2px $color;
+    color: $color;
+    a {
+      color: $color;
+    }
+
+    a:hover {
+      border: dashed 2px $color;
+    }
   }
 
 }
@@ -83,5 +122,5 @@ a:hover {
 }
 
 .AccentClearSky {
-  @include apply-accent-color(#66ffff);
+  @include apply-accent-color(#55ffff);
 }
