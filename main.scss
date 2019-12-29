@@ -16,6 +16,10 @@
 }
 
 //General -------------------------------------------
+//html, body {
+//  height: 100%;
+//}
+
 body {
   background-color: #000000;
   font-family: Raleway, sans-serif;
@@ -23,6 +27,18 @@ body {
 
 body h1 {
   font-family: 'Gruppo', sans-serif;
+}
+
+#master-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContentBox {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 //Card Customization -------------------------------
@@ -80,14 +96,14 @@ h4.card-title a:hover {
   }
 
   .card {
-    border: solid 2px $color;
+    border: groove 2px $color;
     color: $color;
     a {
       color: $color;
     }
 
     a:hover {
-      border: dashed 2px $color;
+      border: solid 2px $color;
     }
   }
 

@@ -26,6 +26,18 @@ body h1 {
   font-family: "Gruppo", sans-serif;
 }
 
+#master-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContentBox {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .card {
   background-color: black;
 }
@@ -73,14 +85,14 @@ h4.card-title a:hover {
   text-decoration: underline;
 }
 .AccentGold .card {
-  border: solid 2px #ff9933;
+  border: groove 2px #ff9933;
   color: #ff9933;
 }
 .AccentGold .card a {
   color: #ff9933;
 }
 .AccentGold .card a:hover {
-  border: dashed 2px #ff9933;
+  border: solid 2px #ff9933;
 }
 
 .AccentLime {
@@ -94,14 +106,14 @@ h4.card-title a:hover {
   text-decoration: underline;
 }
 .AccentLime .card {
-  border: solid 2px #ccff33;
+  border: groove 2px #ccff33;
   color: #ccff33;
 }
 .AccentLime .card a {
   color: #ccff33;
 }
 .AccentLime .card a:hover {
-  border: dashed 2px #ccff33;
+  border: solid 2px #ccff33;
 }
 
 .AccentGreen {
@@ -115,14 +127,14 @@ h4.card-title a:hover {
   text-decoration: underline;
 }
 .AccentGreen .card {
-  border: solid 2px #00cc00;
+  border: groove 2px #00cc00;
   color: #00cc00;
 }
 .AccentGreen .card a {
   color: #00cc00;
 }
 .AccentGreen .card a:hover {
-  border: dashed 2px #00cc00;
+  border: solid 2px #00cc00;
 }
 
 .AccentAqua {
@@ -136,14 +148,14 @@ h4.card-title a:hover {
   text-decoration: underline;
 }
 .AccentAqua .card {
-  border: solid 2px #00ff99;
+  border: groove 2px #00ff99;
   color: #00ff99;
 }
 .AccentAqua .card a {
   color: #00ff99;
 }
 .AccentAqua .card a:hover {
-  border: dashed 2px #00ff99;
+  border: solid 2px #00ff99;
 }
 
 .AccentLightBlue {
@@ -157,14 +169,14 @@ h4.card-title a:hover {
   text-decoration: underline;
 }
 .AccentLightBlue .card {
-  border: solid 2px #00ccff;
+  border: groove 2px #00ccff;
   color: #00ccff;
 }
 .AccentLightBlue .card a {
   color: #00ccff;
 }
 .AccentLightBlue .card a:hover {
-  border: dashed 2px #00ccff;
+  border: solid 2px #00ccff;
 }
 
 .AccentPink {
@@ -178,14 +190,14 @@ h4.card-title a:hover {
   text-decoration: underline;
 }
 .AccentPink .card {
-  border: solid 2px #cc66ff;
+  border: groove 2px #cc66ff;
   color: #cc66ff;
 }
 .AccentPink .card a {
   color: #cc66ff;
 }
 .AccentPink .card a:hover {
-  border: dashed 2px #cc66ff;
+  border: solid 2px #cc66ff;
 }
 
 .AccentRed {
@@ -199,14 +211,14 @@ h4.card-title a:hover {
   text-decoration: underline;
 }
 .AccentRed .card {
-  border: solid 2px #c00000;
+  border: groove 2px #c00000;
   color: #c00000;
 }
 .AccentRed .card a {
   color: #c00000;
 }
 .AccentRed .card a:hover {
-  border: dashed 2px #c00000;
+  border: solid 2px #c00000;
 }
 
 .AccentClearSky {
@@ -220,14 +232,14 @@ h4.card-title a:hover {
   text-decoration: underline;
 }
 .AccentClearSky .card {
-  border: solid 2px #55ffff;
+  border: groove 2px #55ffff;
   color: #55ffff;
 }
 .AccentClearSky .card a {
   color: #55ffff;
 }
 .AccentClearSky .card a:hover {
-  border: dashed 2px #55ffff;
+  border: solid 2px #55ffff;
 }
 
 /*# sourceMappingURL=main.css.map */
