@@ -1,12 +1,280 @@
 /* Homepage */
-#sottotitolo_scorrevole {float: left; color: maroon; animation-name: slide; animation-iteration-count: infinite; animation-timing-function: linear; animation-duration: 10s}
-#title {text-align: center; color: maroon; text-shadow: 2px 2px 8px rgb(192, 132, 29)}
-#index_body {background-image: url(img/2019.png); background-size: contain}
-
-.Title {font-size: 25px; font-weight: bold;}
-
-@keyframes slide
-{
-    from {left: 100%; top: 0px}
-    to {right: -0%; top: 0px;}
+#sliding-title {
+  position: absolute;
+  animation: slide 12s infinite linear;
 }
+
+@keyframes slide {
+  from {
+    left: 100%;
+    width: 100%;
+  }
+  to {
+    left: -400px;
+  }
+}
+html, body, .container-fluid {
+  height: 100%;
+}
+
+body {
+  background-color: #000000;
+  font-family: Raleway, sans-serif;
+  overflow-x: hidden;
+}
+
+body h1 {
+  font-family: "Gruppo", sans-serif;
+  text-align: center;
+}
+
+#master-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ContentBox {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: black;
+  width: auto !important;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img-top {
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.card-title a {
+  font-weight: normal;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+h4.card-title a:hover {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Poiret One";
+  src: url("res/font/PoiretOne-Regular.ttf");
+}
+@font-face {
+  font-family: "Gruppo";
+  src: url("res/font/Gruppo-Regular.ttf");
+}
+/* Accent color classes ***************************/
+.AccentGold {
+  color: #ff9933;
+}
+.AccentGold a {
+  color: #cc6600;
+}
+.AccentGold a:hover {
+  color: #ff9933;
+  text-decoration: underline;
+}
+.AccentGold .card {
+  border: groove 2px #ff9933;
+  color: #ff9933;
+}
+.AccentGold .card a {
+  color: #ff9933;
+}
+.AccentGold .card a:hover {
+  border: solid 2px #ff9933;
+}
+.AccentGold .card-body {
+  border-top: groove 2px #ff9933;
+}
+
+.AccentLime {
+  color: #ccff33;
+}
+.AccentLime a {
+  color: #99cc00;
+}
+.AccentLime a:hover {
+  color: #ccff33;
+  text-decoration: underline;
+}
+.AccentLime .card {
+  border: groove 2px #ccff33;
+  color: #ccff33;
+}
+.AccentLime .card a {
+  color: #ccff33;
+}
+.AccentLime .card a:hover {
+  border: solid 2px #ccff33;
+}
+.AccentLime .card-body {
+  border-top: groove 2px #ccff33;
+}
+
+.AccentGreen {
+  color: #00cc00;
+}
+.AccentGreen a {
+  color: #006600;
+}
+.AccentGreen a:hover {
+  color: #00cc00;
+  text-decoration: underline;
+}
+.AccentGreen .card {
+  border: groove 2px #00cc00;
+  color: #00cc00;
+}
+.AccentGreen .card a {
+  color: #00cc00;
+}
+.AccentGreen .card a:hover {
+  border: solid 2px #00cc00;
+}
+.AccentGreen .card-body {
+  border-top: groove 2px #00cc00;
+}
+
+.AccentAqua {
+  color: #00ff99;
+}
+.AccentAqua a {
+  color: #00995c;
+}
+.AccentAqua a:hover {
+  color: #00ff99;
+  text-decoration: underline;
+}
+.AccentAqua .card {
+  border: groove 2px #00ff99;
+  color: #00ff99;
+}
+.AccentAqua .card a {
+  color: #00ff99;
+}
+.AccentAqua .card a:hover {
+  border: solid 2px #00ff99;
+}
+.AccentAqua .card-body {
+  border-top: groove 2px #00ff99;
+}
+
+.AccentLightBlue {
+  color: #00ccff;
+}
+.AccentLightBlue a {
+  color: #007a99;
+}
+.AccentLightBlue a:hover {
+  color: #00ccff;
+  text-decoration: underline;
+}
+.AccentLightBlue .card {
+  border: groove 2px #00ccff;
+  color: #00ccff;
+}
+.AccentLightBlue .card a {
+  color: #00ccff;
+}
+.AccentLightBlue .card a:hover {
+  border: solid 2px #00ccff;
+}
+.AccentLightBlue .card-body {
+  border-top: groove 2px #00ccff;
+}
+
+.AccentPink {
+  color: #cc66ff;
+}
+.AccentPink a {
+  color: #aa00ff;
+}
+.AccentPink a:hover {
+  color: #cc66ff;
+  text-decoration: underline;
+}
+.AccentPink .card {
+  border: groove 2px #cc66ff;
+  color: #cc66ff;
+}
+.AccentPink .card a {
+  color: #cc66ff;
+}
+.AccentPink .card a:hover {
+  border: solid 2px #cc66ff;
+}
+.AccentPink .card-body {
+  border-top: groove 2px #cc66ff;
+}
+
+.AccentRed {
+  color: #c00000;
+}
+.AccentRed a {
+  color: #5a0000;
+}
+.AccentRed a:hover {
+  color: #c00000;
+  text-decoration: underline;
+}
+.AccentRed .card {
+  border: groove 2px #c00000;
+  color: #c00000;
+}
+.AccentRed .card a {
+  color: #c00000;
+}
+.AccentRed .card a:hover {
+  border: solid 2px #c00000;
+}
+.AccentRed .card-body {
+  border-top: groove 2px #c00000;
+}
+
+.AccentClearSky {
+  color: #55ffff;
+}
+.AccentClearSky a {
+  color: #00eeee;
+}
+.AccentClearSky a:hover {
+  color: #55ffff;
+  text-decoration: underline;
+}
+.AccentClearSky .card {
+  border: groove 2px #55ffff;
+  color: #55ffff;
+}
+.AccentClearSky .card a {
+  color: #55ffff;
+}
+.AccentClearSky .card a:hover {
+  border: solid 2px #55ffff;
+}
+.AccentClearSky .card-body {
+  border-top: groove 2px #55ffff;
+}
+
+/*# sourceMappingURL=main.css.map */
