@@ -2,23 +2,25 @@
 
 //Sliding Title -----------------------------
 #sliding-title {
-  color: maroon;
-  animation-name: slide;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-duration: 10s
+  position: absolute;
+  animation: slide 10s infinite linear;
 }
 
 @keyframes slide
 {
-  from {left: 100%; top: 0}
-  to {right: 0; top: 0;}
+  from {
+    left: 100%;
+    width: 100%;
+  }
+  to {
+    left: -400px;
+  }
 }
 
 //General -------------------------------------------
-//html, body {
-//  height: 100%;
-//}
+html, body, .container-fluid{
+  height: 100%;
+}
 
 body {
   background-color: #000000;
@@ -32,10 +34,11 @@ body h1 {
 #master-box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .ContentBox {
-  margin-top: 100px;
+  margin: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -44,11 +47,26 @@ body h1 {
 //Card Customization -------------------------------
 .card {
   background-color: black;
+  width: auto!important;
+  max-width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img-top {
+
+  border-radius: 0.25rem;
 }
 
 .card-body {
-  margin: 0 auto;
+  width: 100%;
   padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-title {
@@ -76,11 +94,6 @@ h4.card-title a:hover {
   src: url('res/font/Gruppo-Regular.ttf')
 }
 
-@font-face {
-  font-family: "Nixie One";
-  src: url('res/font/NixieOne-Regular.ttf')
-}
-
 
 /* Accent color classes ***************************/
 @mixin apply-accent-color($color) {
@@ -105,6 +118,10 @@ h4.card-title a:hover {
     a:hover {
       border: solid 2px $color;
     }
+  }
+
+  .card-body {
+    border-top: groove 2px $color;
   }
 
 }
