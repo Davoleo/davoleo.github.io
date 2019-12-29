@@ -1,7 +1,7 @@
 /* Homepage */
 #sliding-title {
   position: absolute;
-  animation: slide 10s infinite linear;
+  animation: slide 12s infinite linear;
 }
 
 @keyframes slide {
@@ -20,10 +20,12 @@ html, body, .container-fluid {
 body {
   background-color: #000000;
   font-family: Raleway, sans-serif;
+  overflow-x: hidden;
 }
 
 body h1 {
   font-family: "Gruppo", sans-serif;
+  text-align: center;
 }
 
 #master-box {
