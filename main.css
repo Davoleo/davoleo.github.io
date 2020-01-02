@@ -1,24 +1,29 @@
 /* Homepage */
+/*Sliding Title ------------------------------*/
 #sliding-title {
   position: absolute;
   animation: slide 12s infinite linear;
+  white-space: nowrap;
 }
 
 @keyframes slide {
   from {
     left: 100%;
-    width: 100%;
   }
   to {
     left: -400px;
   }
 }
-html, body, .container-fluid {
-  height: 100%;
+/*General -------------------------------------------*/
+.container-fluid {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
 body {
-  background-color: #000000;
+  background-color: #070707;
   font-family: Raleway, sans-serif;
   overflow-x: hidden;
 }
@@ -28,21 +33,40 @@ body h1 {
   text-align: center;
 }
 
-#master-box {
+footer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: auto;
+  font-size: 1.25rem;
+}
+
+#master-box {
+  margin-bottom: 20%;
+  margin-top: 15%;
 }
 
 .ContentBox {
-  margin: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
+#refresh-dynamic-content {
+  background-color: transparent;
+}
+
+button:focus.btn, button:active.btn {
+  outline: none !important;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+}
+
+/*Card Customization -------------------------------*/
 .card {
-  background-color: black;
+  background-color: #070707;
   width: auto !important;
   max-width: 400px;
   display: flex;
@@ -58,7 +82,7 @@ body h1 {
   width: 100%;
   padding: 15px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
 }
 
@@ -70,12 +94,15 @@ body h1 {
   font-weight: normal;
   border-radius: 5px;
   padding: 0 10px;
+  font-size: 3rem;
+  line-height: 1;
 }
 
 h4.card-title a:hover {
   text-decoration: none;
 }
 
+/*Load Fonts ---------------------------------------*/
 @font-face {
   font-family: "Poiret One";
   src: url("res/font/PoiretOne-Regular.ttf");
@@ -108,6 +135,14 @@ h4.card-title a:hover {
 .AccentGold .card-body {
   border-top: groove 2px #ff9933;
 }
+.AccentGold button, .AccentGold button:hover {
+  color: #ff9933;
+  border: #ff9933 groove 2px;
+}
+.AccentGold button:hover, .AccentGold button:active, .AccentGold button:focus {
+  color: #ffcc99;
+  border: #ff9933 groove 2px;
+}
 
 .AccentLime {
   color: #ccff33;
@@ -131,6 +166,14 @@ h4.card-title a:hover {
 }
 .AccentLime .card-body {
   border-top: groove 2px #ccff33;
+}
+.AccentLime button, .AccentLime button:hover {
+  color: #ccff33;
+  border: #ccff33 groove 2px;
+}
+.AccentLime button:hover, .AccentLime button:active, .AccentLime button:focus {
+  color: #e6ff99;
+  border: #ccff33 groove 2px;
 }
 
 .AccentGreen {
@@ -156,6 +199,14 @@ h4.card-title a:hover {
 .AccentGreen .card-body {
   border-top: groove 2px #00cc00;
 }
+.AccentGreen button, .AccentGreen button:hover {
+  color: #00cc00;
+  border: #00cc00 groove 2px;
+}
+.AccentGreen button:hover, .AccentGreen button:active, .AccentGreen button:focus {
+  color: #33ff33;
+  border: #00cc00 groove 2px;
+}
 
 .AccentAqua {
   color: #00ff99;
@@ -179,6 +230,14 @@ h4.card-title a:hover {
 }
 .AccentAqua .card-body {
   border-top: groove 2px #00ff99;
+}
+.AccentAqua button, .AccentAqua button:hover {
+  color: #00ff99;
+  border: #00ff99 groove 2px;
+}
+.AccentAqua button:hover, .AccentAqua button:active, .AccentAqua button:focus {
+  color: #66ffc2;
+  border: #00ff99 groove 2px;
 }
 
 .AccentLightBlue {
@@ -204,6 +263,14 @@ h4.card-title a:hover {
 .AccentLightBlue .card-body {
   border-top: groove 2px #00ccff;
 }
+.AccentLightBlue button, .AccentLightBlue button:hover {
+  color: #00ccff;
+  border: #00ccff groove 2px;
+}
+.AccentLightBlue button:hover, .AccentLightBlue button:active, .AccentLightBlue button:focus {
+  color: #66e0ff;
+  border: #00ccff groove 2px;
+}
 
 .AccentPink {
   color: #cc66ff;
@@ -227,6 +294,14 @@ h4.card-title a:hover {
 }
 .AccentPink .card-body {
   border-top: groove 2px #cc66ff;
+}
+.AccentPink button, .AccentPink button:hover {
+  color: #cc66ff;
+  border: #cc66ff groove 2px;
+}
+.AccentPink button:hover, .AccentPink button:active, .AccentPink button:focus {
+  color: #eeccff;
+  border: #cc66ff groove 2px;
 }
 
 .AccentRed {
@@ -252,6 +327,14 @@ h4.card-title a:hover {
 .AccentRed .card-body {
   border-top: groove 2px #c00000;
 }
+.AccentRed button, .AccentRed button:hover {
+  color: #c00000;
+  border: #c00000 groove 2px;
+}
+.AccentRed button:hover, .AccentRed button:active, .AccentRed button:focus {
+  color: #ff2727;
+  border: #c00000 groove 2px;
+}
 
 .AccentClearSky {
   color: #55ffff;
@@ -275,6 +358,14 @@ h4.card-title a:hover {
 }
 .AccentClearSky .card-body {
   border-top: groove 2px #55ffff;
+}
+.AccentClearSky button, .AccentClearSky button:hover {
+  color: #55ffff;
+  border: #55ffff groove 2px;
+}
+.AccentClearSky button:hover, .AccentClearSky button:active, .AccentClearSky button:focus {
+  color: #bbffff;
+  border: #55ffff groove 2px;
 }
 
 /*# sourceMappingURL=main.css.map */

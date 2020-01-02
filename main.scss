@@ -1,29 +1,32 @@
 /* Homepage */
 
-//Sliding Title -----------------------------
+/*Sliding Title ------------------------------*/
 #sliding-title {
   position: absolute;
   animation: slide 12s infinite linear;
+  white-space: nowrap;
 }
 
 @keyframes slide
 {
   from {
     left: 100%;
-    width: 100%;
   }
   to {
     left: -400px;
   }
 }
 
-//General -------------------------------------------
-html, body, .container-fluid{
-  height: 100%;
+/*General -------------------------------------------*/
+.container-fluid {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
 body {
-  background-color: #000000;
+  background-color: #070707;
   font-family: Raleway, sans-serif;
   overflow-x: hidden;
 }
@@ -33,22 +36,41 @@ body h1 {
   text-align: center;
 }
 
-#master-box {
+footer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: auto;
+  font-size: 1.25rem;
+}
+
+#master-box {
+  margin-bottom: 20%;
+  margin-top: 15%;
 }
 
 .ContentBox {
-  margin: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-//Card Customization -------------------------------
+#refresh-dynamic-content {
+  background-color: transparent;
+}
+
+button:focus.btn, button:active.btn {
+  outline: none!important;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+}
+
+/*Card Customization -------------------------------*/
 .card {
-  background-color: black;
+  background-color: #070707;
   width: auto!important;
   max-width: 400px;
 
@@ -58,7 +80,6 @@ body h1 {
 }
 
 .card-img-top {
-
   border-radius: 0.25rem;
 }
 
@@ -67,7 +88,7 @@ body h1 {
   padding: 15px;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
 }
 
@@ -79,13 +100,15 @@ body h1 {
   font-weight: normal;
   border-radius: 5px;
   padding: 0 10px;
+  font-size: 3rem;
+  line-height: 1;
 }
 
 h4.card-title a:hover {
   text-decoration: none;
 }
 
-//Load Fonts ---------------------------------------
+/*Load Fonts ---------------------------------------*/
 @font-face {
   font-family: "Poiret One";
   src: url('res/font/PoiretOne-Regular.ttf')
@@ -126,6 +149,15 @@ h4.card-title a:hover {
     border-top: groove 2px $color;
   }
 
+  button, button:hover {
+    color: $color;
+    border: $color groove 2px;
+  }
+
+  button:hover, button:active, button:focus {
+    color: adjust_color($color, $lightness: +20%);
+    border: $color groove 2px;
+  }
 }
 
 .AccentGold {
