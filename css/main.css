@@ -1,67 +1,12 @@
-/* Homepage */
-/*Sliding Title ------------------------------*/
-#sliding-title {
-  position: absolute;
-  animation: slide 12s infinite linear;
-  white-space: nowrap;
-}
-
-@keyframes slide {
-  from {
-    left: 100%;
-  }
-  to {
-    left: -400px;
-  }
-}
 /*General -------------------------------------------*/
-.container-fluid {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-}
-
 body {
   background-color: #070707;
   font-family: Raleway, sans-serif;
-  overflow-x: hidden;
 }
 
 body h1 {
   font-family: "Gruppo", sans-serif;
   text-align: center;
-}
-
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: auto;
-  font-size: 1.25rem;
-}
-
-#master-box {
-  margin-bottom: 20%;
-  margin-top: 15%;
-}
-
-.ContentBox {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-#refresh-dynamic-content {
-  background-color: transparent;
-}
-
-button:focus.btn, button:active.btn {
-  outline: none !important;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  -o-box-shadow: none;
 }
 
 /*Card Customization -------------------------------*/
@@ -105,11 +50,11 @@ h4.card-title a:hover {
 /*Load Fonts ---------------------------------------*/
 @font-face {
   font-family: "Poiret One";
-  src: url("res/font/PoiretOne-Regular.ttf");
+  src: url("../res/font/PoiretOne-Regular.ttf");
 }
 @font-face {
   font-family: "Gruppo";
-  src: url("res/font/Gruppo-Regular.ttf");
+  src: url("../res/font/Gruppo-Regular.ttf");
 }
 /* Accent color classes ***************************/
 .AccentGold {

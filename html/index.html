@@ -13,7 +13,10 @@
 <!--    Material Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css" type="text/css">
+<!--   Main Stylesheet + Index Stylesheet -->
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <link rel="stylesheet" href="../css/index.css" type="text/css">
+
 </head>
 
 <body>
@@ -30,19 +33,13 @@
         <!--    First row of boxes -->
         <div class="ContentBox">
             <div class="card" style="width: 18rem;">
-                <img src="res/img/coding.jpg" class="card-img-top" alt="CODE">
+                <img src="../res/img/coding.jpg" class="card-img-top" alt="CODE">
                 <div class="card-body">
                     <h4 class="card-title"><a href="#">Projects</a></h4>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img id="dynamic-card-img" src="" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h4 class="card-title"><a id="dynamic-card-link" href="#"></a></h4>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="res/img/miscellaneous.jpg" class="card-img-top" alt="...">
+                <img src="../res/img/miscellaneous.jpg" class="card-img-top" alt="miscellaneous">
                 <div class="card-body">
                     <h4 class="card-title"><a href="#">Miscellanous</a></h4>
                 </div>
@@ -53,16 +50,16 @@
     <footer>
         <div class="Github">
             <a href="https://github.com/Davoleo/davoleo.github.io">
-                <object width="50" data="res/img/github.svg" type="image/svg+xml"></object>
+                <img src="../res/img/github.svg" alt="github logo">
             </a>
         </div>
         <p>Copyright - (c) - <a href="https://github.com/Davoleo">Davoleo</a> - 2020</p>
         <div>
-            <button class="btn btn-dark" id="refresh-dynamic-content"><i class="material-icons">refresh</i></button>
+            <button onclick="location.reload()" class="btn btn-dark"><i class="material-icons">refresh</i></button>
         </div>
     </footer>
 </div>
 
-<script src="main.js" type="text/javascript"></script>
+<script src="../js/main.js" type="text/javascript"></script>
 </body>
 </html>

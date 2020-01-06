@@ -1,6 +1,5 @@
-THIS WEBSITE IS IN CONSTRUCTION
+# davoleo.github.io
 
-Davoleo-Website - (REWORKED)
+Personal Developer Website
 
-Now rewritten in HTML code by Davoleo
-Hosted by Github Pages
+Hosted on Github Pages
