@@ -1,7 +1,8 @@
 /* Homepage */
 /*Sliding Title ------------------------------*/
 #sliding-title {
-  position: absolute;
+  display: inline-block;
+  position: relative;
   animation: slide 12s infinite linear;
   white-space: nowrap;
 }
@@ -29,6 +30,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-end;
+  flex: 1;
   margin-top: auto;
   font-size: 1.25rem;
 }
@@ -37,14 +40,21 @@ footer img {
   width: 50px;
 }
 
+#header-box {
+  flex: 1;
+}
+
 #master-box {
-  margin-bottom: 15%;
-  margin-top: 10%;
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .ContentBox {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -58,6 +68,22 @@ button:focus.btn, button:active.btn {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   -o-box-shadow: none;
+}
+
+@media all and (max-width: 800px) {
+  .card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .Github {
+    display: none;
+  }
+}
+@media all and (max-width: 600px) {
+  #refresh-button {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -5,7 +5,7 @@ body {
 }
 
 body h1 {
-  font-family: 'Gruppo', sans-serif;
+  font-family: 'Poiret One', sans-serif;
   text-align: center;
 }
 
@@ -58,6 +58,11 @@ h4.card-title a:hover {
 @font-face {
   font-family: "Gruppo";
   src: url('../res/font/Gruppo-Regular.ttf')
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../res/font/JetBrainsMono-Regular.ttf");
 }
 
 
