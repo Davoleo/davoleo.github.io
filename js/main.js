@@ -9,23 +9,13 @@ let accentColors = [
     "ClearSky"
 ];
 
-setRandomAccent();
+function generateRandomNumber(bound) {
+    return Math.floor(Math.random() * bound)
+}
 
 function setRandomAccent() {
-    let accent = Math.floor(Math.random() * accentColors.length);
+    let accent = generateRandomNumber(accentColors.length);
     document.body.classList.add("Accent" + accentColors[accent]);
 }
 
-
-let contentArray = [
-    {
-        title: "Minecraft",
-        image_url: "res/img/2019.png",
-        link: "#"
-    },
-    {
-        title: "Anime",
-        image_url: "res/img/anime.jpg",
-        link: "#"
-    }
-];
+setRandomAccent();

@@ -1,0 +1,29 @@
+#projectsContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.card-title {
+  font-weight: normal;
+}
+
+.card-text {
+  margin: 10px;
+}
+
+.card-button-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card-button-container a {
+  padding: 3px 5px;
+  font-size: x-large;
+}
+.card-button-container a:hover {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=projects.css.map */

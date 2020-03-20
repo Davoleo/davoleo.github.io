@@ -3,7 +3,6 @@ body {
   background-color: #070707;
   font-family: Raleway, sans-serif;
 }
-
 body h1 {
   font-family: "Poiret One", sans-serif;
   text-align: center;
@@ -12,7 +11,6 @@ body h1 {
 /*Card Customization -------------------------------*/
 .card {
   background-color: #070707;
-  width: auto !important;
   max-width: 400px;
   display: flex;
   flex-direction: column;
@@ -27,24 +25,8 @@ body h1 {
   width: 100%;
   padding: 15px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: center;
-}
-
-.card-title {
-  margin-bottom: 0;
-}
-
-.card-title a {
-  font-weight: normal;
-  border-radius: 5px;
-  padding: 0 10px;
-  font-size: 3rem;
-  line-height: 1;
-}
-
-h4.card-title a:hover {
-  text-decoration: none;
 }
 
 /*Load Fonts ---------------------------------------*/
@@ -63,6 +45,7 @@ h4.card-title a:hover {
 /* Accent color classes ***************************/
 .AccentGold {
   color: #ff9933;
+  /* See general a customization above */
 }
 .AccentGold a {
   color: #cc6600;
@@ -77,9 +60,7 @@ h4.card-title a:hover {
 }
 .AccentGold .card a {
   color: #ff9933;
-}
-.AccentGold .card a:hover {
-  border: solid 2px #ff9933;
+  border: transparent solid 2px;
 }
 .AccentGold .card-body {
   border-top: groove 2px #ff9933;
@@ -95,6 +76,7 @@ h4.card-title a:hover {
 
 .AccentLime {
   color: #ccff33;
+  /* See general a customization above */
 }
 .AccentLime a {
   color: #99cc00;
@@ -109,9 +91,7 @@ h4.card-title a:hover {
 }
 .AccentLime .card a {
   color: #ccff33;
-}
-.AccentLime .card a:hover {
-  border: solid 2px #ccff33;
+  border: transparent solid 2px;
 }
 .AccentLime .card-body {
   border-top: groove 2px #ccff33;
@@ -127,6 +107,7 @@ h4.card-title a:hover {
 
 .AccentGreen {
   color: #00cc00;
+  /* See general a customization above */
 }
 .AccentGreen a {
   color: #006600;
@@ -141,9 +122,7 @@ h4.card-title a:hover {
 }
 .AccentGreen .card a {
   color: #00cc00;
-}
-.AccentGreen .card a:hover {
-  border: solid 2px #00cc00;
+  border: transparent solid 2px;
 }
 .AccentGreen .card-body {
   border-top: groove 2px #00cc00;
@@ -159,6 +138,7 @@ h4.card-title a:hover {
 
 .AccentAqua {
   color: #00ff99;
+  /* See general a customization above */
 }
 .AccentAqua a {
   color: #00995c;
@@ -173,9 +153,7 @@ h4.card-title a:hover {
 }
 .AccentAqua .card a {
   color: #00ff99;
-}
-.AccentAqua .card a:hover {
-  border: solid 2px #00ff99;
+  border: transparent solid 2px;
 }
 .AccentAqua .card-body {
   border-top: groove 2px #00ff99;
@@ -191,6 +169,7 @@ h4.card-title a:hover {
 
 .AccentLightBlue {
   color: #00ccff;
+  /* See general a customization above */
 }
 .AccentLightBlue a {
   color: #007a99;
@@ -205,9 +184,7 @@ h4.card-title a:hover {
 }
 .AccentLightBlue .card a {
   color: #00ccff;
-}
-.AccentLightBlue .card a:hover {
-  border: solid 2px #00ccff;
+  border: transparent solid 2px;
 }
 .AccentLightBlue .card-body {
   border-top: groove 2px #00ccff;
@@ -223,6 +200,7 @@ h4.card-title a:hover {
 
 .AccentPink {
   color: #cc66ff;
+  /* See general a customization above */
 }
 .AccentPink a {
   color: #aa00ff;
@@ -237,9 +215,7 @@ h4.card-title a:hover {
 }
 .AccentPink .card a {
   color: #cc66ff;
-}
-.AccentPink .card a:hover {
-  border: solid 2px #cc66ff;
+  border: transparent solid 2px;
 }
 .AccentPink .card-body {
   border-top: groove 2px #cc66ff;
@@ -255,6 +231,7 @@ h4.card-title a:hover {
 
 .AccentRed {
   color: #c00000;
+  /* See general a customization above */
 }
 .AccentRed a {
   color: #5a0000;
@@ -269,9 +246,7 @@ h4.card-title a:hover {
 }
 .AccentRed .card a {
   color: #c00000;
-}
-.AccentRed .card a:hover {
-  border: solid 2px #c00000;
+  border: transparent solid 2px;
 }
 .AccentRed .card-body {
   border-top: groove 2px #c00000;
@@ -287,6 +262,7 @@ h4.card-title a:hover {
 
 .AccentClearSky {
   color: #55ffff;
+  /* See general a customization above */
 }
 .AccentClearSky a {
   color: #00eeee;
@@ -301,9 +277,7 @@ h4.card-title a:hover {
 }
 .AccentClearSky .card a {
   color: #55ffff;
-}
-.AccentClearSky .card a:hover {
-  border: solid 2px #55ffff;
+  border: transparent solid 2px;
 }
 .AccentClearSky .card-body {
   border-top: groove 2px #55ffff;
