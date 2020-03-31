@@ -32,7 +32,7 @@ body {
 .card-body {
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
+  padding: 0;
 }
 
 //FIXME : fix index link position
@@ -51,6 +51,7 @@ h4.card-title {
     border-radius: 5px;
     font-size: 3rem;
     line-height: 1;
+    padding: 10px;
   }
 
   a:hover {
