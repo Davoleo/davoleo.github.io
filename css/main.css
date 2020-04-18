@@ -84,6 +84,10 @@ body h1 {
   background-color: rgba(255, 153, 51, 0.04);
   transition: background-color 0.5s;
 }
+.AccentGold .Glow {
+  color: #ff9933;
+  text-shadow: 0 0 10px #ff9933, 0 0 20px #ff9933;
+}
 .AccentGold .GlowAnim {
   color: #ff9933;
   -webkit-animation: glow30deg 2s ease-in-out infinite alternate;
@@ -139,6 +143,10 @@ body h1 {
 .AccentLime .Shaded:hover {
   background-color: rgba(204, 255, 51, 0.04);
   transition: background-color 0.5s;
+}
+.AccentLime .Glow {
+  color: #ccff33;
+  text-shadow: 0 0 10px #ccff33, 0 0 20px #ccff33;
 }
 .AccentLime .GlowAnim {
   color: #ccff33;
@@ -196,6 +204,10 @@ body h1 {
   background-color: rgba(0, 204, 0, 0.04);
   transition: background-color 0.5s;
 }
+.AccentGreen .Glow {
+  color: #00cc00;
+  text-shadow: 0 0 10px #00cc00, 0 0 20px #00cc00;
+}
 .AccentGreen .GlowAnim {
   color: #00cc00;
   -webkit-animation: glow120deg 2s ease-in-out infinite alternate;
@@ -251,6 +263,10 @@ body h1 {
 .AccentAqua .Shaded:hover {
   background-color: rgba(0, 255, 153, 0.04);
   transition: background-color 0.5s;
+}
+.AccentAqua .Glow {
+  color: #00ff99;
+  text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99;
 }
 .AccentAqua .GlowAnim {
   color: #00ff99;
@@ -308,6 +324,10 @@ body h1 {
   background-color: rgba(0, 204, 255, 0.04);
   transition: background-color 0.5s;
 }
+.AccentLightBlue .Glow {
+  color: #00ccff;
+  text-shadow: 0 0 10px #00ccff, 0 0 20px #00ccff;
+}
 .AccentLightBlue .GlowAnim {
   color: #00ccff;
   -webkit-animation: glow192deg 2s ease-in-out infinite alternate;
@@ -363,6 +383,10 @@ body h1 {
 .AccentPink .Shaded:hover {
   background-color: rgba(204, 102, 255, 0.04);
   transition: background-color 0.5s;
+}
+.AccentPink .Glow {
+  color: #cc66ff;
+  text-shadow: 0 0 10px #cc66ff, 0 0 20px #cc66ff;
 }
 .AccentPink .GlowAnim {
   color: #cc66ff;
@@ -420,6 +444,10 @@ body h1 {
   background-color: rgba(192, 0, 0, 0.04);
   transition: background-color 0.5s;
 }
+.AccentRed .Glow {
+  color: #c00000;
+  text-shadow: 0 0 10px #c00000, 0 0 20px #c00000;
+}
 .AccentRed .GlowAnim {
   color: #c00000;
   -webkit-animation: glow0deg 2s ease-in-out infinite alternate;
@@ -475,6 +503,10 @@ body h1 {
 .AccentClearSky .Shaded:hover {
   background-color: rgba(85, 255, 255, 0.04);
   transition: background-color 0.5s;
+}
+.AccentClearSky .Glow {
+  color: #55ffff;
+  text-shadow: 0 0 10px #55ffff, 0 0 20px #55ffff;
 }
 .AccentClearSky .GlowAnim {
   color: #55ffff;
