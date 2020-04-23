@@ -63,6 +63,7 @@ body {
 
   /* See general a customization above */
   a {
+    text-decoration: none;
     color: adjust_color($color, $lightness: -20%);
     transition: text-shadow 0.25s;
   }
@@ -100,6 +101,10 @@ body {
   button:hover, button:active, button:focus {
     color: adjust_color($color, $lightness: +20%);
     border: $color groove 2px;
+  }
+
+  td, th {
+    border: 2px solid $color;
   }
 
   .Shaded {

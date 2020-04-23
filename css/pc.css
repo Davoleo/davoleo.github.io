@@ -1,0 +1,21 @@
+h1 {
+    font-size: 2.5rem;
+}
+
+table {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+/* Cells Padding */
+td, th {
+    padding: 8px 0;
+}
+
+li {
+    float: left;
+    margin-right: 50px;
+}

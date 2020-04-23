@@ -49,6 +49,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentGold a {
+  text-decoration: none;
   color: #cc6600;
   transition: text-shadow 0.25s;
 }
@@ -76,6 +77,9 @@ body h1 {
 .AccentGold button:hover, .AccentGold button:active, .AccentGold button:focus {
   color: #ffcc99;
   border: #ff9933 groove 2px;
+}
+.AccentGold td, .AccentGold th {
+  border: 2px solid #ff9933;
 }
 .AccentGold .Shaded {
   transition: background-color 0.5s;
@@ -109,6 +113,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentLime a {
+  text-decoration: none;
   color: #99cc00;
   transition: text-shadow 0.25s;
 }
@@ -136,6 +141,9 @@ body h1 {
 .AccentLime button:hover, .AccentLime button:active, .AccentLime button:focus {
   color: #e6ff99;
   border: #ccff33 groove 2px;
+}
+.AccentLime td, .AccentLime th {
+  border: 2px solid #ccff33;
 }
 .AccentLime .Shaded {
   transition: background-color 0.5s;
@@ -169,6 +177,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentGreen a {
+  text-decoration: none;
   color: #006600;
   transition: text-shadow 0.25s;
 }
@@ -196,6 +205,9 @@ body h1 {
 .AccentGreen button:hover, .AccentGreen button:active, .AccentGreen button:focus {
   color: #33ff33;
   border: #00cc00 groove 2px;
+}
+.AccentGreen td, .AccentGreen th {
+  border: 2px solid #00cc00;
 }
 .AccentGreen .Shaded {
   transition: background-color 0.5s;
@@ -229,6 +241,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentAqua a {
+  text-decoration: none;
   color: #00995c;
   transition: text-shadow 0.25s;
 }
@@ -256,6 +269,9 @@ body h1 {
 .AccentAqua button:hover, .AccentAqua button:active, .AccentAqua button:focus {
   color: #66ffc2;
   border: #00ff99 groove 2px;
+}
+.AccentAqua td, .AccentAqua th {
+  border: 2px solid #00ff99;
 }
 .AccentAqua .Shaded {
   transition: background-color 0.5s;
@@ -289,6 +305,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentLightBlue a {
+  text-decoration: none;
   color: #007a99;
   transition: text-shadow 0.25s;
 }
@@ -316,6 +333,9 @@ body h1 {
 .AccentLightBlue button:hover, .AccentLightBlue button:active, .AccentLightBlue button:focus {
   color: #66e0ff;
   border: #00ccff groove 2px;
+}
+.AccentLightBlue td, .AccentLightBlue th {
+  border: 2px solid #00ccff;
 }
 .AccentLightBlue .Shaded {
   transition: background-color 0.5s;
@@ -349,6 +369,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentPink a {
+  text-decoration: none;
   color: #aa00ff;
   transition: text-shadow 0.25s;
 }
@@ -376,6 +397,9 @@ body h1 {
 .AccentPink button:hover, .AccentPink button:active, .AccentPink button:focus {
   color: #eeccff;
   border: #cc66ff groove 2px;
+}
+.AccentPink td, .AccentPink th {
+  border: 2px solid #cc66ff;
 }
 .AccentPink .Shaded {
   transition: background-color 0.5s;
@@ -409,6 +433,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentRed a {
+  text-decoration: none;
   color: #5a0000;
   transition: text-shadow 0.25s;
 }
@@ -436,6 +461,9 @@ body h1 {
 .AccentRed button:hover, .AccentRed button:active, .AccentRed button:focus {
   color: #ff2727;
   border: #c00000 groove 2px;
+}
+.AccentRed td, .AccentRed th {
+  border: 2px solid #c00000;
 }
 .AccentRed .Shaded {
   transition: background-color 0.5s;
@@ -469,6 +497,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentClearSky a {
+  text-decoration: none;
   color: #00eeee;
   transition: text-shadow 0.25s;
 }
@@ -496,6 +525,9 @@ body h1 {
 .AccentClearSky button:hover, .AccentClearSky button:active, .AccentClearSky button:focus {
   color: #bbffff;
   border: #55ffff groove 2px;
+}
+.AccentClearSky td, .AccentClearSky th {
+  border: 2px solid #55ffff;
 }
 .AccentClearSky .Shaded {
   transition: background-color 0.5s;
