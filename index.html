@@ -9,50 +9,64 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600&display=swap" rel="stylesheet">
 <!--    Material Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-<!--   Main Stylesheet + Index Stylesheet -->
+
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="css/index.css" type="text/css">
-
 </head>
 
 <body>
 
-<div class="container-fluid">
-    <div id="header-box">
+<div class="Container">
+    <header>
         <div>
-            <h1 class="display-3 Glow"> Davoleo's Virtual Hub </h1>
+            <h1 class="MainTitle Glow"> Davoleo's Virtual Hub </h1>
             <h2 id="sliding-title">Under construction</h2>
+        </div>
+    </header>
+
+    <div id="first-row">
+        <div id="desc-col">
+            <h2>Hi, I'm Davoleo</h2>
+            <p>I am an 18 years old self-taught developer who works on different kinds of projects.
+                <br>I like learning new technologies and making use of them in many projects,
+                I'm also quite passionate about science, various music genres and anime.<br>
+            </p>
+        </div>
+        <img id="img-col" src="" alt="Davoleo's Profile picture">
+        <div id="links-col">
+            <h2>Links</h2>
+            <div id="uls">
+                <ul>
+                    <li><a href="https://github.com/Davoleo">Github</a></li>
+                    <li><a href="https://anilist.co/user/Davoleo">AniList</a></li>
+                    <li><a href="https://www.curseforge.com/members/davoleo_k/projects">CurseForge</a></li>
+                    <li><a href="https://steamcommunity.com/id/D36l/">Steam</a></li>
+                    <li><a href="https://osu.ppy.sh/users/11013484">osu!</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://open.spotify.com/user/davoleo2001">Spotify</a></li>
+                    <li><a href="https://www.twitch.tv/davoleo_k">Twitch</a></li>
+                    <li><a href="https://www.reddit.com/user/Davoleo">Reddit</a></li>
+                    <li><a href="https://twitter.com/Davoleo369">Twitter</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100010133351764">Facebook</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    <div id="master-box">
-        <!--    First row of boxes -->
-        <div class="ContentBox">
-            <div class="card">
-                <img src="res/img/coding.jpg" class="card-img-top" alt="CODE">
-                <div class="card-body Shaded">
-                    <h4 class="card-title"><a href="html/projects.html">Projects</a></h4>
-                </div>
-            </div>
-            <div id="misc" class="card">
-                <img src="" class="card-img-top" alt="miscellaneous">
-                <div class="card-body Shaded">
-                    <h4 class="card-title"><a href="html/misc.html">Miscellaneous</a></h4>
-                </div>
-            </div>
-        </div>
+    <div id="second-row">
+        <a class="ButtonLink" href="html/projects.html">Projects</a>
+        <a class="ButtonLink" href="html/pc.html">PC Config</a>
+        <a class="ButtonLink" href="maps/maps.html">Maps</a>
     </div>
 
     <footer>
         <div class="Github">
-            <a href="https://github.com/Davoleo/davoleo.github.io">
-                <img src="res/img/github.svg" alt="github logo">
-            </a>
+            <a class="ButtonLink" href="https://github.com/Davoleo/davoleo.github.io"><i class="material-icons">code</i></a>
         </div>
         <p>Copyright - (c) - <a href="https://github.com/Davoleo">Davoleo</a> - 2020</p>
         <div>
-            <button id="refresh-button" onclick="location.reload()" class="btn btn-dark"><i class="material-icons">refresh</i></button>
+            <a id="refresh-button" class="ButtonLink" href="index.html"><i class="material-icons">refresh</i></a>
         </div>
     </footer>
 </div>

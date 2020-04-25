@@ -1,13 +1,10 @@
-h1 {
-    font-size: 2.5rem;
-}
-
 table {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 100%;
+    border-collapse: collapse;
 }
 
 /* Cells Padding */
