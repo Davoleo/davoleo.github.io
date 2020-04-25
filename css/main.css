@@ -1,32 +1,53 @@
 /*General -------------------------------------------*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #070707;
+  background-color: #000;
   font-family: Raleway, sans-serif;
 }
 body h1 {
   font-family: "Poiret One", sans-serif;
   text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0.5em 0;
+}
+
+img {
+  max-width: 100%;
 }
 
 /*Card Customization -------------------------------*/
-.card {
-  background-color: #070707;
-  max-width: 400px;
+.Card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.card-img-top {
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
   border-radius: 0.25rem;
+  background-color: #000;
+  max-width: 400px;
+  align-items: center;
 }
 
-.card-body {
+.CardBody {
   width: 100%;
-  padding: 15px;
+  padding: 0.75rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+.CardTitle {
+  margin-bottom: 0.75rem;
+  font-weight: normal;
 }
 
 /*Load Fonts ---------------------------------------*/
@@ -49,6 +70,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentGold a {
+  text-decoration: none;
   color: #cc6600;
   transition: text-shadow 0.25s;
 }
@@ -56,33 +78,44 @@ body h1 {
   color: #ff9933;
   text-decoration: none;
   text-shadow: 0 0 5px #994d00, 0 0 10px #994d00, 0 0 15px #994d00, 0 0 20px #994d00, 0 0 25px #994d00;
-  transition: text-shadow 0.5s;
+  transition: text-shadow 0.25s;
 }
-.AccentGold .card {
+.AccentGold img {
+  border-color: #ff9933;
+  box-shadow: 0 0 5px #cc6600, 0 0 10px #cc6600;
+}
+.AccentGold .Card {
   border: groove 2px #ff9933;
   color: #ff9933;
 }
-.AccentGold .card a {
+.AccentGold .Card a {
   color: #ff9933;
   border: transparent solid 2px;
 }
-.AccentGold .card-body {
+.AccentGold .CardBody {
   border-top: groove 2px #ff9933;
 }
-.AccentGold button, .AccentGold button:hover {
+.AccentGold table, .AccentGold td, .AccentGold th {
+  border: 2px solid #ff9933;
+}
+.AccentGold .ButtonLink {
+  display: inline-block;
+  padding: 0.5em;
   color: #ff9933;
   border: #ff9933 groove 2px;
+  border-radius: 0.25em;
+  transition: all 0.25s;
 }
-.AccentGold button:hover, .AccentGold button:active, .AccentGold button:focus {
-  color: #ffcc99;
-  border: #ff9933 groove 2px;
+.AccentGold .ButtonLink:hover, .AccentGold .ButtonLink:active, .AccentGold .ButtonLink:focus {
+  background-color: rgba(255, 153, 51, 0.15);
+  transition: background-color 0.25s;
 }
 .AccentGold .Shaded {
-  transition: background-color 0.5s;
+  transition: background-color 0.25s;
 }
 .AccentGold .Shaded:hover {
-  background-color: rgba(255, 153, 51, 0.04);
-  transition: background-color 0.5s;
+  background-color: rgba(255, 153, 51, 0.1);
+  transition: background-color 0.25s;
 }
 .AccentGold .Glow {
   color: #ff9933;
@@ -109,6 +142,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentLime a {
+  text-decoration: none;
   color: #99cc00;
   transition: text-shadow 0.25s;
 }
@@ -116,33 +150,44 @@ body h1 {
   color: #ccff33;
   text-decoration: none;
   text-shadow: 0 0 5px #739900, 0 0 10px #739900, 0 0 15px #739900, 0 0 20px #739900, 0 0 25px #739900;
-  transition: text-shadow 0.5s;
+  transition: text-shadow 0.25s;
 }
-.AccentLime .card {
+.AccentLime img {
+  border-color: #ccff33;
+  box-shadow: 0 0 5px #99cc00, 0 0 10px #99cc00;
+}
+.AccentLime .Card {
   border: groove 2px #ccff33;
   color: #ccff33;
 }
-.AccentLime .card a {
+.AccentLime .Card a {
   color: #ccff33;
   border: transparent solid 2px;
 }
-.AccentLime .card-body {
+.AccentLime .CardBody {
   border-top: groove 2px #ccff33;
 }
-.AccentLime button, .AccentLime button:hover {
+.AccentLime table, .AccentLime td, .AccentLime th {
+  border: 2px solid #ccff33;
+}
+.AccentLime .ButtonLink {
+  display: inline-block;
+  padding: 0.5em;
   color: #ccff33;
   border: #ccff33 groove 2px;
+  border-radius: 0.25em;
+  transition: all 0.25s;
 }
-.AccentLime button:hover, .AccentLime button:active, .AccentLime button:focus {
-  color: #e6ff99;
-  border: #ccff33 groove 2px;
+.AccentLime .ButtonLink:hover, .AccentLime .ButtonLink:active, .AccentLime .ButtonLink:focus {
+  background-color: rgba(204, 255, 51, 0.15);
+  transition: background-color 0.25s;
 }
 .AccentLime .Shaded {
-  transition: background-color 0.5s;
+  transition: background-color 0.25s;
 }
 .AccentLime .Shaded:hover {
-  background-color: rgba(204, 255, 51, 0.04);
-  transition: background-color 0.5s;
+  background-color: rgba(204, 255, 51, 0.1);
+  transition: background-color 0.25s;
 }
 .AccentLime .Glow {
   color: #ccff33;
@@ -169,6 +214,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentGreen a {
+  text-decoration: none;
   color: #006600;
   transition: text-shadow 0.25s;
 }
@@ -176,33 +222,44 @@ body h1 {
   color: #00cc00;
   text-decoration: none;
   text-shadow: 0 0 5px #003300, 0 0 10px #003300, 0 0 15px #003300, 0 0 20px #003300, 0 0 25px #003300;
-  transition: text-shadow 0.5s;
+  transition: text-shadow 0.25s;
 }
-.AccentGreen .card {
+.AccentGreen img {
+  border-color: #00cc00;
+  box-shadow: 0 0 5px #006600, 0 0 10px #006600;
+}
+.AccentGreen .Card {
   border: groove 2px #00cc00;
   color: #00cc00;
 }
-.AccentGreen .card a {
+.AccentGreen .Card a {
   color: #00cc00;
   border: transparent solid 2px;
 }
-.AccentGreen .card-body {
+.AccentGreen .CardBody {
   border-top: groove 2px #00cc00;
 }
-.AccentGreen button, .AccentGreen button:hover {
+.AccentGreen table, .AccentGreen td, .AccentGreen th {
+  border: 2px solid #00cc00;
+}
+.AccentGreen .ButtonLink {
+  display: inline-block;
+  padding: 0.5em;
   color: #00cc00;
   border: #00cc00 groove 2px;
+  border-radius: 0.25em;
+  transition: all 0.25s;
 }
-.AccentGreen button:hover, .AccentGreen button:active, .AccentGreen button:focus {
-  color: #33ff33;
-  border: #00cc00 groove 2px;
+.AccentGreen .ButtonLink:hover, .AccentGreen .ButtonLink:active, .AccentGreen .ButtonLink:focus {
+  background-color: rgba(0, 204, 0, 0.15);
+  transition: background-color 0.25s;
 }
 .AccentGreen .Shaded {
-  transition: background-color 0.5s;
+  transition: background-color 0.25s;
 }
 .AccentGreen .Shaded:hover {
-  background-color: rgba(0, 204, 0, 0.04);
-  transition: background-color 0.5s;
+  background-color: rgba(0, 204, 0, 0.1);
+  transition: background-color 0.25s;
 }
 .AccentGreen .Glow {
   color: #00cc00;
@@ -229,6 +286,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentAqua a {
+  text-decoration: none;
   color: #00995c;
   transition: text-shadow 0.25s;
 }
@@ -236,33 +294,44 @@ body h1 {
   color: #00ff99;
   text-decoration: none;
   text-shadow: 0 0 5px #00663d, 0 0 10px #00663d, 0 0 15px #00663d, 0 0 20px #00663d, 0 0 25px #00663d;
-  transition: text-shadow 0.5s;
+  transition: text-shadow 0.25s;
 }
-.AccentAqua .card {
+.AccentAqua img {
+  border-color: #00ff99;
+  box-shadow: 0 0 5px #00995c, 0 0 10px #00995c;
+}
+.AccentAqua .Card {
   border: groove 2px #00ff99;
   color: #00ff99;
 }
-.AccentAqua .card a {
+.AccentAqua .Card a {
   color: #00ff99;
   border: transparent solid 2px;
 }
-.AccentAqua .card-body {
+.AccentAqua .CardBody {
   border-top: groove 2px #00ff99;
 }
-.AccentAqua button, .AccentAqua button:hover {
+.AccentAqua table, .AccentAqua td, .AccentAqua th {
+  border: 2px solid #00ff99;
+}
+.AccentAqua .ButtonLink {
+  display: inline-block;
+  padding: 0.5em;
   color: #00ff99;
   border: #00ff99 groove 2px;
+  border-radius: 0.25em;
+  transition: all 0.25s;
 }
-.AccentAqua button:hover, .AccentAqua button:active, .AccentAqua button:focus {
-  color: #66ffc2;
-  border: #00ff99 groove 2px;
+.AccentAqua .ButtonLink:hover, .AccentAqua .ButtonLink:active, .AccentAqua .ButtonLink:focus {
+  background-color: rgba(0, 255, 153, 0.15);
+  transition: background-color 0.25s;
 }
 .AccentAqua .Shaded {
-  transition: background-color 0.5s;
+  transition: background-color 0.25s;
 }
 .AccentAqua .Shaded:hover {
-  background-color: rgba(0, 255, 153, 0.04);
-  transition: background-color 0.5s;
+  background-color: rgba(0, 255, 153, 0.1);
+  transition: background-color 0.25s;
 }
 .AccentAqua .Glow {
   color: #00ff99;
@@ -289,6 +358,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentLightBlue a {
+  text-decoration: none;
   color: #007a99;
   transition: text-shadow 0.25s;
 }
@@ -296,33 +366,44 @@ body h1 {
   color: #00ccff;
   text-decoration: none;
   text-shadow: 0 0 5px #005266, 0 0 10px #005266, 0 0 15px #005266, 0 0 20px #005266, 0 0 25px #005266;
-  transition: text-shadow 0.5s;
+  transition: text-shadow 0.25s;
 }
-.AccentLightBlue .card {
+.AccentLightBlue img {
+  border-color: #00ccff;
+  box-shadow: 0 0 5px #007a99, 0 0 10px #007a99;
+}
+.AccentLightBlue .Card {
   border: groove 2px #00ccff;
   color: #00ccff;
 }
-.AccentLightBlue .card a {
+.AccentLightBlue .Card a {
   color: #00ccff;
   border: transparent solid 2px;
 }
-.AccentLightBlue .card-body {
+.AccentLightBlue .CardBody {
   border-top: groove 2px #00ccff;
 }
-.AccentLightBlue button, .AccentLightBlue button:hover {
+.AccentLightBlue table, .AccentLightBlue td, .AccentLightBlue th {
+  border: 2px solid #00ccff;
+}
+.AccentLightBlue .ButtonLink {
+  display: inline-block;
+  padding: 0.5em;
   color: #00ccff;
   border: #00ccff groove 2px;
+  border-radius: 0.25em;
+  transition: all 0.25s;
 }
-.AccentLightBlue button:hover, .AccentLightBlue button:active, .AccentLightBlue button:focus {
-  color: #66e0ff;
-  border: #00ccff groove 2px;
+.AccentLightBlue .ButtonLink:hover, .AccentLightBlue .ButtonLink:active, .AccentLightBlue .ButtonLink:focus {
+  background-color: rgba(0, 204, 255, 0.15);
+  transition: background-color 0.25s;
 }
 .AccentLightBlue .Shaded {
-  transition: background-color 0.5s;
+  transition: background-color 0.25s;
 }
 .AccentLightBlue .Shaded:hover {
-  background-color: rgba(0, 204, 255, 0.04);
-  transition: background-color 0.5s;
+  background-color: rgba(0, 204, 255, 0.1);
+  transition: background-color 0.25s;
 }
 .AccentLightBlue .Glow {
   color: #00ccff;
@@ -349,6 +430,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentPink a {
+  text-decoration: none;
   color: #aa00ff;
   transition: text-shadow 0.25s;
 }
@@ -356,33 +438,44 @@ body h1 {
   color: #cc66ff;
   text-decoration: none;
   text-shadow: 0 0 5px #8800cc, 0 0 10px #8800cc, 0 0 15px #8800cc, 0 0 20px #8800cc, 0 0 25px #8800cc;
-  transition: text-shadow 0.5s;
+  transition: text-shadow 0.25s;
 }
-.AccentPink .card {
+.AccentPink img {
+  border-color: #cc66ff;
+  box-shadow: 0 0 5px #aa00ff, 0 0 10px #aa00ff;
+}
+.AccentPink .Card {
   border: groove 2px #cc66ff;
   color: #cc66ff;
 }
-.AccentPink .card a {
+.AccentPink .Card a {
   color: #cc66ff;
   border: transparent solid 2px;
 }
-.AccentPink .card-body {
+.AccentPink .CardBody {
   border-top: groove 2px #cc66ff;
 }
-.AccentPink button, .AccentPink button:hover {
+.AccentPink table, .AccentPink td, .AccentPink th {
+  border: 2px solid #cc66ff;
+}
+.AccentPink .ButtonLink {
+  display: inline-block;
+  padding: 0.5em;
   color: #cc66ff;
   border: #cc66ff groove 2px;
+  border-radius: 0.25em;
+  transition: all 0.25s;
 }
-.AccentPink button:hover, .AccentPink button:active, .AccentPink button:focus {
-  color: #eeccff;
-  border: #cc66ff groove 2px;
+.AccentPink .ButtonLink:hover, .AccentPink .ButtonLink:active, .AccentPink .ButtonLink:focus {
+  background-color: rgba(204, 102, 255, 0.15);
+  transition: background-color 0.25s;
 }
 .AccentPink .Shaded {
-  transition: background-color 0.5s;
+  transition: background-color 0.25s;
 }
 .AccentPink .Shaded:hover {
-  background-color: rgba(204, 102, 255, 0.04);
-  transition: background-color 0.5s;
+  background-color: rgba(204, 102, 255, 0.1);
+  transition: background-color 0.25s;
 }
 .AccentPink .Glow {
   color: #cc66ff;
@@ -409,6 +502,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentRed a {
+  text-decoration: none;
   color: #5a0000;
   transition: text-shadow 0.25s;
 }
@@ -416,33 +510,44 @@ body h1 {
   color: #c00000;
   text-decoration: none;
   text-shadow: 0 0 5px #270000, 0 0 10px #270000, 0 0 15px #270000, 0 0 20px #270000, 0 0 25px #270000;
-  transition: text-shadow 0.5s;
+  transition: text-shadow 0.25s;
 }
-.AccentRed .card {
+.AccentRed img {
+  border-color: #c00000;
+  box-shadow: 0 0 5px #5a0000, 0 0 10px #5a0000;
+}
+.AccentRed .Card {
   border: groove 2px #c00000;
   color: #c00000;
 }
-.AccentRed .card a {
+.AccentRed .Card a {
   color: #c00000;
   border: transparent solid 2px;
 }
-.AccentRed .card-body {
+.AccentRed .CardBody {
   border-top: groove 2px #c00000;
 }
-.AccentRed button, .AccentRed button:hover {
+.AccentRed table, .AccentRed td, .AccentRed th {
+  border: 2px solid #c00000;
+}
+.AccentRed .ButtonLink {
+  display: inline-block;
+  padding: 0.5em;
   color: #c00000;
   border: #c00000 groove 2px;
+  border-radius: 0.25em;
+  transition: all 0.25s;
 }
-.AccentRed button:hover, .AccentRed button:active, .AccentRed button:focus {
-  color: #ff2727;
-  border: #c00000 groove 2px;
+.AccentRed .ButtonLink:hover, .AccentRed .ButtonLink:active, .AccentRed .ButtonLink:focus {
+  background-color: rgba(192, 0, 0, 0.15);
+  transition: background-color 0.25s;
 }
 .AccentRed .Shaded {
-  transition: background-color 0.5s;
+  transition: background-color 0.25s;
 }
 .AccentRed .Shaded:hover {
-  background-color: rgba(192, 0, 0, 0.04);
-  transition: background-color 0.5s;
+  background-color: rgba(192, 0, 0, 0.1);
+  transition: background-color 0.25s;
 }
 .AccentRed .Glow {
   color: #c00000;
@@ -469,6 +574,7 @@ body h1 {
   /* Animated  Glow */
 }
 .AccentClearSky a {
+  text-decoration: none;
   color: #00eeee;
   transition: text-shadow 0.25s;
 }
@@ -476,33 +582,44 @@ body h1 {
   color: #55ffff;
   text-decoration: none;
   text-shadow: 0 0 5px #00bbbb, 0 0 10px #00bbbb, 0 0 15px #00bbbb, 0 0 20px #00bbbb, 0 0 25px #00bbbb;
-  transition: text-shadow 0.5s;
+  transition: text-shadow 0.25s;
 }
-.AccentClearSky .card {
+.AccentClearSky img {
+  border-color: #55ffff;
+  box-shadow: 0 0 5px #00eeee, 0 0 10px #00eeee;
+}
+.AccentClearSky .Card {
   border: groove 2px #55ffff;
   color: #55ffff;
 }
-.AccentClearSky .card a {
+.AccentClearSky .Card a {
   color: #55ffff;
   border: transparent solid 2px;
 }
-.AccentClearSky .card-body {
+.AccentClearSky .CardBody {
   border-top: groove 2px #55ffff;
 }
-.AccentClearSky button, .AccentClearSky button:hover {
+.AccentClearSky table, .AccentClearSky td, .AccentClearSky th {
+  border: 2px solid #55ffff;
+}
+.AccentClearSky .ButtonLink {
+  display: inline-block;
+  padding: 0.5em;
   color: #55ffff;
   border: #55ffff groove 2px;
+  border-radius: 0.25em;
+  transition: all 0.25s;
 }
-.AccentClearSky button:hover, .AccentClearSky button:active, .AccentClearSky button:focus {
-  color: #bbffff;
-  border: #55ffff groove 2px;
+.AccentClearSky .ButtonLink:hover, .AccentClearSky .ButtonLink:active, .AccentClearSky .ButtonLink:focus {
+  background-color: rgba(85, 255, 255, 0.15);
+  transition: background-color 0.25s;
 }
 .AccentClearSky .Shaded {
-  transition: background-color 0.5s;
+  transition: background-color 0.25s;
 }
 .AccentClearSky .Shaded:hover {
-  background-color: rgba(85, 255, 255, 0.04);
-  transition: background-color 0.5s;
+  background-color: rgba(85, 255, 255, 0.1);
+  transition: background-color 0.25s;
 }
 .AccentClearSky .Glow {
   color: #55ffff;

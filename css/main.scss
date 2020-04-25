@@ -8,37 +8,61 @@ $red: #c00000;
 $clearSky: #55ffff;
 
 /*General -------------------------------------------*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #070707;
+  background-color: #000;
   font-family: Raleway, sans-serif;
 
   h1 {
     font-family: 'Poiret One', sans-serif;
     text-align: center;
+
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0.5em 0;
   }
 }
 
+img {
+  max-width: 100%;
+}
+
 /*Card Customization -------------------------------*/
-.card {
-  background-color: #070707;
+.Card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+
+  background-color: #000;
   max-width: 400px;
 
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
-.card-img-top {
-  border-radius: 0.25rem;
-}
-
-.card-body {
+.CardBody {
   width: 100%;
-  padding: 15px;
+  padding: 0.75rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+.CardTitle {
+  margin-bottom: 0.75rem;
+  font-weight: normal;
 }
 
 /*Load Fonts ---------------------------------------*/
@@ -63,6 +87,7 @@ body {
 
   /* See general a customization above */
   a {
+    text-decoration: none;
     color: adjust_color($color, $lightness: -20%);
     transition: text-shadow 0.25s;
   }
@@ -76,10 +101,15 @@ body {
             0 0 15px adjust_color($color, $lightness: -30%),
             0 0 20px adjust_color($color, $lightness: -30%),
             0 0 25px adjust_color($color, $lightness: -30%);
-    transition: text-shadow 0.5s;
+    transition: text-shadow 0.25s;
   }
 
-  .card {
+  img {
+    border-color: $color;
+    box-shadow: 0 0 5px adjust_color($color, $lightness: -20%), 0 0 10px adjust_color($color, $lightness: -20%);
+  }
+
+  .Card {
     border: groove 2px $color;
     color: $color;
     a {
@@ -88,27 +118,37 @@ body {
     }
   }
 
-  .card-body {
+  .CardBody {
     border-top: groove 2px $color;
   }
 
-  button, button:hover {
-    color: $color;
-    border: $color groove 2px;
+  table, td, th {
+    border: 2px solid $color;
   }
 
-  button:hover, button:active, button:focus {
-    color: adjust_color($color, $lightness: +20%);
+  .ButtonLink {
+    display: inline-block;
+    padding: 0.5em;
+
+    color: $color;
     border: $color groove 2px;
+    border-radius: 0.25em;
+
+    transition: all 0.25s;
+  }
+
+  .ButtonLink:hover, .ButtonLink:active, .ButtonLink:focus {
+    background-color: adjust_color($color, $alpha: -0.85);
+    transition: background-color 0.25s;
   }
 
   .Shaded {
-    transition: background-color 0.5s;
+    transition: background-color 0.25s;
   }
 
   .Shaded:hover {
-    background-color: adjust_color($color, $alpha: -0.96);
-    transition: background-color 0.5s;
+    background-color: adjust_color($color, $alpha: -0.90);
+    transition: background-color 0.25s;
   }
 
   .Glow {

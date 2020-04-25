@@ -5,15 +5,11 @@
   justify-content: space-evenly;
 }
 
-.card-title {
-  font-weight: normal;
-}
-
-.card-text {
+.CardText {
   margin: 10px;
 }
 
-.card-button-container {
+.CardButtonContainer {
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -21,11 +17,11 @@
   border-top: 1px solid;
   padding-top: 5px;
 }
-.card-button-container a {
+.CardButtonContainer a {
   padding: 3px 5px;
   font-size: x-large;
 }
-.card-button-container a:hover {
+.CardButtonContainer a:hover {
   text-decoration: none;
 }
 

@@ -1,10 +1,23 @@
 /* Homepage */
-/*Sliding Title ------------------------------*/
+/* Generic Rules */
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.Container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Sliding SubTitle */
 #sliding-title {
   display: inline-block;
   position: relative;
   animation: slide 12s infinite linear;
   white-space: nowrap;
+  font-weight: normal;
 }
 
 @keyframes slide {
@@ -15,42 +28,58 @@
     left: -400px;
   }
 }
-body {
-  overflow-x: hidden;
+header {
+  flex: 1;
 }
 
-.container-fluid {
-  height: 100vh;
+#first-row {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#desc-col {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  width: 30%;
+  align-self: center;
 }
 
-.card-body {
-  flex-direction: column;
-  justify-content: center;
-  padding: 0;
+#img-col {
+  width: 15%;
+  border-radius: 999px;
+  border: 3px solid;
+  align-self: center;
 }
 
-h4.card-title {
-  margin-bottom: 0;
-  width: 100%;
-  height: 100%;
+#links-col {
+  width: 30%;
 }
-h4.card-title a {
+#links-col li {
+  padding-top: 0.75em;
+  font-size: 1.25rem;
+}
+#links-col ul {
+  width: 10em;
+  margin-right: 0;
+}
+
+#uls {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  font-weight: normal;
-  border-radius: 5px;
-  font-size: 3rem;
-  padding: 10px;
+  flex-direction: row;
 }
-h4.card-title a:hover {
-  text-decoration: none;
+
+#second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 8em 0;
+}
+#second-row a {
+  font-size: 2rem;
 }
 
 footer {
@@ -63,40 +92,22 @@ footer {
   font-size: 1.25rem;
 }
 
-footer img {
-  width: 50px;
-}
-
-#header-box {
-  flex: 1;
-}
-
-#master-box {
-  flex: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.ContentBox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-footer button.btn {
+footer button {
   background-color: transparent;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
 }
 
-button:focus.btn, button:active.btn {
-  outline: none !important;
+button:focus, button:active {
+  outline: none;
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   -o-box-shadow: none;
 }
 
+/* Adapt on smaller screen sizes */
 @media all and (max-width: 800px) {
   .card {
     margin-top: 50px;
