@@ -1,1 +1,5 @@
+# IDEA Project Folder
 .idea/
+
+# npm deps
+node_modules/
