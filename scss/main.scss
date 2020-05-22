@@ -164,7 +164,7 @@ img {
     animation: glow#{hue($color)} 2s ease-in-out infinite alternate;
   }
 
-  @-webkit-keyframes glow#{hue($color)} {
+  @keyframes glow#{hue($color)} {
     from {
       text-shadow:
               0 0 5px adjust_color($color, $lightness: -30%),

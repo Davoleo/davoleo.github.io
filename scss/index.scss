@@ -42,7 +42,6 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 #desc-col {
@@ -64,11 +63,6 @@ header {
   li {
     padding-top: 0.75em;
     font-size: 1.25rem;
-  }
-
-  ul {
-    width: 10em;
-    margin-right: 0;
   }
 }
 
@@ -125,10 +119,37 @@ button:focus, button:active {
   .Github {
     display: none;
   }
+
+  #first-row {
+    flex-direction: column;
+  }
+
+  #img-col {
+    width: 50%;
+  }
+
+  #desc-col, #links-col {
+    width: 100%;
+  }
+
+  #desc-col, #links-col, #img-col {
+    margin-top: 2em;
+  }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 430px) {
   #refresh-button {
     display: none;
+  }
+
+  #second-row {
+    /* Decrease the top and bottom margin */
+    margin: 4em 0;
+    flex-direction: column;
+    align-items: center;
+
+    .ButtonLink + .ButtonLink {
+      margin-top: 1em;
+    }
   }
 }

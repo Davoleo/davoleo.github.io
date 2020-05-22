@@ -3,10 +3,15 @@
   flex-direction: row;
   margin-top: 50px;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .CardText {
   margin: 10px;
+}
+
+.Card {
+  margin: 1em;
 }
 
 .CardButtonContainer {
