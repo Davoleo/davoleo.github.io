@@ -394,60 +394,60 @@ img {
     text-shadow: 0 0 10px #b31aff, 0 0 15px #b31aff, 0 0 20px #b31aff, 0 0 25px #b31aff, 0 0 30px #b31aff; } }
 
 .AccentRed {
-  color: #c00000;
+  color: #ce2d2d;
   /* See general a customization above */
   /* Animated  Glow */ }
   .AccentRed a {
     text-decoration: none;
-    color: #5a0000;
+    color: #7a1b1b;
     transition: text-shadow 0.25s; }
   .AccentRed a:hover {
-    color: #c00000;
+    color: #ce2d2d;
     text-decoration: none;
-    text-shadow: 0 0 5px #270000, 0 0 10px #270000, 0 0 15px #270000, 0 0 20px #270000, 0 0 25px #270000;
+    text-shadow: 0 0 5px #501212, 0 0 10px #501212, 0 0 15px #501212, 0 0 20px #501212, 0 0 25px #501212;
     transition: text-shadow 0.25s; }
   .AccentRed img {
-    border-color: #c00000;
-    box-shadow: 0 0 5px #5a0000, 0 0 10px #5a0000; }
+    border-color: #ce2d2d;
+    box-shadow: 0 0 5px #7a1b1b, 0 0 10px #7a1b1b; }
   .AccentRed .Card {
-    border: groove 2px #c00000;
-    color: #c00000; }
+    border: groove 2px #ce2d2d;
+    color: #ce2d2d; }
     .AccentRed .Card a {
-      color: #c00000;
+      color: #ce2d2d;
       border: transparent solid 2px; }
   .AccentRed .CardBody {
-    border-top: groove 2px #c00000; }
+    border-top: groove 2px #ce2d2d; }
   .AccentRed table, .AccentRed td, .AccentRed th {
-    border: 2px solid #c00000; }
+    border: 2px solid #ce2d2d; }
   .AccentRed .ButtonLink {
     display: inline-block;
     padding: 0.5em;
-    color: #c00000;
-    border: #c00000 groove 2px;
+    color: #ce2d2d;
+    border: #ce2d2d groove 2px;
     border-radius: 0.25em;
     transition: all 0.25s; }
   .AccentRed .ButtonLink:hover, .AccentRed .ButtonLink:active, .AccentRed .ButtonLink:focus {
-    background-color: rgba(192, 0, 0, 0.15);
+    background-color: rgba(206, 45, 45, 0.15);
     transition: background-color 0.25s; }
   .AccentRed .Shaded {
     transition: background-color 0.25s; }
   .AccentRed .Shaded:hover {
-    background-color: rgba(192, 0, 0, 0.1);
+    background-color: rgba(206, 45, 45, 0.1);
     transition: background-color 0.25s; }
   .AccentRed .Glow {
-    color: #c00000;
-    text-shadow: 0 0 10px #c00000, 0 0 20px #c00000; }
+    color: #ce2d2d;
+    text-shadow: 0 0 10px #ce2d2d, 0 0 20px #ce2d2d; }
   .AccentRed .GlowAnim {
-    color: #c00000;
+    color: #ce2d2d;
     -webkit-animation: glow0deg 2s ease-in-out infinite alternate;
     -moz-animation: glow0deg 2s ease-in-out infinite alternate;
     animation: glow0deg 2s ease-in-out infinite alternate; }
 
 @keyframes glow0deg {
   from {
-    text-shadow: 0 0 5px #270000, 0 0 10px #270000, 0 0 15px #270000, 0 0 20px #270000, 0 0 25px #270000; }
+    text-shadow: 0 0 5px #501212, 0 0 10px #501212, 0 0 15px #501212, 0 0 20px #501212, 0 0 25px #501212; }
   to {
-    text-shadow: 0 0 10px #740000, 0 0 15px #740000, 0 0 20px #740000, 0 0 25px #740000, 0 0 30px #740000; } }
+    text-shadow: 0 0 10px #8f1f1f, 0 0 15px #8f1f1f, 0 0 20px #8f1f1f, 0 0 25px #8f1f1f, 0 0 30px #8f1f1f; } }
 
 .AccentClearSky {
   color: #55ffff;
