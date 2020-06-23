@@ -32,7 +32,7 @@ img {
 }
 
 /*Card Customization -------------------------------*/
-.Card {
+.card {
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -46,7 +46,7 @@ img {
   align-items: center;
 }
 
-.CardBody {
+.card-body {
   width: 100%;
   padding: 0.75rem;
 
@@ -60,7 +60,7 @@ img {
   flex-basis: 100%;
 }
 
-.CardTitle {
+.card-title {
   margin-bottom: 0.75rem;
   font-weight: normal;
 }
@@ -109,7 +109,7 @@ img {
     box-shadow: 0 0 5px adjust_color($color, $lightness: -20%), 0 0 10px adjust_color($color, $lightness: -20%);
   }
 
-  .Card {
+  .card {
     border: groove 2px $color;
     color: $color;
     a {
@@ -118,7 +118,7 @@ img {
     }
   }
 
-  .CardBody {
+  .card-body {
     border-top: groove 2px $color;
   }
 
@@ -126,7 +126,7 @@ img {
     border: 2px solid $color;
   }
 
-  .ButtonLink {
+  .button-link {
     display: inline-block;
     padding: 0.5em;
 
@@ -137,27 +137,27 @@ img {
     transition: all 0.25s;
   }
 
-  .ButtonLink:hover, .ButtonLink:active, .ButtonLink:focus {
+  .button-link:hover, .button-link:active, .button-link:focus {
     background-color: adjust_color($color, $alpha: -0.85);
     transition: background-color 0.25s;
   }
 
-  .Shaded {
+  .shaded {
     transition: background-color 0.25s;
   }
 
-  .Shaded:hover {
+  .shaded:hover {
     background-color: adjust_color($color, $alpha: -0.90);
     transition: background-color 0.25s;
   }
 
-  .Glow {
+  .glow {
     color: $color;
     text-shadow: 0 0 10px $color, 0 0 20px $color;
   }
 
   /* Animated  Glow */
-  .GlowAnim {
+  .glow-anim {
     color: $color;
     -webkit-animation: glow#{hue($color)} 2s ease-in-out infinite alternate;
     -moz-animation: glow#{hue($color)} 2s ease-in-out infinite alternate;
@@ -184,34 +184,34 @@ img {
   }
 }
 
-.AccentGold {
+.accent-gold {
   @include apply-accent-color($gold);
 }
 
-.AccentLime {
+.accent-lime {
   @include apply-accent-color($lime);
 }
 
-.AccentGreen {
+.accent-green {
   @include apply-accent-color($green);
 }
 
-.AccentAqua {
+.accent-aqua {
   @include apply-accent-color($aqua);
 }
 
-.AccentLightBlue {
+.accent-light-blue {
   @include apply-accent-color($lightBlue);
 }
 
-.AccentPink {
+.accent-pink {
   @include apply-accent-color($pink);
 }
 
-.AccentRed {
+.accent-red {
   @include apply-accent-color($red);
 }
 
-.AccentClearSky {
+.accent-clear-sky {
   @include apply-accent-color($clearSky);
 }

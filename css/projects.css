@@ -1,25 +1,25 @@
-#projectsContainer {
+#projects_container {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
   justify-content: space-evenly;
   flex-wrap: wrap; }
 
-.CardText {
+.card-text {
   margin: 10px; }
 
-.Card {
+.card {
   margin: 1em; }
 
-.CardButtonContainer {
+.card-button-container {
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: space-around;
   border-top: 1px solid;
   padding-top: 5px; }
-  .CardButtonContainer a {
+  .card-button-container a {
     padding: 3px 5px;
     font-size: x-large; }
-  .CardButtonContainer a:hover {
+  .card-button-container a:hover {
     text-decoration: none; }

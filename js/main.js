@@ -1,12 +1,12 @@
 let accentColors = [
-    "Gold",
-    "Lime",
-    "Green",
-    "Aqua",
-    "LightBlue",
-    "Pink",
-    "Red",
-    "ClearSky"
+    "gold",
+    "lime",
+    "green",
+    "aqua",
+    "light-blue",
+    "pink",
+    "red",
+    "clear-sky"
 ];
 
 function generateRandomNumber(bound) {
@@ -15,7 +15,7 @@ function generateRandomNumber(bound) {
 
 function setRandomAccent() {
     let accent = generateRandomNumber(accentColors.length);
-    document.body.classList.add("Accent" + accentColors[accent]);
+    document.body.classList.add("accent-" + accentColors[accent]);
 }
 
 setRandomAccent();

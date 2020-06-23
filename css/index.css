@@ -4,13 +4,13 @@ body {
   overflow-x: hidden;
   margin: 0; }
 
-.Container {
+.container {
   height: 100vh;
   display: flex;
   flex-direction: column; }
 
 /*Sliding SubTitle */
-#sliding-title {
+#sliding_title {
   display: inline-block;
   position: relative;
   animation: slide 12s infinite linear;
@@ -26,28 +26,28 @@ body {
 header {
   flex: 1; }
 
-#first-row {
+#first_row {
   width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
 
-#desc-col {
+#desc_col {
   display: flex;
   flex-direction: column;
   width: 30%;
   align-self: center; }
 
-#img-col {
+#img_col {
   width: 15%;
   border-radius: 999px;
   border: 3px solid;
   align-self: center; }
 
-#links-col {
+#links_col {
   width: 30%; }
-  #links-col li {
+  #links_col li {
     padding-top: 0.75em;
     font-size: 1.25rem; }
 
@@ -55,12 +55,12 @@ header {
   display: flex;
   flex-direction: row; }
 
-#second-row {
+#second_row {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin: 8em 0; }
-  #second-row a {
+  #second_row a {
     font-size: 2rem; }
 
 footer {
@@ -70,7 +70,8 @@ footer {
   align-items: flex-end;
   flex: 1;
   margin-top: auto;
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+  padding: 0.5em; }
 
 footer button {
   background-color: transparent;
@@ -90,24 +91,24 @@ button:focus, button:active {
   .card {
     margin-top: 50px;
     margin-bottom: 50px; }
-  .Github {
+  .github {
     display: none; }
-  #first-row {
+  #first_row {
     flex-direction: column; }
-  #img-col {
+  #img_col {
     width: 50%; }
-  #desc-col, #links-col {
+  #desc_col, #links_col {
     width: 100%; }
-  #desc-col, #links-col, #img-col {
+  #desc_col, #links_col, #img_col {
     margin-top: 2em; } }
 
 @media all and (max-width: 430px) {
-  #refresh-button {
+  #refresh_button {
     display: none; }
-  #second-row {
+  #second_row {
     /* Decrease the top and bottom margin */
     margin: 4em 0;
     flex-direction: column;
     align-items: center; }
-    #second-row .ButtonLink + .ButtonLink {
+    #second_row .button-link + .button-link {
       margin-top: 1em; } }

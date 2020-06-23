@@ -32,7 +32,7 @@ let miscImages = [
 
 function setRandomImage() {
     let miscImageLink = generateRandomNumber(miscImages.length);
-    document.getElementById("img-col").setAttribute("src", miscImages[miscImageLink]);
+    document.getElementById("img_col").setAttribute("src", miscImages[miscImageLink]);
 }
 
 setRandomImage();
