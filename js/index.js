@@ -14,7 +14,6 @@ let miscImages = [
     "res/img/pp/haruhi_suzumiya_1.gif",
     "res/img/pp/id_invaded.gif",
     "res/img/pp/L.jpg",
-    "res/img/pp/leonardo-watch-1.gif",
     "res/img/pp/leonardo-watch-2.gif",
     "res/img/pp/new-game.gif",
     "res/img/pp/rouxls-kaard.png",
