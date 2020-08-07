@@ -60,6 +60,10 @@ img {
   max-width: 100%;
 }
 
+iframe {
+  border: none;
+}
+
 /********************
 2: Components
 *********************/
@@ -127,8 +131,16 @@ img {
     box-shadow: 0 0 5px adjust_color($color, $lightness: -20%), 0 0 10px adjust_color($color, $lightness: -20%);
   }
 
-  table, td, th {
+  div {
+    border-color: $color;
+  }
+
+  table, th {
     border: 2px solid $color;
+  }
+
+  td {
+    border: 1px solid $color;
   }
 
   /* 3.2: Component Accent Rules */
