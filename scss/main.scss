@@ -1,11 +1,11 @@
 $gold: #ff9933;
-$lime: #ccff33;
+$lime: #b9e635;
 $green: #00cc00;
 $aqua: #00ff99;
 $lightBlue: #00ccff;
-$pink: #cc66ff;
-$red: #ce2d2d; //TODO #dd4444
-$clearSky: #55ffff;
+$pink: #c85bff;
+$red: #ec3030;
+$clearSky: #41ffff;
 
 /**********************
 Table of Contents:
@@ -42,6 +42,7 @@ Table of Contents:
 }
 
 body {
+  //03030a
   background-color: #000;
   font-family: Raleway, sans-serif;
 
@@ -114,12 +115,16 @@ img {
     color: $color;
     text-decoration: none;
     text-shadow:
-            0 0 5px adjust_color($color, $lightness: -30%),
-            0 0 10px adjust_color($color, $lightness: -30%),
-            0 0 15px adjust_color($color, $lightness: -30%),
-            0 0 20px adjust_color($color, $lightness: -30%),
-            0 0 25px adjust_color($color, $lightness: -30%);
+            0 0 5px adjust_color($color, $lightness: -20%),
+            0 0 10px adjust_color($color, $lightness: -20%),
+            0 0 15px adjust_color($color, $lightness: -20%),
+            0 0 20px adjust_color($color, $lightness: -20%),
+            0 0 25px adjust_color($color, $lightness: -20%);
     transition: text-shadow 0.25s;
+  }
+
+  p {
+    color: adjust-color($color, $lightness: -10%);
   }
 
   img {
