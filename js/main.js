@@ -14,7 +14,7 @@ function generateRandomNumber(bound) {
 }
 
 function setRandomAccent() {
-    let accent = generateRandomNumber(accentColors.length);
+    const accent = generateRandomNumber(accentColors.length);
     document.body.classList.add("accent-" + accentColors[accent]);
 }
 

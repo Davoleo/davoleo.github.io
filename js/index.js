@@ -2,7 +2,7 @@
  *  Coded By Davoleo
  ********************/
 
-let miscImages = [
+const miscImages = [
     "res/img/pp/black_bullet.gif",
     "res/img/pp/circle-corner-brackets.png",
     "res/img/pp/circle-dl.png",
@@ -23,9 +23,24 @@ let miscImages = [
     "res/img/pp/steins;gate0.gif",
 ];
 
+const quotes = [
+    "The meaning of life, the universe and everything: 42",
+    "Material Design huh, what does it mean?",
+    "Always Under Construction!",
+    "<em>PogChamp</em>",
+    "Beep Boop ~ Welcome User!",
+    ">_<"
+]
+
 function setRandomImage() {
-    let miscImageLink = generateRandomNumber(miscImages.length);
+    const miscImageLink = generateRandomNumber(miscImages.length);
     document.getElementById("img_col").setAttribute("src", miscImages[miscImageLink]);
 }
 
+function setRandomQuote() {
+    const quoteId = generateRandomNumber(quotes.length);
+    document.getElementById("sliding_title").innerHTML = quotes[quoteId];
+}
+
 setRandomImage();
+setRandomQuote();
