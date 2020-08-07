@@ -93,8 +93,12 @@ img {
   .accent-gold img {
     border-color: #ff9933;
     box-shadow: 0 0 5px #cc6600, 0 0 10px #cc6600; }
-  .accent-gold table, .accent-gold td, .accent-gold th {
+  .accent-gold div {
+    border-color: #ff9933; }
+  .accent-gold table, .accent-gold th {
     border: 2px solid #ff9933; }
+  .accent-gold td {
+    border: 1px solid #ff9933; }
   .accent-gold .card {
     border: groove 2px #ff9933;
     color: #ff9933; }
@@ -150,8 +154,12 @@ img {
   .accent-lime img {
     border-color: #ccff33;
     box-shadow: 0 0 5px #99cc00, 0 0 10px #99cc00; }
-  .accent-lime table, .accent-lime td, .accent-lime th {
+  .accent-lime div {
+    border-color: #ccff33; }
+  .accent-lime table, .accent-lime th {
     border: 2px solid #ccff33; }
+  .accent-lime td {
+    border: 1px solid #ccff33; }
   .accent-lime .card {
     border: groove 2px #ccff33;
     color: #ccff33; }
@@ -207,8 +215,12 @@ img {
   .accent-green img {
     border-color: #00cc00;
     box-shadow: 0 0 5px #006600, 0 0 10px #006600; }
-  .accent-green table, .accent-green td, .accent-green th {
+  .accent-green div {
+    border-color: #00cc00; }
+  .accent-green table, .accent-green th {
     border: 2px solid #00cc00; }
+  .accent-green td {
+    border: 1px solid #00cc00; }
   .accent-green .card {
     border: groove 2px #00cc00;
     color: #00cc00; }
@@ -264,8 +276,12 @@ img {
   .accent-aqua img {
     border-color: #00ff99;
     box-shadow: 0 0 5px #00995c, 0 0 10px #00995c; }
-  .accent-aqua table, .accent-aqua td, .accent-aqua th {
+  .accent-aqua div {
+    border-color: #00ff99; }
+  .accent-aqua table, .accent-aqua th {
     border: 2px solid #00ff99; }
+  .accent-aqua td {
+    border: 1px solid #00ff99; }
   .accent-aqua .card {
     border: groove 2px #00ff99;
     color: #00ff99; }
@@ -321,8 +337,12 @@ img {
   .accent-light-blue img {
     border-color: #00ccff;
     box-shadow: 0 0 5px #007a99, 0 0 10px #007a99; }
-  .accent-light-blue table, .accent-light-blue td, .accent-light-blue th {
+  .accent-light-blue div {
+    border-color: #00ccff; }
+  .accent-light-blue table, .accent-light-blue th {
     border: 2px solid #00ccff; }
+  .accent-light-blue td {
+    border: 1px solid #00ccff; }
   .accent-light-blue .card {
     border: groove 2px #00ccff;
     color: #00ccff; }
@@ -378,8 +398,12 @@ img {
   .accent-pink img {
     border-color: #cc66ff;
     box-shadow: 0 0 5px #aa00ff, 0 0 10px #aa00ff; }
-  .accent-pink table, .accent-pink td, .accent-pink th {
+  .accent-pink div {
+    border-color: #cc66ff; }
+  .accent-pink table, .accent-pink th {
     border: 2px solid #cc66ff; }
+  .accent-pink td {
+    border: 1px solid #cc66ff; }
   .accent-pink .card {
     border: groove 2px #cc66ff;
     color: #cc66ff; }
@@ -435,8 +459,12 @@ img {
   .accent-red img {
     border-color: #ce2d2d;
     box-shadow: 0 0 5px #7a1b1b, 0 0 10px #7a1b1b; }
-  .accent-red table, .accent-red td, .accent-red th {
+  .accent-red div {
+    border-color: #ce2d2d; }
+  .accent-red table, .accent-red th {
     border: 2px solid #ce2d2d; }
+  .accent-red td {
+    border: 1px solid #ce2d2d; }
   .accent-red .card {
     border: groove 2px #ce2d2d;
     color: #ce2d2d; }
@@ -492,8 +520,12 @@ img {
   .accent-clear-sky img {
     border-color: #55ffff;
     box-shadow: 0 0 5px #00eeee, 0 0 10px #00eeee; }
-  .accent-clear-sky table, .accent-clear-sky td, .accent-clear-sky th {
+  .accent-clear-sky div {
+    border-color: #55ffff; }
+  .accent-clear-sky table, .accent-clear-sky th {
     border: 2px solid #55ffff; }
+  .accent-clear-sky td {
+    border: 1px solid #55ffff; }
   .accent-clear-sky .card {
     border: groove 2px #55ffff;
     color: #55ffff; }

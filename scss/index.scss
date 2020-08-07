@@ -95,6 +95,8 @@ footer {
   animation: slide 12s infinite linear;
   white-space: nowrap;
   font-weight: normal;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 @keyframes slide
@@ -105,6 +107,11 @@ footer {
   to {
     left: -400px;
   }
+}
+
+#sliding_title_wrapper {
+  border-top: dotted 4px;
+  border-bottom: dotted 4px;
 }
 
 #uls {
@@ -148,6 +155,10 @@ footer {
 
   #desc_col, #links_col, #img_col {
     margin-top: 2em;
+  }
+
+  #uls {
+    justify-content: space-between;
   }
 }
 

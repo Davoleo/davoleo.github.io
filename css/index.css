@@ -78,13 +78,19 @@ footer {
   position: relative;
   animation: slide 12s infinite linear;
   white-space: nowrap;
-  font-weight: normal; }
+  font-weight: normal;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
 
 @keyframes slide {
   from {
     left: 100%; }
   to {
     left: -400px; } }
+
+#sliding_title_wrapper {
+  border-top: dotted 4px;
+  border-bottom: dotted 4px; }
 
 #uls {
   display: flex;
@@ -113,7 +119,9 @@ footer {
   #desc_col, #links_col {
     width: 100%; }
   #desc_col, #links_col, #img_col {
-    margin-top: 2em; } }
+    margin-top: 2em; }
+  #uls {
+    justify-content: space-between; } }
 
 /* 4.2: Small Screens */
 @media all and (max-width: 430px) {
