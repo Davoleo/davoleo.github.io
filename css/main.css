@@ -1,6 +1,31 @@
-/*General -------------------------------------------*/
+/**********************
+Table of Contents:
+
+1: Global Rules
+2: Components
+3: Color Accent
+  3.1: Global Accent Rules
+  3.2: Component Accent Rules
+  3.3: Special Effects
+4: Color Accent Classes
+*************************/
+/********************
+1: Global Rules
+*********************/
 *, *::before, *::after {
   box-sizing: border-box; }
+
+@font-face {
+  font-family: "Poiret One";
+  src: url("../res/font/PoiretOne-Regular.ttf"); }
+
+@font-face {
+  font-family: "Gruppo";
+  src: url("../res/font/Gruppo-Regular.ttf"); }
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../res/font/JetBrainsMono-Regular.ttf"); }
 
 body {
   background-color: #000;
@@ -16,7 +41,9 @@ body {
 img {
   max-width: 100%; }
 
-/*Card Customization -------------------------------*/
+/********************
+2: Components
+*********************/
 .card {
   display: flex;
   flex-direction: column;
@@ -43,29 +70,22 @@ img {
   margin-bottom: 0.75rem;
   font-weight: normal; }
 
-/*Load Fonts ---------------------------------------*/
-@font-face {
-  font-family: "Poiret One";
-  src: url("../res/font/PoiretOne-Regular.ttf"); }
-
-@font-face {
-  font-family: "Gruppo";
-  src: url("../res/font/Gruppo-Regular.ttf"); }
-
-@font-face {
-  font-family: "JetBrains Mono";
-  src: url("../res/font/JetBrainsMono-Regular.ttf"); }
-
-/* Accent color classes ***************************/
+/********************
+3: Color Accent
+*********************/
+/********************
+4: Color Accent Classes
+*********************/
 .accent-gold {
+  /* 3.1: Global Accent Rules */
   color: #ff9933;
-  /* See general a customization above */
-  /* Animated  Glow */ }
+  /* 3.2: Component Accent Rules */
+  /* 3.3: Special Effects */ }
   .accent-gold a {
     text-decoration: none;
     color: #cc6600;
     transition: text-shadow 0.25s; }
-  .accent-gold a:hover {
+  .accent-gold a:hover, .accent-gold a:focus {
     color: #ff9933;
     text-decoration: none;
     text-shadow: 0 0 5px #994d00, 0 0 10px #994d00, 0 0 15px #994d00, 0 0 20px #994d00, 0 0 25px #994d00;
@@ -73,6 +93,8 @@ img {
   .accent-gold img {
     border-color: #ff9933;
     box-shadow: 0 0 5px #cc6600, 0 0 10px #cc6600; }
+  .accent-gold table, .accent-gold td, .accent-gold th {
+    border: 2px solid #ff9933; }
   .accent-gold .card {
     border: groove 2px #ff9933;
     color: #ff9933; }
@@ -81,8 +103,6 @@ img {
       border: transparent solid 2px; }
   .accent-gold .card-body {
     border-top: groove 2px #ff9933; }
-  .accent-gold table, .accent-gold td, .accent-gold th {
-    border: 2px solid #ff9933; }
   .accent-gold .button-link {
     display: inline-block;
     padding: 0.5em;
@@ -114,14 +134,15 @@ img {
     text-shadow: 0 0 10px #e67300, 0 0 15px #e67300, 0 0 20px #e67300, 0 0 25px #e67300, 0 0 30px #e67300; } }
 
 .accent-lime {
+  /* 3.1: Global Accent Rules */
   color: #ccff33;
-  /* See general a customization above */
-  /* Animated  Glow */ }
+  /* 3.2: Component Accent Rules */
+  /* 3.3: Special Effects */ }
   .accent-lime a {
     text-decoration: none;
     color: #99cc00;
     transition: text-shadow 0.25s; }
-  .accent-lime a:hover {
+  .accent-lime a:hover, .accent-lime a:focus {
     color: #ccff33;
     text-decoration: none;
     text-shadow: 0 0 5px #739900, 0 0 10px #739900, 0 0 15px #739900, 0 0 20px #739900, 0 0 25px #739900;
@@ -129,6 +150,8 @@ img {
   .accent-lime img {
     border-color: #ccff33;
     box-shadow: 0 0 5px #99cc00, 0 0 10px #99cc00; }
+  .accent-lime table, .accent-lime td, .accent-lime th {
+    border: 2px solid #ccff33; }
   .accent-lime .card {
     border: groove 2px #ccff33;
     color: #ccff33; }
@@ -137,8 +160,6 @@ img {
       border: transparent solid 2px; }
   .accent-lime .card-body {
     border-top: groove 2px #ccff33; }
-  .accent-lime table, .accent-lime td, .accent-lime th {
-    border: 2px solid #ccff33; }
   .accent-lime .button-link {
     display: inline-block;
     padding: 0.5em;
@@ -170,14 +191,15 @@ img {
     text-shadow: 0 0 10px #ace600, 0 0 15px #ace600, 0 0 20px #ace600, 0 0 25px #ace600, 0 0 30px #ace600; } }
 
 .accent-green {
+  /* 3.1: Global Accent Rules */
   color: #00cc00;
-  /* See general a customization above */
-  /* Animated  Glow */ }
+  /* 3.2: Component Accent Rules */
+  /* 3.3: Special Effects */ }
   .accent-green a {
     text-decoration: none;
     color: #006600;
     transition: text-shadow 0.25s; }
-  .accent-green a:hover {
+  .accent-green a:hover, .accent-green a:focus {
     color: #00cc00;
     text-decoration: none;
     text-shadow: 0 0 5px #003300, 0 0 10px #003300, 0 0 15px #003300, 0 0 20px #003300, 0 0 25px #003300;
@@ -185,6 +207,8 @@ img {
   .accent-green img {
     border-color: #00cc00;
     box-shadow: 0 0 5px #006600, 0 0 10px #006600; }
+  .accent-green table, .accent-green td, .accent-green th {
+    border: 2px solid #00cc00; }
   .accent-green .card {
     border: groove 2px #00cc00;
     color: #00cc00; }
@@ -193,8 +217,6 @@ img {
       border: transparent solid 2px; }
   .accent-green .card-body {
     border-top: groove 2px #00cc00; }
-  .accent-green table, .accent-green td, .accent-green th {
-    border: 2px solid #00cc00; }
   .accent-green .button-link {
     display: inline-block;
     padding: 0.5em;
@@ -226,14 +248,15 @@ img {
     text-shadow: 0 0 10px green, 0 0 15px green, 0 0 20px green, 0 0 25px green, 0 0 30px green; } }
 
 .accent-aqua {
+  /* 3.1: Global Accent Rules */
   color: #00ff99;
-  /* See general a customization above */
-  /* Animated  Glow */ }
+  /* 3.2: Component Accent Rules */
+  /* 3.3: Special Effects */ }
   .accent-aqua a {
     text-decoration: none;
     color: #00995c;
     transition: text-shadow 0.25s; }
-  .accent-aqua a:hover {
+  .accent-aqua a:hover, .accent-aqua a:focus {
     color: #00ff99;
     text-decoration: none;
     text-shadow: 0 0 5px #00663d, 0 0 10px #00663d, 0 0 15px #00663d, 0 0 20px #00663d, 0 0 25px #00663d;
@@ -241,6 +264,8 @@ img {
   .accent-aqua img {
     border-color: #00ff99;
     box-shadow: 0 0 5px #00995c, 0 0 10px #00995c; }
+  .accent-aqua table, .accent-aqua td, .accent-aqua th {
+    border: 2px solid #00ff99; }
   .accent-aqua .card {
     border: groove 2px #00ff99;
     color: #00ff99; }
@@ -249,8 +274,6 @@ img {
       border: transparent solid 2px; }
   .accent-aqua .card-body {
     border-top: groove 2px #00ff99; }
-  .accent-aqua table, .accent-aqua td, .accent-aqua th {
-    border: 2px solid #00ff99; }
   .accent-aqua .button-link {
     display: inline-block;
     padding: 0.5em;
@@ -282,14 +305,15 @@ img {
     text-shadow: 0 0 10px #00b36b, 0 0 15px #00b36b, 0 0 20px #00b36b, 0 0 25px #00b36b, 0 0 30px #00b36b; } }
 
 .accent-light-blue {
+  /* 3.1: Global Accent Rules */
   color: #00ccff;
-  /* See general a customization above */
-  /* Animated  Glow */ }
+  /* 3.2: Component Accent Rules */
+  /* 3.3: Special Effects */ }
   .accent-light-blue a {
     text-decoration: none;
     color: #007a99;
     transition: text-shadow 0.25s; }
-  .accent-light-blue a:hover {
+  .accent-light-blue a:hover, .accent-light-blue a:focus {
     color: #00ccff;
     text-decoration: none;
     text-shadow: 0 0 5px #005266, 0 0 10px #005266, 0 0 15px #005266, 0 0 20px #005266, 0 0 25px #005266;
@@ -297,6 +321,8 @@ img {
   .accent-light-blue img {
     border-color: #00ccff;
     box-shadow: 0 0 5px #007a99, 0 0 10px #007a99; }
+  .accent-light-blue table, .accent-light-blue td, .accent-light-blue th {
+    border: 2px solid #00ccff; }
   .accent-light-blue .card {
     border: groove 2px #00ccff;
     color: #00ccff; }
@@ -305,8 +331,6 @@ img {
       border: transparent solid 2px; }
   .accent-light-blue .card-body {
     border-top: groove 2px #00ccff; }
-  .accent-light-blue table, .accent-light-blue td, .accent-light-blue th {
-    border: 2px solid #00ccff; }
   .accent-light-blue .button-link {
     display: inline-block;
     padding: 0.5em;
@@ -338,14 +362,15 @@ img {
     text-shadow: 0 0 10px #008fb3, 0 0 15px #008fb3, 0 0 20px #008fb3, 0 0 25px #008fb3, 0 0 30px #008fb3; } }
 
 .accent-pink {
+  /* 3.1: Global Accent Rules */
   color: #cc66ff;
-  /* See general a customization above */
-  /* Animated  Glow */ }
+  /* 3.2: Component Accent Rules */
+  /* 3.3: Special Effects */ }
   .accent-pink a {
     text-decoration: none;
     color: #aa00ff;
     transition: text-shadow 0.25s; }
-  .accent-pink a:hover {
+  .accent-pink a:hover, .accent-pink a:focus {
     color: #cc66ff;
     text-decoration: none;
     text-shadow: 0 0 5px #8800cc, 0 0 10px #8800cc, 0 0 15px #8800cc, 0 0 20px #8800cc, 0 0 25px #8800cc;
@@ -353,6 +378,8 @@ img {
   .accent-pink img {
     border-color: #cc66ff;
     box-shadow: 0 0 5px #aa00ff, 0 0 10px #aa00ff; }
+  .accent-pink table, .accent-pink td, .accent-pink th {
+    border: 2px solid #cc66ff; }
   .accent-pink .card {
     border: groove 2px #cc66ff;
     color: #cc66ff; }
@@ -361,8 +388,6 @@ img {
       border: transparent solid 2px; }
   .accent-pink .card-body {
     border-top: groove 2px #cc66ff; }
-  .accent-pink table, .accent-pink td, .accent-pink th {
-    border: 2px solid #cc66ff; }
   .accent-pink .button-link {
     display: inline-block;
     padding: 0.5em;
@@ -394,14 +419,15 @@ img {
     text-shadow: 0 0 10px #b31aff, 0 0 15px #b31aff, 0 0 20px #b31aff, 0 0 25px #b31aff, 0 0 30px #b31aff; } }
 
 .accent-red {
+  /* 3.1: Global Accent Rules */
   color: #ce2d2d;
-  /* See general a customization above */
-  /* Animated  Glow */ }
+  /* 3.2: Component Accent Rules */
+  /* 3.3: Special Effects */ }
   .accent-red a {
     text-decoration: none;
     color: #7a1b1b;
     transition: text-shadow 0.25s; }
-  .accent-red a:hover {
+  .accent-red a:hover, .accent-red a:focus {
     color: #ce2d2d;
     text-decoration: none;
     text-shadow: 0 0 5px #501212, 0 0 10px #501212, 0 0 15px #501212, 0 0 20px #501212, 0 0 25px #501212;
@@ -409,6 +435,8 @@ img {
   .accent-red img {
     border-color: #ce2d2d;
     box-shadow: 0 0 5px #7a1b1b, 0 0 10px #7a1b1b; }
+  .accent-red table, .accent-red td, .accent-red th {
+    border: 2px solid #ce2d2d; }
   .accent-red .card {
     border: groove 2px #ce2d2d;
     color: #ce2d2d; }
@@ -417,8 +445,6 @@ img {
       border: transparent solid 2px; }
   .accent-red .card-body {
     border-top: groove 2px #ce2d2d; }
-  .accent-red table, .accent-red td, .accent-red th {
-    border: 2px solid #ce2d2d; }
   .accent-red .button-link {
     display: inline-block;
     padding: 0.5em;
@@ -450,14 +476,15 @@ img {
     text-shadow: 0 0 10px #8f1f1f, 0 0 15px #8f1f1f, 0 0 20px #8f1f1f, 0 0 25px #8f1f1f, 0 0 30px #8f1f1f; } }
 
 .accent-clear-sky {
+  /* 3.1: Global Accent Rules */
   color: #55ffff;
-  /* See general a customization above */
-  /* Animated  Glow */ }
+  /* 3.2: Component Accent Rules */
+  /* 3.3: Special Effects */ }
   .accent-clear-sky a {
     text-decoration: none;
     color: #00eeee;
     transition: text-shadow 0.25s; }
-  .accent-clear-sky a:hover {
+  .accent-clear-sky a:hover, .accent-clear-sky a:focus {
     color: #55ffff;
     text-decoration: none;
     text-shadow: 0 0 5px #00bbbb, 0 0 10px #00bbbb, 0 0 15px #00bbbb, 0 0 20px #00bbbb, 0 0 25px #00bbbb;
@@ -465,6 +492,8 @@ img {
   .accent-clear-sky img {
     border-color: #55ffff;
     box-shadow: 0 0 5px #00eeee, 0 0 10px #00eeee; }
+  .accent-clear-sky table, .accent-clear-sky td, .accent-clear-sky th {
+    border: 2px solid #55ffff; }
   .accent-clear-sky .card {
     border: groove 2px #55ffff;
     color: #55ffff; }
@@ -473,8 +502,6 @@ img {
       border: transparent solid 2px; }
   .accent-clear-sky .card-body {
     border-top: groove 2px #55ffff; }
-  .accent-clear-sky table, .accent-clear-sky td, .accent-clear-sky th {
-    border: 2px solid #55ffff; }
   .accent-clear-sky .button-link {
     display: inline-block;
     padding: 0.5em;

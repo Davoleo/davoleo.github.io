@@ -4,12 +4,41 @@ $green: #00cc00;
 $aqua: #00ff99;
 $lightBlue: #00ccff;
 $pink: #cc66ff;
-$red: #ce2d2d;
+$red: #ce2d2d; //TODO #dd4444
 $clearSky: #55ffff;
 
-/*General -------------------------------------------*/
+/**********************
+Table of Contents:
+
+1: Global Rules
+2: Components
+3: Color Accent
+  3.1: Global Accent Rules
+  3.2: Component Accent Rules
+  3.3: Special Effects
+4: Color Accent Classes
+*************************/
+
+/********************
+1: Global Rules
+*********************/
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Poiret One";
+  src: url('../res/font/PoiretOne-Regular.ttf')
+}
+
+@font-face {
+  font-family: "Gruppo";
+  src: url('../res/font/Gruppo-Regular.ttf')
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../res/font/JetBrainsMono-Regular.ttf");
 }
 
 body {
@@ -31,7 +60,9 @@ img {
   max-width: 100%;
 }
 
-/*Card Customization -------------------------------*/
+/********************
+2: Components
+*********************/
 .card {
   display: flex;
   flex-direction: column;
@@ -65,34 +96,21 @@ img {
   font-weight: normal;
 }
 
-/*Load Fonts ---------------------------------------*/
-@font-face {
-  font-family: "Poiret One";
-  src: url('../res/font/PoiretOne-Regular.ttf')
-}
-
-@font-face {
-  font-family: "Gruppo";
-  src: url('../res/font/Gruppo-Regular.ttf')
-}
-
-@font-face {
-  font-family: "JetBrains Mono";
-  src: url("../res/font/JetBrainsMono-Regular.ttf");
-}
-
-/* Accent color classes ***************************/
+/********************
+3: Color Accent
+*********************/
 @mixin apply-accent-color($color) {
+
+  /* 3.1: Global Accent Rules */
   color: $color;
 
-  /* See general a customization above */
   a {
     text-decoration: none;
     color: adjust_color($color, $lightness: -20%);
     transition: text-shadow 0.25s;
   }
 
-  a:hover {
+  a:hover, a:focus {
     color: $color;
     text-decoration: none;
     text-shadow:
@@ -109,6 +127,11 @@ img {
     box-shadow: 0 0 5px adjust_color($color, $lightness: -20%), 0 0 10px adjust_color($color, $lightness: -20%);
   }
 
+  table, td, th {
+    border: 2px solid $color;
+  }
+
+  /* 3.2: Component Accent Rules */
   .card {
     border: groove 2px $color;
     color: $color;
@@ -120,10 +143,6 @@ img {
 
   .card-body {
     border-top: groove 2px $color;
-  }
-
-  table, td, th {
-    border: 2px solid $color;
   }
 
   .button-link {
@@ -142,6 +161,7 @@ img {
     transition: background-color 0.25s;
   }
 
+  /* 3.3: Special Effects */
   .shaded {
     transition: background-color 0.25s;
   }
@@ -156,7 +176,6 @@ img {
     text-shadow: 0 0 10px $color, 0 0 20px $color;
   }
 
-  /* Animated  Glow */
   .glow-anim {
     color: $color;
     -webkit-animation: glow#{hue($color)} 2s ease-in-out infinite alternate;
@@ -184,6 +203,9 @@ img {
   }
 }
 
+/********************
+4: Color Accent Classes
+*********************/
 .accent-gold {
   @include apply-accent-color($gold);
 }

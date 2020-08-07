@@ -1,30 +1,26 @@
-/* Homepage */
-/* Generic Rules */
+/* Homepage Styling */
+/**********************
+Table of Contents:
+
+1: Global Rules
+2: Layout Rules
+3: Components
+4: Media Queries
+  4.1: Medium Screens
+  4.2: Small Screens
+*************************/
+/********************
+1: Global Rules
+*********************/
 body {
   overflow-x: hidden;
   margin: 0; }
 
-.container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column; }
-
-/*Sliding SubTitle */
-#sliding_title {
-  display: inline-block;
-  position: relative;
-  animation: slide 12s infinite linear;
-  white-space: nowrap;
-  font-weight: normal; }
-
-@keyframes slide {
-  from {
-    left: 100%; }
-  to {
-    left: -400px; } }
-
+/********************
+2: Layout Rules
+*********************/
 header {
-  flex: 1; }
+  flex-grow: 1; }
 
 #first_row {
   width: 80%;
@@ -51,10 +47,6 @@ header {
     padding-top: 0.75em;
     font-size: 1.25rem; }
 
-#uls {
-  display: flex;
-  flex-direction: row; }
-
 #second_row {
   display: flex;
   flex-direction: row;
@@ -73,20 +65,41 @@ footer {
   font-size: 1.25rem;
   padding: 0.5em; }
 
-footer button {
+/********************
+3: Components
+*********************/
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+#sliding_title {
+  display: inline-block;
+  position: relative;
+  animation: slide 12s infinite linear;
+  white-space: nowrap;
+  font-weight: normal; }
+
+@keyframes slide {
+  from {
+    left: 100%; }
+  to {
+    left: -400px; } }
+
+#uls {
+  display: flex;
+  flex-direction: row; }
+
+.button-link {
   background-color: transparent;
   border-radius: 0.5em;
   padding: 0.5em;
   margin: 0.5em; }
 
-button:focus, button:active {
-  outline: none;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  -o-box-shadow: none; }
-
-/* Adapt on smaller screen sizes */
+/********************
+4: Media Queries
+*********************/
+/* 4.1: Medium Screens */
 @media all and (max-width: 800px) {
   .card {
     margin-top: 50px;
@@ -102,6 +115,7 @@ button:focus, button:active {
   #desc_col, #links_col, #img_col {
     margin-top: 2em; } }
 
+/* 4.2: Small Screens */
 @media all and (max-width: 430px) {
   #refresh_button {
     display: none; }
