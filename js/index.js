@@ -39,7 +39,9 @@ function setRandomImage() {
 
 function setRandomQuote() {
     const quoteId = generateRandomNumber(quotes.length);
-    document.getElementById("sliding_title").innerHTML = quotes[quoteId];
+    const quoteElement = document.getElementById("sliding_title");
+    quoteElement.innerHTML = quotes[quoteId];
+    quoteElement.setAttribute("data-length", quotes[quoteId].length.toString());
 }
 
 setRandomImage();
