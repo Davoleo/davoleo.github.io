@@ -84,12 +84,12 @@ img {
   .accent-gold a {
     text-decoration: none;
     color: #cc6600;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-gold a:hover, .accent-gold a:focus {
     color: #ff9933;
     text-decoration: none;
     text-shadow: 0 0 5px #cc6600, 0 0 10px #cc6600, 0 0 15px #cc6600, 0 0 20px #cc6600, 0 0 25px #cc6600;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-gold p {
     color: #ff8000; }
   .accent-gold img {
@@ -115,15 +115,15 @@ img {
     color: #ff9933;
     border: #ff9933 groove 2px;
     border-radius: 0.25em;
-    transition: all 0.25s; }
+    transition: all 0.20s; }
   .accent-gold .button-link:hover, .accent-gold .button-link:active, .accent-gold .button-link:focus {
     background-color: rgba(255, 153, 51, 0.15);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-gold .shaded {
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-gold .shaded:hover {
     background-color: rgba(255, 153, 51, 0.1);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-gold .glow {
     color: #ff9933;
     text-shadow: 0 0 10px #ff9933, 0 0 20px #ff9933; }
@@ -147,12 +147,12 @@ img {
   .accent-lime a {
     text-decoration: none;
     color: #7da114;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-lime a:hover, .accent-lime a:focus {
     color: #b9e635;
     text-decoration: none;
     text-shadow: 0 0 5px #7da114, 0 0 10px #7da114, 0 0 15px #7da114, 0 0 20px #7da114, 0 0 25px #7da114;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-lime p {
     color: #a0ce1a; }
   .accent-lime img {
@@ -178,15 +178,15 @@ img {
     color: #b9e635;
     border: #b9e635 groove 2px;
     border-radius: 0.25em;
-    transition: all 0.25s; }
+    transition: all 0.20s; }
   .accent-lime .button-link:hover, .accent-lime .button-link:active, .accent-lime .button-link:focus {
     background-color: rgba(185, 230, 53, 0.15);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-lime .shaded {
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-lime .shaded:hover {
     background-color: rgba(185, 230, 53, 0.1);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-lime .glow {
     color: #b9e635;
     text-shadow: 0 0 10px #b9e635, 0 0 20px #b9e635; }
@@ -210,12 +210,12 @@ img {
   .accent-green a {
     text-decoration: none;
     color: #006600;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-green a:hover, .accent-green a:focus {
     color: #00cc00;
     text-decoration: none;
     text-shadow: 0 0 5px #006600, 0 0 10px #006600, 0 0 15px #006600, 0 0 20px #006600, 0 0 25px #006600;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-green p {
     color: #009900; }
   .accent-green img {
@@ -241,15 +241,15 @@ img {
     color: #00cc00;
     border: #00cc00 groove 2px;
     border-radius: 0.25em;
-    transition: all 0.25s; }
+    transition: all 0.20s; }
   .accent-green .button-link:hover, .accent-green .button-link:active, .accent-green .button-link:focus {
     background-color: rgba(0, 204, 0, 0.15);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-green .shaded {
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-green .shaded:hover {
     background-color: rgba(0, 204, 0, 0.1);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-green .glow {
     color: #00cc00;
     text-shadow: 0 0 10px #00cc00, 0 0 20px #00cc00; }
@@ -273,12 +273,12 @@ img {
   .accent-aqua a {
     text-decoration: none;
     color: #00995c;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-aqua a:hover, .accent-aqua a:focus {
     color: #00ff99;
     text-decoration: none;
     text-shadow: 0 0 5px #00995c, 0 0 10px #00995c, 0 0 15px #00995c, 0 0 20px #00995c, 0 0 25px #00995c;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-aqua p {
     color: #00cc7a; }
   .accent-aqua img {
@@ -304,15 +304,15 @@ img {
     color: #00ff99;
     border: #00ff99 groove 2px;
     border-radius: 0.25em;
-    transition: all 0.25s; }
+    transition: all 0.20s; }
   .accent-aqua .button-link:hover, .accent-aqua .button-link:active, .accent-aqua .button-link:focus {
     background-color: rgba(0, 255, 153, 0.15);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-aqua .shaded {
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-aqua .shaded:hover {
     background-color: rgba(0, 255, 153, 0.1);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-aqua .glow {
     color: #00ff99;
     text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99; }
@@ -336,12 +336,12 @@ img {
   .accent-light-blue a {
     text-decoration: none;
     color: #007a99;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-light-blue a:hover, .accent-light-blue a:focus {
     color: #00ccff;
     text-decoration: none;
     text-shadow: 0 0 5px #007a99, 0 0 10px #007a99, 0 0 15px #007a99, 0 0 20px #007a99, 0 0 25px #007a99;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-light-blue p {
     color: #00a3cc; }
   .accent-light-blue img {
@@ -367,15 +367,15 @@ img {
     color: #00ccff;
     border: #00ccff groove 2px;
     border-radius: 0.25em;
-    transition: all 0.25s; }
+    transition: all 0.20s; }
   .accent-light-blue .button-link:hover, .accent-light-blue .button-link:active, .accent-light-blue .button-link:focus {
     background-color: rgba(0, 204, 255, 0.15);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-light-blue .shaded {
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-light-blue .shaded:hover {
     background-color: rgba(0, 204, 255, 0.1);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-light-blue .glow {
     color: #00ccff;
     text-shadow: 0 0 10px #00ccff, 0 0 20px #00ccff; }
@@ -399,12 +399,12 @@ img {
   .accent-pink a {
     text-decoration: none;
     color: #a200f4;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-pink a:hover, .accent-pink a:focus {
     color: #c85bff;
     text-decoration: none;
     text-shadow: 0 0 5px #a200f4, 0 0 10px #a200f4, 0 0 15px #a200f4, 0 0 20px #a200f4, 0 0 25px #a200f4;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-pink p {
     color: #b728ff; }
   .accent-pink img {
@@ -430,15 +430,15 @@ img {
     color: #c85bff;
     border: #c85bff groove 2px;
     border-radius: 0.25em;
-    transition: all 0.25s; }
+    transition: all 0.20s; }
   .accent-pink .button-link:hover, .accent-pink .button-link:active, .accent-pink .button-link:focus {
     background-color: rgba(200, 91, 255, 0.15);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-pink .shaded {
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-pink .shaded:hover {
     background-color: rgba(200, 91, 255, 0.1);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-pink .glow {
     color: #c85bff;
     text-shadow: 0 0 10px #c85bff, 0 0 20px #c85bff; }
@@ -462,12 +462,12 @@ img {
   .accent-red a {
     text-decoration: none;
     color: #a70f0f;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-red a:hover, .accent-red a:focus {
     color: #ec3030;
     text-decoration: none;
     text-shadow: 0 0 5px #a70f0f, 0 0 10px #a70f0f, 0 0 15px #a70f0f, 0 0 20px #a70f0f, 0 0 25px #a70f0f;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-red p {
     color: #d51414; }
   .accent-red img {
@@ -493,15 +493,15 @@ img {
     color: #ec3030;
     border: #ec3030 groove 2px;
     border-radius: 0.25em;
-    transition: all 0.25s; }
+    transition: all 0.20s; }
   .accent-red .button-link:hover, .accent-red .button-link:active, .accent-red .button-link:focus {
     background-color: rgba(236, 48, 48, 0.15);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-red .shaded {
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-red .shaded:hover {
     background-color: rgba(236, 48, 48, 0.1);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-red .glow {
     color: #ec3030;
     text-shadow: 0 0 10px #ec3030, 0 0 20px #ec3030; }
@@ -525,12 +525,12 @@ img {
   .accent-clear-sky a {
     text-decoration: none;
     color: #00dada;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-clear-sky a:hover, .accent-clear-sky a:focus {
     color: #41ffff;
     text-decoration: none;
     text-shadow: 0 0 5px #00dada, 0 0 10px #00dada, 0 0 15px #00dada, 0 0 20px #00dada, 0 0 25px #00dada;
-    transition: text-shadow 0.25s; }
+    transition: text-shadow 0.20s; }
   .accent-clear-sky p {
     color: #0effff; }
   .accent-clear-sky img {
@@ -556,15 +556,15 @@ img {
     color: #41ffff;
     border: #41ffff groove 2px;
     border-radius: 0.25em;
-    transition: all 0.25s; }
+    transition: all 0.20s; }
   .accent-clear-sky .button-link:hover, .accent-clear-sky .button-link:active, .accent-clear-sky .button-link:focus {
     background-color: rgba(65, 255, 255, 0.15);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-clear-sky .shaded {
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-clear-sky .shaded:hover {
     background-color: rgba(65, 255, 255, 0.1);
-    transition: background-color 0.25s; }
+    transition: background-color 0.20s; }
   .accent-clear-sky .glow {
     color: #41ffff;
     text-shadow: 0 0 10px #41ffff, 0 0 20px #41ffff; }
