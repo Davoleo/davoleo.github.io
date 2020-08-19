@@ -3,7 +3,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 100%;
+    min-width: 85%;
     border-collapse: collapse;
 }
 
