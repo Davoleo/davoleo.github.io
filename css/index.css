@@ -53,7 +53,8 @@ header {
   justify-content: space-evenly;
   margin: 8em 0; }
   #second_row a {
-    font-size: 2rem; }
+    font-size: 2rem;
+    padding: 0.5em; }
 
 footer {
   display: flex;
@@ -99,7 +100,6 @@ footer {
 .button-link {
   background-color: transparent;
   border-radius: 0.5em;
-  padding: 0.5em;
   margin: 0.5em; }
 
 /********************
@@ -125,7 +125,7 @@ footer {
 
 /* 4.2: Small Screens */
 @media all and (max-width: 430px) {
-  #refresh_button {
+  #discord_button {
     display: none; }
   #second_row {
     /* Decrease the top and bottom margin */

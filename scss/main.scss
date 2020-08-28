@@ -42,9 +42,10 @@ Table of Contents:
 }
 
 body {
-  //03030a
+  //* alternative background 03030a
   background-color: #000;
   font-family: Raleway, sans-serif;
+  margin: 0;
 
   h1 {
     font-family: 'Poiret One', sans-serif;
@@ -95,6 +96,15 @@ img {
 .card-title {
   margin-bottom: 0.75rem;
   font-weight: normal;
+}
+
+.back-button-container {
+  display: inline-block;
+  margin: 1em;
+
+  #backwards_button {
+    font-size: 1.5em;
+  }
 }
 
 /********************
@@ -163,11 +173,12 @@ img {
 
   .button-link {
     display: inline-block;
-    padding: 0.5em;
+    padding: 0.25em;
 
     color: $color;
     border: $color groove 2px;
     border-radius: 0.25em;
+    font-size: 1.5em;
 
     transition: all 0.10s;
   }
@@ -192,6 +203,7 @@ img {
     text-shadow: 0 0 5px $color, 0 0 10px $color, 0 0 15px $color;
   }
 
+  /* TODO: Enchance Animated Glow and possibly bring it back to the title */
   .glow-anim {
     color: $color;
     -webkit-animation: glow#{hue($color)} 2s ease-in-out infinite alternate;

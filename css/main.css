@@ -29,7 +29,8 @@ Table of Contents:
 
 body {
   background-color: #000;
-  font-family: Raleway, sans-serif; }
+  font-family: Raleway, sans-serif;
+  margin: 0; }
   body h1 {
     font-family: 'Poiret One', sans-serif;
     text-align: center;
@@ -70,6 +71,12 @@ img {
   margin-bottom: 0.75rem;
   font-weight: normal; }
 
+.back-button-container {
+  display: inline-block;
+  margin: 1em; }
+  .back-button-container #backwards_button {
+    font-size: 1.5em; }
+
 /********************
 3: Color Accent
 *********************/
@@ -80,7 +87,8 @@ img {
   /* 3.1: Global Accent Rules */
   color: #ff9933;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */ }
+  /* 3.3: Special Effects */
+  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
   .accent-gold a {
     text-decoration: none;
     color: #cc6600;
@@ -111,10 +119,11 @@ img {
     border-top: groove 2px #ff9933; }
   .accent-gold .button-link {
     display: inline-block;
-    padding: 0.5em;
+    padding: 0.25em;
     color: #ff9933;
     border: #ff9933 groove 2px;
     border-radius: 0.25em;
+    font-size: 1.5em;
     transition: all 0.10s; }
   .accent-gold .button-link:hover, .accent-gold .button-link:active, .accent-gold .button-link:focus {
     background-color: rgba(255, 153, 51, 0.15);
@@ -143,7 +152,8 @@ img {
   /* 3.1: Global Accent Rules */
   color: #b9e635;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */ }
+  /* 3.3: Special Effects */
+  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
   .accent-lime a {
     text-decoration: none;
     color: #7da114;
@@ -174,10 +184,11 @@ img {
     border-top: groove 2px #b9e635; }
   .accent-lime .button-link {
     display: inline-block;
-    padding: 0.5em;
+    padding: 0.25em;
     color: #b9e635;
     border: #b9e635 groove 2px;
     border-radius: 0.25em;
+    font-size: 1.5em;
     transition: all 0.10s; }
   .accent-lime .button-link:hover, .accent-lime .button-link:active, .accent-lime .button-link:focus {
     background-color: rgba(185, 230, 53, 0.15);
@@ -206,7 +217,8 @@ img {
   /* 3.1: Global Accent Rules */
   color: #00cc00;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */ }
+  /* 3.3: Special Effects */
+  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
   .accent-green a {
     text-decoration: none;
     color: #006600;
@@ -237,10 +249,11 @@ img {
     border-top: groove 2px #00cc00; }
   .accent-green .button-link {
     display: inline-block;
-    padding: 0.5em;
+    padding: 0.25em;
     color: #00cc00;
     border: #00cc00 groove 2px;
     border-radius: 0.25em;
+    font-size: 1.5em;
     transition: all 0.10s; }
   .accent-green .button-link:hover, .accent-green .button-link:active, .accent-green .button-link:focus {
     background-color: rgba(0, 204, 0, 0.15);
@@ -269,7 +282,8 @@ img {
   /* 3.1: Global Accent Rules */
   color: #00ff99;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */ }
+  /* 3.3: Special Effects */
+  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
   .accent-aqua a {
     text-decoration: none;
     color: #00995c;
@@ -300,10 +314,11 @@ img {
     border-top: groove 2px #00ff99; }
   .accent-aqua .button-link {
     display: inline-block;
-    padding: 0.5em;
+    padding: 0.25em;
     color: #00ff99;
     border: #00ff99 groove 2px;
     border-radius: 0.25em;
+    font-size: 1.5em;
     transition: all 0.10s; }
   .accent-aqua .button-link:hover, .accent-aqua .button-link:active, .accent-aqua .button-link:focus {
     background-color: rgba(0, 255, 153, 0.15);
@@ -332,7 +347,8 @@ img {
   /* 3.1: Global Accent Rules */
   color: #00ccff;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */ }
+  /* 3.3: Special Effects */
+  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
   .accent-light-blue a {
     text-decoration: none;
     color: #007a99;
@@ -363,10 +379,11 @@ img {
     border-top: groove 2px #00ccff; }
   .accent-light-blue .button-link {
     display: inline-block;
-    padding: 0.5em;
+    padding: 0.25em;
     color: #00ccff;
     border: #00ccff groove 2px;
     border-radius: 0.25em;
+    font-size: 1.5em;
     transition: all 0.10s; }
   .accent-light-blue .button-link:hover, .accent-light-blue .button-link:active, .accent-light-blue .button-link:focus {
     background-color: rgba(0, 204, 255, 0.15);
@@ -395,7 +412,8 @@ img {
   /* 3.1: Global Accent Rules */
   color: #c85bff;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */ }
+  /* 3.3: Special Effects */
+  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
   .accent-pink a {
     text-decoration: none;
     color: #a200f4;
@@ -426,10 +444,11 @@ img {
     border-top: groove 2px #c85bff; }
   .accent-pink .button-link {
     display: inline-block;
-    padding: 0.5em;
+    padding: 0.25em;
     color: #c85bff;
     border: #c85bff groove 2px;
     border-radius: 0.25em;
+    font-size: 1.5em;
     transition: all 0.10s; }
   .accent-pink .button-link:hover, .accent-pink .button-link:active, .accent-pink .button-link:focus {
     background-color: rgba(200, 91, 255, 0.15);
@@ -458,7 +477,8 @@ img {
   /* 3.1: Global Accent Rules */
   color: #ec3030;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */ }
+  /* 3.3: Special Effects */
+  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
   .accent-red a {
     text-decoration: none;
     color: #a70f0f;
@@ -489,10 +509,11 @@ img {
     border-top: groove 2px #ec3030; }
   .accent-red .button-link {
     display: inline-block;
-    padding: 0.5em;
+    padding: 0.25em;
     color: #ec3030;
     border: #ec3030 groove 2px;
     border-radius: 0.25em;
+    font-size: 1.5em;
     transition: all 0.10s; }
   .accent-red .button-link:hover, .accent-red .button-link:active, .accent-red .button-link:focus {
     background-color: rgba(236, 48, 48, 0.15);
@@ -521,7 +542,8 @@ img {
   /* 3.1: Global Accent Rules */
   color: #41ffff;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */ }
+  /* 3.3: Special Effects */
+  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
   .accent-clear-sky a {
     text-decoration: none;
     color: #00dada;
@@ -552,10 +574,11 @@ img {
     border-top: groove 2px #41ffff; }
   .accent-clear-sky .button-link {
     display: inline-block;
-    padding: 0.5em;
+    padding: 0.25em;
     color: #41ffff;
     border: #41ffff groove 2px;
     border-radius: 0.25em;
+    font-size: 1.5em;
     transition: all 0.10s; }
   .accent-clear-sky .button-link:hover, .accent-clear-sky .button-link:active, .accent-clear-sky .button-link:focus {
     background-color: rgba(65, 255, 255, 0.15);
