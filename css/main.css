@@ -84,17 +84,17 @@ img {
   .accent-gold a {
     text-decoration: none;
     color: #cc6600;
-    transition: text-shadow 0.20s; }
+    transition: text-shadow 0.10s; }
   .accent-gold a:hover, .accent-gold a:focus {
     color: #ff9933;
     text-decoration: none;
-    text-shadow: 0 0 5px #cc6600, 0 0 10px #cc6600, 0 0 15px #cc6600, 0 0 20px #cc6600, 0 0 25px #cc6600;
-    transition: text-shadow 0.20s; }
+    text-shadow: 0 0 4px #cc6600, 0 0 4px #cc6600, 0 1px 7px #cc6600, 0 1px 7px #cc6600, 0 0 10px #cc6600, 0 0 15px #cc6600;
+    transition: text-shadow 0.10s; }
   .accent-gold p {
     color: #ff8000; }
   .accent-gold img {
     border-color: #ff9933;
-    box-shadow: 0 0 5px #cc6600, 0 0 10px #cc6600; }
+    box-shadow: 0 0 5px #cc6600, 0 0 5px #cc6600, 0 0 10px #cc6600; }
   .accent-gold div {
     border-color: #ff9933; }
   .accent-gold table, .accent-gold th {
@@ -115,18 +115,18 @@ img {
     color: #ff9933;
     border: #ff9933 groove 2px;
     border-radius: 0.25em;
-    transition: all 0.20s; }
+    transition: all 0.10s; }
   .accent-gold .button-link:hover, .accent-gold .button-link:active, .accent-gold .button-link:focus {
     background-color: rgba(255, 153, 51, 0.15);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-gold .shaded {
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-gold .shaded:hover {
     background-color: rgba(255, 153, 51, 0.1);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-gold .glow {
     color: #ff9933;
-    text-shadow: 0 0 10px #ff9933, 0 0 20px #ff9933; }
+    text-shadow: 0 0 5px #ff9933, 0 0 10px #ff9933, 0 0 15px #ff9933; }
   .accent-gold .glow-anim {
     color: #ff9933;
     -webkit-animation: glow30deg 2s ease-in-out infinite alternate;
@@ -147,17 +147,17 @@ img {
   .accent-lime a {
     text-decoration: none;
     color: #7da114;
-    transition: text-shadow 0.20s; }
+    transition: text-shadow 0.10s; }
   .accent-lime a:hover, .accent-lime a:focus {
     color: #b9e635;
     text-decoration: none;
-    text-shadow: 0 0 5px #7da114, 0 0 10px #7da114, 0 0 15px #7da114, 0 0 20px #7da114, 0 0 25px #7da114;
-    transition: text-shadow 0.20s; }
+    text-shadow: 0 0 4px #7da114, 0 0 4px #7da114, 0 1px 7px #7da114, 0 1px 7px #7da114, 0 0 10px #7da114, 0 0 15px #7da114;
+    transition: text-shadow 0.10s; }
   .accent-lime p {
     color: #a0ce1a; }
   .accent-lime img {
     border-color: #b9e635;
-    box-shadow: 0 0 5px #7da114, 0 0 10px #7da114; }
+    box-shadow: 0 0 5px #7da114, 0 0 5px #7da114, 0 0 10px #7da114; }
   .accent-lime div {
     border-color: #b9e635; }
   .accent-lime table, .accent-lime th {
@@ -178,18 +178,18 @@ img {
     color: #b9e635;
     border: #b9e635 groove 2px;
     border-radius: 0.25em;
-    transition: all 0.20s; }
+    transition: all 0.10s; }
   .accent-lime .button-link:hover, .accent-lime .button-link:active, .accent-lime .button-link:focus {
     background-color: rgba(185, 230, 53, 0.15);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-lime .shaded {
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-lime .shaded:hover {
     background-color: rgba(185, 230, 53, 0.1);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-lime .glow {
     color: #b9e635;
-    text-shadow: 0 0 10px #b9e635, 0 0 20px #b9e635; }
+    text-shadow: 0 0 5px #b9e635, 0 0 10px #b9e635, 0 0 15px #b9e635; }
   .accent-lime .glow-anim {
     color: #b9e635;
     -webkit-animation: glow75.25424deg 2s ease-in-out infinite alternate;
@@ -210,17 +210,17 @@ img {
   .accent-green a {
     text-decoration: none;
     color: #006600;
-    transition: text-shadow 0.20s; }
+    transition: text-shadow 0.10s; }
   .accent-green a:hover, .accent-green a:focus {
     color: #00cc00;
     text-decoration: none;
-    text-shadow: 0 0 5px #006600, 0 0 10px #006600, 0 0 15px #006600, 0 0 20px #006600, 0 0 25px #006600;
-    transition: text-shadow 0.20s; }
+    text-shadow: 0 0 4px #006600, 0 0 4px #006600, 0 1px 7px #006600, 0 1px 7px #006600, 0 0 10px #006600, 0 0 15px #006600;
+    transition: text-shadow 0.10s; }
   .accent-green p {
     color: #009900; }
   .accent-green img {
     border-color: #00cc00;
-    box-shadow: 0 0 5px #006600, 0 0 10px #006600; }
+    box-shadow: 0 0 5px #006600, 0 0 5px #006600, 0 0 10px #006600; }
   .accent-green div {
     border-color: #00cc00; }
   .accent-green table, .accent-green th {
@@ -241,18 +241,18 @@ img {
     color: #00cc00;
     border: #00cc00 groove 2px;
     border-radius: 0.25em;
-    transition: all 0.20s; }
+    transition: all 0.10s; }
   .accent-green .button-link:hover, .accent-green .button-link:active, .accent-green .button-link:focus {
     background-color: rgba(0, 204, 0, 0.15);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-green .shaded {
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-green .shaded:hover {
     background-color: rgba(0, 204, 0, 0.1);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-green .glow {
     color: #00cc00;
-    text-shadow: 0 0 10px #00cc00, 0 0 20px #00cc00; }
+    text-shadow: 0 0 5px #00cc00, 0 0 10px #00cc00, 0 0 15px #00cc00; }
   .accent-green .glow-anim {
     color: #00cc00;
     -webkit-animation: glow120deg 2s ease-in-out infinite alternate;
@@ -273,17 +273,17 @@ img {
   .accent-aqua a {
     text-decoration: none;
     color: #00995c;
-    transition: text-shadow 0.20s; }
+    transition: text-shadow 0.10s; }
   .accent-aqua a:hover, .accent-aqua a:focus {
     color: #00ff99;
     text-decoration: none;
-    text-shadow: 0 0 5px #00995c, 0 0 10px #00995c, 0 0 15px #00995c, 0 0 20px #00995c, 0 0 25px #00995c;
-    transition: text-shadow 0.20s; }
+    text-shadow: 0 0 4px #00995c, 0 0 4px #00995c, 0 1px 7px #00995c, 0 1px 7px #00995c, 0 0 10px #00995c, 0 0 15px #00995c;
+    transition: text-shadow 0.10s; }
   .accent-aqua p {
     color: #00cc7a; }
   .accent-aqua img {
     border-color: #00ff99;
-    box-shadow: 0 0 5px #00995c, 0 0 10px #00995c; }
+    box-shadow: 0 0 5px #00995c, 0 0 5px #00995c, 0 0 10px #00995c; }
   .accent-aqua div {
     border-color: #00ff99; }
   .accent-aqua table, .accent-aqua th {
@@ -304,18 +304,18 @@ img {
     color: #00ff99;
     border: #00ff99 groove 2px;
     border-radius: 0.25em;
-    transition: all 0.20s; }
+    transition: all 0.10s; }
   .accent-aqua .button-link:hover, .accent-aqua .button-link:active, .accent-aqua .button-link:focus {
     background-color: rgba(0, 255, 153, 0.15);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-aqua .shaded {
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-aqua .shaded:hover {
     background-color: rgba(0, 255, 153, 0.1);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-aqua .glow {
     color: #00ff99;
-    text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99; }
+    text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99, 0 0 15px #00ff99; }
   .accent-aqua .glow-anim {
     color: #00ff99;
     -webkit-animation: glow156deg 2s ease-in-out infinite alternate;
@@ -336,17 +336,17 @@ img {
   .accent-light-blue a {
     text-decoration: none;
     color: #007a99;
-    transition: text-shadow 0.20s; }
+    transition: text-shadow 0.10s; }
   .accent-light-blue a:hover, .accent-light-blue a:focus {
     color: #00ccff;
     text-decoration: none;
-    text-shadow: 0 0 5px #007a99, 0 0 10px #007a99, 0 0 15px #007a99, 0 0 20px #007a99, 0 0 25px #007a99;
-    transition: text-shadow 0.20s; }
+    text-shadow: 0 0 4px #007a99, 0 0 4px #007a99, 0 1px 7px #007a99, 0 1px 7px #007a99, 0 0 10px #007a99, 0 0 15px #007a99;
+    transition: text-shadow 0.10s; }
   .accent-light-blue p {
     color: #00a3cc; }
   .accent-light-blue img {
     border-color: #00ccff;
-    box-shadow: 0 0 5px #007a99, 0 0 10px #007a99; }
+    box-shadow: 0 0 5px #007a99, 0 0 5px #007a99, 0 0 10px #007a99; }
   .accent-light-blue div {
     border-color: #00ccff; }
   .accent-light-blue table, .accent-light-blue th {
@@ -367,18 +367,18 @@ img {
     color: #00ccff;
     border: #00ccff groove 2px;
     border-radius: 0.25em;
-    transition: all 0.20s; }
+    transition: all 0.10s; }
   .accent-light-blue .button-link:hover, .accent-light-blue .button-link:active, .accent-light-blue .button-link:focus {
     background-color: rgba(0, 204, 255, 0.15);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-light-blue .shaded {
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-light-blue .shaded:hover {
     background-color: rgba(0, 204, 255, 0.1);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-light-blue .glow {
     color: #00ccff;
-    text-shadow: 0 0 10px #00ccff, 0 0 20px #00ccff; }
+    text-shadow: 0 0 5px #00ccff, 0 0 10px #00ccff, 0 0 15px #00ccff; }
   .accent-light-blue .glow-anim {
     color: #00ccff;
     -webkit-animation: glow192deg 2s ease-in-out infinite alternate;
@@ -399,17 +399,17 @@ img {
   .accent-pink a {
     text-decoration: none;
     color: #a200f4;
-    transition: text-shadow 0.20s; }
+    transition: text-shadow 0.10s; }
   .accent-pink a:hover, .accent-pink a:focus {
     color: #c85bff;
     text-decoration: none;
-    text-shadow: 0 0 5px #a200f4, 0 0 10px #a200f4, 0 0 15px #a200f4, 0 0 20px #a200f4, 0 0 25px #a200f4;
-    transition: text-shadow 0.20s; }
+    text-shadow: 0 0 4px #a200f4, 0 0 4px #a200f4, 0 1px 7px #a200f4, 0 1px 7px #a200f4, 0 0 10px #a200f4, 0 0 15px #a200f4;
+    transition: text-shadow 0.10s; }
   .accent-pink p {
     color: #b728ff; }
   .accent-pink img {
     border-color: #c85bff;
-    box-shadow: 0 0 5px #a200f4, 0 0 10px #a200f4; }
+    box-shadow: 0 0 5px #a200f4, 0 0 5px #a200f4, 0 0 10px #a200f4; }
   .accent-pink div {
     border-color: #c85bff; }
   .accent-pink table, .accent-pink th {
@@ -430,18 +430,18 @@ img {
     color: #c85bff;
     border: #c85bff groove 2px;
     border-radius: 0.25em;
-    transition: all 0.20s; }
+    transition: all 0.10s; }
   .accent-pink .button-link:hover, .accent-pink .button-link:active, .accent-pink .button-link:focus {
     background-color: rgba(200, 91, 255, 0.15);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-pink .shaded {
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-pink .shaded:hover {
     background-color: rgba(200, 91, 255, 0.1);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-pink .glow {
     color: #c85bff;
-    text-shadow: 0 0 10px #c85bff, 0 0 20px #c85bff; }
+    text-shadow: 0 0 5px #c85bff, 0 0 10px #c85bff, 0 0 15px #c85bff; }
   .accent-pink .glow-anim {
     color: #c85bff;
     -webkit-animation: glow279.87805deg 2s ease-in-out infinite alternate;
@@ -462,17 +462,17 @@ img {
   .accent-red a {
     text-decoration: none;
     color: #a70f0f;
-    transition: text-shadow 0.20s; }
+    transition: text-shadow 0.10s; }
   .accent-red a:hover, .accent-red a:focus {
     color: #ec3030;
     text-decoration: none;
-    text-shadow: 0 0 5px #a70f0f, 0 0 10px #a70f0f, 0 0 15px #a70f0f, 0 0 20px #a70f0f, 0 0 25px #a70f0f;
-    transition: text-shadow 0.20s; }
+    text-shadow: 0 0 4px #a70f0f, 0 0 4px #a70f0f, 0 1px 7px #a70f0f, 0 1px 7px #a70f0f, 0 0 10px #a70f0f, 0 0 15px #a70f0f;
+    transition: text-shadow 0.10s; }
   .accent-red p {
     color: #d51414; }
   .accent-red img {
     border-color: #ec3030;
-    box-shadow: 0 0 5px #a70f0f, 0 0 10px #a70f0f; }
+    box-shadow: 0 0 5px #a70f0f, 0 0 5px #a70f0f, 0 0 10px #a70f0f; }
   .accent-red div {
     border-color: #ec3030; }
   .accent-red table, .accent-red th {
@@ -493,18 +493,18 @@ img {
     color: #ec3030;
     border: #ec3030 groove 2px;
     border-radius: 0.25em;
-    transition: all 0.20s; }
+    transition: all 0.10s; }
   .accent-red .button-link:hover, .accent-red .button-link:active, .accent-red .button-link:focus {
     background-color: rgba(236, 48, 48, 0.15);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-red .shaded {
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-red .shaded:hover {
     background-color: rgba(236, 48, 48, 0.1);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-red .glow {
     color: #ec3030;
-    text-shadow: 0 0 10px #ec3030, 0 0 20px #ec3030; }
+    text-shadow: 0 0 5px #ec3030, 0 0 10px #ec3030, 0 0 15px #ec3030; }
   .accent-red .glow-anim {
     color: #ec3030;
     -webkit-animation: glow0deg 2s ease-in-out infinite alternate;
@@ -525,17 +525,17 @@ img {
   .accent-clear-sky a {
     text-decoration: none;
     color: #00dada;
-    transition: text-shadow 0.20s; }
+    transition: text-shadow 0.10s; }
   .accent-clear-sky a:hover, .accent-clear-sky a:focus {
     color: #41ffff;
     text-decoration: none;
-    text-shadow: 0 0 5px #00dada, 0 0 10px #00dada, 0 0 15px #00dada, 0 0 20px #00dada, 0 0 25px #00dada;
-    transition: text-shadow 0.20s; }
+    text-shadow: 0 0 4px #00dada, 0 0 4px #00dada, 0 1px 7px #00dada, 0 1px 7px #00dada, 0 0 10px #00dada, 0 0 15px #00dada;
+    transition: text-shadow 0.10s; }
   .accent-clear-sky p {
     color: #0effff; }
   .accent-clear-sky img {
     border-color: #41ffff;
-    box-shadow: 0 0 5px #00dada, 0 0 10px #00dada; }
+    box-shadow: 0 0 5px #00dada, 0 0 5px #00dada, 0 0 10px #00dada; }
   .accent-clear-sky div {
     border-color: #41ffff; }
   .accent-clear-sky table, .accent-clear-sky th {
@@ -556,18 +556,18 @@ img {
     color: #41ffff;
     border: #41ffff groove 2px;
     border-radius: 0.25em;
-    transition: all 0.20s; }
+    transition: all 0.10s; }
   .accent-clear-sky .button-link:hover, .accent-clear-sky .button-link:active, .accent-clear-sky .button-link:focus {
     background-color: rgba(65, 255, 255, 0.15);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-clear-sky .shaded {
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-clear-sky .shaded:hover {
     background-color: rgba(65, 255, 255, 0.1);
-    transition: background-color 0.20s; }
+    transition: background-color 0.1s; }
   .accent-clear-sky .glow {
     color: #41ffff;
-    text-shadow: 0 0 10px #41ffff, 0 0 20px #41ffff; }
+    text-shadow: 0 0 5px #41ffff, 0 0 10px #41ffff, 0 0 15px #41ffff; }
   .accent-clear-sky .glow-anim {
     color: #41ffff;
     -webkit-animation: glow180deg 2s ease-in-out infinite alternate;
