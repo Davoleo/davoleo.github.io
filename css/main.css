@@ -37,7 +37,8 @@ body {
     font-size: 4rem;
     font-weight: 300;
     line-height: 1.2;
-    margin: 0.5em 0; }
+    margin-top: 0.25em;
+    margin-bottom: 0.5em; }
 
 img {
   max-width: 100%; }
@@ -73,9 +74,10 @@ img {
 
 .back-button-container {
   display: inline-block;
-  margin: 1em; }
+  margin-left: 1em;
+  margin-top: 1em; }
   .back-button-container #backwards_button {
-    font-size: 1.5em; }
+    font-size: 2em; }
 
 /********************
 3: Color Accent
