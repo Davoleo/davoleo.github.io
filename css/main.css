@@ -89,8 +89,7 @@ img {
   /* 3.1: Global Accent Rules */
   color: #ff9933;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */
-  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
+  /* 3.3: Special Effects */ }
   .accent-gold a {
     text-decoration: none;
     color: #cc6600;
@@ -139,23 +138,53 @@ img {
     color: #ff9933;
     text-shadow: 0 0 5px #ff9933, 0 0 10px #ff9933, 0 0 15px #ff9933; }
   .accent-gold .glow-anim {
-    color: #ff9933;
-    -webkit-animation: glow30deg 2s ease-in-out infinite alternate;
-    -moz-animation: glow30deg 2s ease-in-out infinite alternate;
-    animation: glow30deg 2s ease-in-out infinite alternate; }
+    animation-name: neonFlash30deg;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    -moz-animation-name: neonFlash30deg;
+    -moz-animation-duration: 8s;
+    -moz-animation-delay: 1s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: neonFlash30deg;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite; }
 
-@keyframes glow30deg {
-  from {
-    text-shadow: 0 0 5px #994d00, 0 0 10px #994d00, 0 0 15px #994d00, 0 0 20px #994d00, 0 0 25px #994d00; }
-  to {
-    text-shadow: 0 0 10px #e67300, 0 0 15px #e67300, 0 0 20px #e67300, 0 0 25px #e67300, 0 0 30px #e67300; } }
+@keyframes neonFlash30deg {
+  0% {
+    opacity: 0.1;
+    text-shadow: none; }
+  2% {
+    opacity: 0.7;
+    text-shadow: 0 0 5px #ff9933; }
+  5% {
+    opacity: 0.3;
+    text-shadow: none; }
+  8% {
+    opacity: 0.3;
+    text-shadow: none; }
+  10% {
+    opacity: 0.80;
+    text-shadow: 0 0 5px #ff9933; }
+  12% {
+    opacity: 1;
+    text-shadow: 0 0 5px #ff9933; }
+  15% {
+    opacity: 0.3;
+    text-shadow: none; }
+  17% {
+    opacity: 1;
+    text-shadow: 0 0 5px #ff9933, 0 0 10px #ff9933; }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 5px #ff9933, 0 0 10px #ff9933, 0 0 15px #ff9933; } }
 
 .accent-lime {
   /* 3.1: Global Accent Rules */
   color: #b9e635;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */
-  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
+  /* 3.3: Special Effects */ }
   .accent-lime a {
     text-decoration: none;
     color: #7da114;
@@ -204,23 +233,53 @@ img {
     color: #b9e635;
     text-shadow: 0 0 5px #b9e635, 0 0 10px #b9e635, 0 0 15px #b9e635; }
   .accent-lime .glow-anim {
-    color: #b9e635;
-    -webkit-animation: glow75.25424deg 2s ease-in-out infinite alternate;
-    -moz-animation: glow75.25424deg 2s ease-in-out infinite alternate;
-    animation: glow75.25424deg 2s ease-in-out infinite alternate; }
+    animation-name: neonFlash75deg;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    -moz-animation-name: neonFlash75deg;
+    -moz-animation-duration: 8s;
+    -moz-animation-delay: 1s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: neonFlash75deg;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite; }
 
-@keyframes glow75.25424deg {
-  from {
-    text-shadow: 0 0 5px #5a740e, 0 0 10px #5a740e, 0 0 15px #5a740e, 0 0 20px #5a740e, 0 0 25px #5a740e; }
-  to {
-    text-shadow: 0 0 10px #8fb817, 0 0 15px #8fb817, 0 0 20px #8fb817, 0 0 25px #8fb817, 0 0 30px #8fb817; } }
+@keyframes neonFlash75deg {
+  0% {
+    opacity: 0.1;
+    text-shadow: none; }
+  2% {
+    opacity: 0.7;
+    text-shadow: 0 0 5px #b9e635; }
+  5% {
+    opacity: 0.3;
+    text-shadow: none; }
+  8% {
+    opacity: 0.3;
+    text-shadow: none; }
+  10% {
+    opacity: 0.80;
+    text-shadow: 0 0 5px #b9e635; }
+  12% {
+    opacity: 1;
+    text-shadow: 0 0 5px #b9e635; }
+  15% {
+    opacity: 0.3;
+    text-shadow: none; }
+  17% {
+    opacity: 1;
+    text-shadow: 0 0 5px #b9e635, 0 0 10px #b9e635; }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 5px #b9e635, 0 0 10px #b9e635, 0 0 15px #b9e635; } }
 
 .accent-green {
   /* 3.1: Global Accent Rules */
   color: #00cc00;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */
-  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
+  /* 3.3: Special Effects */ }
   .accent-green a {
     text-decoration: none;
     color: #006600;
@@ -269,23 +328,53 @@ img {
     color: #00cc00;
     text-shadow: 0 0 5px #00cc00, 0 0 10px #00cc00, 0 0 15px #00cc00; }
   .accent-green .glow-anim {
-    color: #00cc00;
-    -webkit-animation: glow120deg 2s ease-in-out infinite alternate;
-    -moz-animation: glow120deg 2s ease-in-out infinite alternate;
-    animation: glow120deg 2s ease-in-out infinite alternate; }
+    animation-name: neonFlash120deg;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    -moz-animation-name: neonFlash120deg;
+    -moz-animation-duration: 8s;
+    -moz-animation-delay: 1s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: neonFlash120deg;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite; }
 
-@keyframes glow120deg {
-  from {
-    text-shadow: 0 0 5px #003300, 0 0 10px #003300, 0 0 15px #003300, 0 0 20px #003300, 0 0 25px #003300; }
-  to {
-    text-shadow: 0 0 10px green, 0 0 15px green, 0 0 20px green, 0 0 25px green, 0 0 30px green; } }
+@keyframes neonFlash120deg {
+  0% {
+    opacity: 0.1;
+    text-shadow: none; }
+  2% {
+    opacity: 0.7;
+    text-shadow: 0 0 5px #00cc00; }
+  5% {
+    opacity: 0.3;
+    text-shadow: none; }
+  8% {
+    opacity: 0.3;
+    text-shadow: none; }
+  10% {
+    opacity: 0.80;
+    text-shadow: 0 0 5px #00cc00; }
+  12% {
+    opacity: 1;
+    text-shadow: 0 0 5px #00cc00; }
+  15% {
+    opacity: 0.3;
+    text-shadow: none; }
+  17% {
+    opacity: 1;
+    text-shadow: 0 0 5px #00cc00, 0 0 10px #00cc00; }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 5px #00cc00, 0 0 10px #00cc00, 0 0 15px #00cc00; } }
 
 .accent-aqua {
   /* 3.1: Global Accent Rules */
   color: #00ff99;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */
-  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
+  /* 3.3: Special Effects */ }
   .accent-aqua a {
     text-decoration: none;
     color: #00995c;
@@ -334,23 +423,53 @@ img {
     color: #00ff99;
     text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99, 0 0 15px #00ff99; }
   .accent-aqua .glow-anim {
-    color: #00ff99;
-    -webkit-animation: glow156deg 2s ease-in-out infinite alternate;
-    -moz-animation: glow156deg 2s ease-in-out infinite alternate;
-    animation: glow156deg 2s ease-in-out infinite alternate; }
+    animation-name: neonFlash156deg;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    -moz-animation-name: neonFlash156deg;
+    -moz-animation-duration: 8s;
+    -moz-animation-delay: 1s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: neonFlash156deg;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite; }
 
-@keyframes glow156deg {
-  from {
-    text-shadow: 0 0 5px #00663d, 0 0 10px #00663d, 0 0 15px #00663d, 0 0 20px #00663d, 0 0 25px #00663d; }
-  to {
-    text-shadow: 0 0 10px #00b36b, 0 0 15px #00b36b, 0 0 20px #00b36b, 0 0 25px #00b36b, 0 0 30px #00b36b; } }
+@keyframes neonFlash156deg {
+  0% {
+    opacity: 0.1;
+    text-shadow: none; }
+  2% {
+    opacity: 0.7;
+    text-shadow: 0 0 5px #00ff99; }
+  5% {
+    opacity: 0.3;
+    text-shadow: none; }
+  8% {
+    opacity: 0.3;
+    text-shadow: none; }
+  10% {
+    opacity: 0.80;
+    text-shadow: 0 0 5px #00ff99; }
+  12% {
+    opacity: 1;
+    text-shadow: 0 0 5px #00ff99; }
+  15% {
+    opacity: 0.3;
+    text-shadow: none; }
+  17% {
+    opacity: 1;
+    text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99; }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99, 0 0 15px #00ff99; } }
 
 .accent-light-blue {
   /* 3.1: Global Accent Rules */
   color: #00ccff;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */
-  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
+  /* 3.3: Special Effects */ }
   .accent-light-blue a {
     text-decoration: none;
     color: #007a99;
@@ -399,23 +518,53 @@ img {
     color: #00ccff;
     text-shadow: 0 0 5px #00ccff, 0 0 10px #00ccff, 0 0 15px #00ccff; }
   .accent-light-blue .glow-anim {
-    color: #00ccff;
-    -webkit-animation: glow192deg 2s ease-in-out infinite alternate;
-    -moz-animation: glow192deg 2s ease-in-out infinite alternate;
-    animation: glow192deg 2s ease-in-out infinite alternate; }
+    animation-name: neonFlash192deg;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    -moz-animation-name: neonFlash192deg;
+    -moz-animation-duration: 8s;
+    -moz-animation-delay: 1s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: neonFlash192deg;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite; }
 
-@keyframes glow192deg {
-  from {
-    text-shadow: 0 0 5px #005266, 0 0 10px #005266, 0 0 15px #005266, 0 0 20px #005266, 0 0 25px #005266; }
-  to {
-    text-shadow: 0 0 10px #008fb3, 0 0 15px #008fb3, 0 0 20px #008fb3, 0 0 25px #008fb3, 0 0 30px #008fb3; } }
+@keyframes neonFlash192deg {
+  0% {
+    opacity: 0.1;
+    text-shadow: none; }
+  2% {
+    opacity: 0.7;
+    text-shadow: 0 0 5px #00ccff; }
+  5% {
+    opacity: 0.3;
+    text-shadow: none; }
+  8% {
+    opacity: 0.3;
+    text-shadow: none; }
+  10% {
+    opacity: 0.80;
+    text-shadow: 0 0 5px #00ccff; }
+  12% {
+    opacity: 1;
+    text-shadow: 0 0 5px #00ccff; }
+  15% {
+    opacity: 0.3;
+    text-shadow: none; }
+  17% {
+    opacity: 1;
+    text-shadow: 0 0 5px #00ccff, 0 0 10px #00ccff; }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 5px #00ccff, 0 0 10px #00ccff, 0 0 15px #00ccff; } }
 
 .accent-pink {
   /* 3.1: Global Accent Rules */
   color: #c85bff;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */
-  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
+  /* 3.3: Special Effects */ }
   .accent-pink a {
     text-decoration: none;
     color: #a200f4;
@@ -464,23 +613,53 @@ img {
     color: #c85bff;
     text-shadow: 0 0 5px #c85bff, 0 0 10px #c85bff, 0 0 15px #c85bff; }
   .accent-pink .glow-anim {
-    color: #c85bff;
-    -webkit-animation: glow279.87805deg 2s ease-in-out infinite alternate;
-    -moz-animation: glow279.87805deg 2s ease-in-out infinite alternate;
-    animation: glow279.87805deg 2s ease-in-out infinite alternate; }
+    animation-name: neonFlash280deg;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    -moz-animation-name: neonFlash280deg;
+    -moz-animation-duration: 8s;
+    -moz-animation-delay: 1s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: neonFlash280deg;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite; }
 
-@keyframes glow279.87805deg {
-  from {
-    text-shadow: 0 0 5px #8000c1, 0 0 10px #8000c1, 0 0 15px #8000c1, 0 0 20px #8000c1, 0 0 25px #8000c1; }
-  to {
-    text-shadow: 0 0 10px #ae0fff, 0 0 15px #ae0fff, 0 0 20px #ae0fff, 0 0 25px #ae0fff, 0 0 30px #ae0fff; } }
+@keyframes neonFlash280deg {
+  0% {
+    opacity: 0.1;
+    text-shadow: none; }
+  2% {
+    opacity: 0.7;
+    text-shadow: 0 0 5px #c85bff; }
+  5% {
+    opacity: 0.3;
+    text-shadow: none; }
+  8% {
+    opacity: 0.3;
+    text-shadow: none; }
+  10% {
+    opacity: 0.80;
+    text-shadow: 0 0 5px #c85bff; }
+  12% {
+    opacity: 1;
+    text-shadow: 0 0 5px #c85bff; }
+  15% {
+    opacity: 0.3;
+    text-shadow: none; }
+  17% {
+    opacity: 1;
+    text-shadow: 0 0 5px #c85bff, 0 0 10px #c85bff; }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 5px #c85bff, 0 0 10px #c85bff, 0 0 15px #c85bff; } }
 
 .accent-red {
   /* 3.1: Global Accent Rules */
   color: #ec3030;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */
-  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
+  /* 3.3: Special Effects */ }
   .accent-red a {
     text-decoration: none;
     color: #a70f0f;
@@ -529,23 +708,53 @@ img {
     color: #ec3030;
     text-shadow: 0 0 5px #ec3030, 0 0 10px #ec3030, 0 0 15px #ec3030; }
   .accent-red .glow-anim {
-    color: #ec3030;
-    -webkit-animation: glow0deg 2s ease-in-out infinite alternate;
-    -moz-animation: glow0deg 2s ease-in-out infinite alternate;
-    animation: glow0deg 2s ease-in-out infinite alternate; }
+    animation-name: neonFlash0deg;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    -moz-animation-name: neonFlash0deg;
+    -moz-animation-duration: 8s;
+    -moz-animation-delay: 1s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: neonFlash0deg;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite; }
 
-@keyframes glow0deg {
-  from {
-    text-shadow: 0 0 5px #780b0b, 0 0 10px #780b0b, 0 0 15px #780b0b, 0 0 20px #780b0b, 0 0 25px #780b0b; }
-  to {
-    text-shadow: 0 0 10px #be1111, 0 0 15px #be1111, 0 0 20px #be1111, 0 0 25px #be1111, 0 0 30px #be1111; } }
+@keyframes neonFlash0deg {
+  0% {
+    opacity: 0.1;
+    text-shadow: none; }
+  2% {
+    opacity: 0.7;
+    text-shadow: 0 0 5px #ec3030; }
+  5% {
+    opacity: 0.3;
+    text-shadow: none; }
+  8% {
+    opacity: 0.3;
+    text-shadow: none; }
+  10% {
+    opacity: 0.80;
+    text-shadow: 0 0 5px #ec3030; }
+  12% {
+    opacity: 1;
+    text-shadow: 0 0 5px #ec3030; }
+  15% {
+    opacity: 0.3;
+    text-shadow: none; }
+  17% {
+    opacity: 1;
+    text-shadow: 0 0 5px #ec3030, 0 0 10px #ec3030; }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 5px #ec3030, 0 0 10px #ec3030, 0 0 15px #ec3030; } }
 
 .accent-clear-sky {
   /* 3.1: Global Accent Rules */
   color: #41ffff;
   /* 3.2: Component Accent Rules */
-  /* 3.3: Special Effects */
-  /* TODO: Enchance Animated Glow and possibly bring it back to the title */ }
+  /* 3.3: Special Effects */ }
   .accent-clear-sky a {
     text-decoration: none;
     color: #00dada;
@@ -594,13 +803,44 @@ img {
     color: #41ffff;
     text-shadow: 0 0 5px #41ffff, 0 0 10px #41ffff, 0 0 15px #41ffff; }
   .accent-clear-sky .glow-anim {
-    color: #41ffff;
-    -webkit-animation: glow180deg 2s ease-in-out infinite alternate;
-    -moz-animation: glow180deg 2s ease-in-out infinite alternate;
-    animation: glow180deg 2s ease-in-out infinite alternate; }
+    animation-name: neonFlash180deg;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    -moz-animation-name: neonFlash180deg;
+    -moz-animation-duration: 8s;
+    -moz-animation-delay: 1s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: neonFlash180deg;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite; }
 
-@keyframes glow180deg {
-  from {
-    text-shadow: 0 0 5px #00a7a7, 0 0 10px #00a7a7, 0 0 15px #00a7a7, 0 0 20px #00a7a7, 0 0 25px #00a7a7; }
-  to {
-    text-shadow: 0 0 10px #00f4f4, 0 0 15px #00f4f4, 0 0 20px #00f4f4, 0 0 25px #00f4f4, 0 0 30px #00f4f4; } }
+@keyframes neonFlash180deg {
+  0% {
+    opacity: 0.1;
+    text-shadow: none; }
+  2% {
+    opacity: 0.7;
+    text-shadow: 0 0 5px #41ffff; }
+  5% {
+    opacity: 0.3;
+    text-shadow: none; }
+  8% {
+    opacity: 0.3;
+    text-shadow: none; }
+  10% {
+    opacity: 0.80;
+    text-shadow: 0 0 5px #41ffff; }
+  12% {
+    opacity: 1;
+    text-shadow: 0 0 5px #41ffff; }
+  15% {
+    opacity: 0.3;
+    text-shadow: none; }
+  17% {
+    opacity: 1;
+    text-shadow: 0 0 5px #41ffff, 0 0 10px #41ffff; }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 5px #41ffff, 0 0 10px #41ffff, 0 0 15px #41ffff; } }

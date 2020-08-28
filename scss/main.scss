@@ -114,6 +114,8 @@ img {
 *********************/
 @mixin apply-accent-color($color) {
 
+  $colorHue: round(hue($color));
+
   /* 3.1: Global Accent Rules */
   color: $color;
 
@@ -205,30 +207,59 @@ img {
     text-shadow: 0 0 5px $color, 0 0 10px $color, 0 0 15px $color;
   }
 
-  /* TODO: Enchance Animated Glow and possibly bring it back to the title */
   .glow-anim {
-    color: $color;
-    -webkit-animation: glow#{hue($color)} 2s ease-in-out infinite alternate;
-    -moz-animation: glow#{hue($color)} 2s ease-in-out infinite alternate;
-    animation: glow#{hue($color)} 2s ease-in-out infinite alternate;
+    //Using interpolation here to seek for animation keyframes that correspond to the hue of the current color
+    animation-name: neonFlash#{$colorHue};
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    -moz-animation-name: neonFlash#{$colorHue};
+    -moz-animation-duration: 8s;
+    -moz-animation-delay: 1s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: neonFlash#{$colorHue};
+    -webkit-animation-duration: 8s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
   }
 
-  @keyframes glow#{hue($color)} {
-    from {
-      text-shadow:
-              0 0 5px adjust_color($color, $lightness: -30%),
-              0 0 10px adjust_color($color, $lightness: -30%),
-              0 0 15px adjust_color($color, $lightness: -30%),
-              0 0 20px adjust_color($color, $lightness: -30%),
-              0 0 25px adjust_color($color, $lightness: -30%);
+  //TODO work more on this
+  @keyframes neonFlash#{$colorHue} {
+    0% {
+      opacity: 0.1;
+      text-shadow: none;
     }
-    to {
-      text-shadow:
-              0 0 10px adjust_color($color, $lightness: -15%),
-              0 0 15px adjust_color($color, $lightness: -15%),
-              0 0 20px adjust_color($color, $lightness: -15%),
-              0 0 25px adjust_color($color, $lightness: -15%),
-              0 0 30px adjust_color($color, $lightness: -15%);
+    2% {
+      opacity: 0.7;
+      text-shadow: 0 0 5px $color;
+    }
+    5% {
+      opacity: 0.3;
+      text-shadow: none;
+    }
+    8% {
+      opacity: 0.3;
+      text-shadow: none;
+    }
+    10% {
+      opacity: 0.80;
+      text-shadow: 0 0 5px $color;
+    }
+    12% {
+      opacity: 1;
+      text-shadow: 0 0 5px $color;
+    }
+    15% {
+      opacity: 0.3;
+      text-shadow: none;
+    }
+    17% {
+      opacity: 1;
+      text-shadow: 0 0 5px $color, 0 0 10px $color;
+    }
+    100% {
+      opacity: 1;
+      text-shadow: 0 0 5px $color, 0 0 10px $color, 0 0 15px $color;
     }
   }
 }
