@@ -29,7 +29,10 @@ const quotes = [
     "Always Under Construction!",
     "<em>PogChamp</em>",
     "Beep Boop ~ Welcome User!",
-    ">_<"
+    "ね～、ありがとう for visiting my website >_<",
+    //"Thanks for visiting my website. >_<",
+    "REOL is cute, E.O.S.",
+    "DΛVӨLΣӨ is the <em>aesthetic</em> version of Davoleo"
 ]
 
 function setRandomImage() {
