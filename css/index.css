@@ -14,47 +14,56 @@ Table of Contents:
 *********************/
 body {
   overflow-x: hidden;
-  margin: 0; }
+  margin: 0;
+}
 
 /********************
 2: Layout Rules
 *********************/
 header {
-  flex-grow: 1; }
+  flex-grow: 1;
+}
 
 #first_row {
   width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 #desc_col {
   display: flex;
   flex-direction: column;
   width: 30%;
-  align-self: center; }
+  align-self: center;
+}
 
 #img_col {
   width: 15%;
   border-radius: 999px;
   border: 3px solid;
-  align-self: center; }
+  align-self: center;
+}
 
 #links_col {
-  width: 30%; }
-  #links_col li {
-    padding-top: 0.75em;
-    font-size: 1.25rem; }
+  width: 30%;
+}
+#links_col li {
+  padding-top: 0.75em;
+  font-size: 1.25rem;
+}
 
 #second_row {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 8em 0; }
-  #second_row a {
-    font-size: 2rem;
-    padding: 0.5em; }
+  margin: 8em 0;
+}
+#second_row a {
+  font-size: 2rem;
+  padding: 0.5em;
+}
 
 footer {
   display: flex;
@@ -64,7 +73,8 @@ footer {
   flex: 1;
   margin-top: auto;
   font-size: 1.25rem;
-  padding: 0.5em; }
+  padding: 0.5em;
+}
 
 /********************
 3: Components
@@ -72,7 +82,8 @@ footer {
 .container {
   min-height: 100vh;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 #sliding_title {
   display: inline-block;
@@ -81,26 +92,32 @@ footer {
   white-space: nowrap;
   font-weight: normal;
   margin-top: 0.5em;
-  margin-bottom: 0.5em; }
+  margin-bottom: 0.5em;
+}
 
 @keyframes slide {
   from {
-    left: 100%; }
+    left: 100%;
+  }
   to {
-    left: -555px; } }
-
+    left: -555px;
+  }
+}
 #sliding_title_wrapper {
   border-top: dotted 4px;
-  border-bottom: dotted 4px; }
+  border-bottom: dotted 4px;
+}
 
 #uls {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+}
 
 .button-link {
   background-color: transparent;
   border-radius: 0.5em;
-  margin: 0.5em; }
+  margin: 0.5em;
+}
 
 /********************
 4: Media Queries
@@ -109,28 +126,46 @@ footer {
 @media all and (max-width: 800px) {
   .card {
     margin-top: 50px;
-    margin-bottom: 50px; }
-  .github {
-    display: none; }
-  #first_row {
-    flex-direction: column; }
-  #img_col {
-    width: 50%; }
-  #desc_col, #links_col {
-    width: 100%; }
-  #desc_col, #links_col, #img_col {
-    margin-top: 2em; }
-  #uls {
-    justify-content: space-between; } }
+    margin-bottom: 50px;
+  }
 
+  .github {
+    display: none;
+  }
+
+  #first_row {
+    flex-direction: column;
+  }
+
+  #img_col {
+    width: 50%;
+  }
+
+  #desc_col, #links_col {
+    width: 100%;
+  }
+
+  #desc_col, #links_col, #img_col {
+    margin-top: 2em;
+  }
+
+  #uls {
+    justify-content: space-between;
+  }
+}
 /* 4.2: Small Screens */
 @media all and (max-width: 430px) {
   #discord_button {
-    display: none; }
+    display: none;
+  }
+
   #second_row {
     /* Decrease the top and bottom margin */
     margin: 4em 0;
     flex-direction: column;
-    align-items: center; }
-    #second_row .button-link + .button-link {
-      margin-top: 1em; } }
+    align-items: center;
+  }
+  #second_row .button-link + .button-link {
+    margin-top: 1em;
+  }
+}

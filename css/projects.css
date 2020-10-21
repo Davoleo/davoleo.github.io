@@ -6,19 +6,30 @@
   flex-direction: row;
   margin-top: 50px;
   justify-content: space-evenly;
-  flex-wrap: wrap; }
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
 
 /********************
 2: Components
 *********************/
 .card-text {
-  margin: 10px; }
+  margin: 10px;
+  padding-bottom: 5px;
+}
 
 .card-img-top {
-  padding: 1em; }
+  padding: 1em;
+}
 
 .card {
-  margin: 1em; }
+  margin: 1em;
+}
+
+.card-feed-container {
+  border-top: 1px solid;
+  width: 100%;
+}
 
 .card-button-container {
   display: flex;
@@ -26,9 +37,33 @@
   flex-direction: row;
   justify-content: space-around;
   border-top: 1px solid;
-  padding-top: 5px; }
-  .card-button-container a {
-    padding: 3px 5px;
-    font-size: x-large; }
-  .card-button-container a:hover {
-    text-decoration: none; }
+  padding-top: 5px;
+}
+.card-button-container a {
+  padding: 3px 5px;
+  font-size: x-large;
+}
+.card-button-container a:hover {
+  text-decoration: none;
+}
+
+/* Overriding Github-Activity Style */
+.gha-feed, .gha-push, .gha-activity {
+  background-color: #000;
+  border: none;
+}
+
+.gha-header, .gha-footer, .gha-push, .gha-push-small {
+  display: none;
+}
+
+.gha-message {
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+}
+
+.gha-activity img {
+  display: inline-block;
+  box-shadow: none;
+  border-radius: 999px;
+}
