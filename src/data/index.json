@@ -1,4 +1,6 @@
 {
+    "title": "index",
+    "superCss": true,
     "homeName": "Davoleo's Virtual Hub",
     "bioSubtitle": "Hi, I'm Davoleo",
     "bioLines": [
