@@ -1,0 +1,63 @@
+{{> header}}
+
+<body>
+<div class="container">
+    <header>
+        <div>
+            <h1 class="glow-anim"> {{homeName}} </h1>
+            <div id="sliding_title_wrapper">
+                <h2 id="sliding_title">Content Failed to Load</h2>
+            </div>
+            <noscript>
+                <h2>Warning: Some parts of this website might not display properly if you don't have JavaScript enabled on your browser</h2>
+            </noscript>
+        </div>
+    </header>
+
+    <div id="first_row">
+        <div id="desc_col">
+            <h2>{{bioSubtitle}}</h2>
+            <p>
+                {{#each bioLines}}
+                    {{this}}<br>
+                {{/each}}
+            </p>
+        </div>
+        <img id="img_col" src="" alt="Profile picture">
+        <div id="links_col">
+            <h2>Links</h2>
+            <div id="uls">
+                <ul>
+                    {{#each links.list1}}
+                        <li><a href="{{this.link}}">{{this.name}}</a></li>
+                    {{/each}}
+                </ul>
+                <ul>
+                    {{#each links.list2}}
+                        <li><a href="{{this.link}}">{{this.name}}</a></li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="second_row">
+        <a class="button-link" href="projects.html">Projects</a>
+        <a class="button-link" href="pc.html">PC Config</a>
+    </div>
+
+    <footer>
+        <div class="github">
+            <a class="button-link" id="footer_button_left" href="https://github.com/Davoleo/davoleo.github.io"><span class="mdi mdi-code-tags"></span></a>
+        </div>
+        <p>Copyright - &copy; - Davoleo - 2020-{{ $getCurrentYear }}</p>
+        <div>
+            <a class="button-link" id="footer_button_right" href="http://discord.davoleo.net"><span class="mdi mdi-discord"></span></a>
+        </div>
+    </footer>
+</div>
+
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>

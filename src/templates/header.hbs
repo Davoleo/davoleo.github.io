@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600&display=swap" rel="stylesheet">
+    <!-- MDI -->
+    <link href="lib/mdi/css/materialdesignicons.min.css" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+
+    {{#if projects}}
+        <!-- github-activity -->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+        <link rel="stylesheet" href="./lib/github-activity/github-activity-0.1.5.min.css">
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+        <script type="text/javascript" src="./lib/github-activity/github-activity-0.1.5.min.js"></script>
+    {{/if}}
+
+    <link rel="stylesheet" href="../scss/main.scss" type="text/scss">
+
+    {{#if superCss}}
+        <link rel="stylesheet" href="../scss/{{title}}.scss" type="text/scss">
+    {{else}}
+        <link rel="stylesheet" href="../css/{{title}}.css" type="text/css">
+    {{/if}}
+
+    <noscript>
+        <style>
+            body { background-color: white; }
+        </style>
+    </noscript>
+</head>
