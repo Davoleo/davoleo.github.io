@@ -8,7 +8,8 @@
   },
   "scripts": {
     "build": "webpack",
-    "watch": "sass --watch ./src/scss -o ./dist/css"
+    "dev": "webpack serve",
+    "watch-sass": "sass --watch ./src/scss -o ./dist/css"
   },
   "repository": {
     "type": "git",
@@ -25,9 +26,10 @@
   },
   "devDependencies": {
     "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
     "handlebars": "^4.7.6",
     "handlebars-loader": "^1.7.1",
-    "handlebars-webpack-plugin": "^2.2.1",
+    "html-webpack-plugin": "^5.1.0",
     "json-loader": "^0.5.7",
     "path": "^0.12.7",
     "sass": "^1.32.5",

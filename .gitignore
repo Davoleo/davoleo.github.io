@@ -3,3 +3,6 @@
 
 # npm deps
 node_modules/
+
+# Distribution
+dist/

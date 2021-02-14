@@ -1,6 +1,8 @@
-const header = require("../templates/header.hbs");
+const header = require("../templates/partials/header.hbs");
 const index = require("../templates/index.hbs");
 const indexData = require("../data/index.json");
+
+const indexObj = JSON.parse(indexData);
 
 Handlebars.registerPartial('header', header);
 
@@ -9,4 +11,4 @@ Handlebars.registerHelper("getCurrentYear", function () {
 })
 
 const compiledIndex = Handlebars.compile(index);
-compiledIndex(indexData);
+console.log(compiledIndex);
