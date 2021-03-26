@@ -1,14 +1,13 @@
 {
-  "name": "davoleo.github.io",
+  "name": "davoleo.net",
   "version": "1.0.0",
   "description": "My personal website",
-  "main": "index.html",
+  "main": "metal.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack serve",
+    "build": "node metal.js",
     "watch-sass": "sass --watch ./src/scss -o ./dist/css"
   },
   "repository": {
@@ -25,18 +24,12 @@
     "@mdi/font": "^5.5.55"
   },
   "devDependencies": {
-    "css-loader": "^5.0.1",
-    "file-loader": "^6.2.0",
     "handlebars": "^4.7.6",
-    "handlebars-loader": "^1.7.1",
-    "html-webpack-plugin": "^5.1.0",
-    "json-loader": "^0.5.7",
+    "jstransformer-handlebars": "^1.1.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-in-place": "^4.4.2",
+    "metalsmith-sass": "^1.7.0",
     "path": "^0.12.7",
-    "sass": "^1.32.5",
-    "sass-loader": "^10.1.1",
-    "style-loader": "^2.0.0",
-    "webpack": "^5.19.0",
-    "webpack-cli": "^4.4.0",
-    "webpack-dev-server": "^3.11.2"
+    "sass": "^1.32.5"
   }
 }

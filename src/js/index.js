@@ -1,7 +1,3 @@
-/********************
- *  Coded By Davoleo
- ********************/
-
 const miscImages = [
     "res/img/pp/black_bullet.gif",
     "res/img/pp/circle-corner-brackets.png",

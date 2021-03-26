@@ -1,0 +1,78 @@
+---
+title: projects
+hasScript: true
+
+projectCollection:
+- title: 'Metallurgy 4: Reforged'
+  summary: A Minecraft mod for 1.12.2 that expands the repertory of metals in Minecraft, providing means to process and final uses too!
+  id: metallurgy
+  image: https://repository-images.githubusercontent.com/144406053/55052980-07b8-11ea-9ca2-db5f405d5fae
+  links:
+  - name: Download
+    url: https://www.curseforge.com/minecraft/mc-mods/metallurgy-4-reforged
+  - name: Source Code
+    url: https://github.com/Davoleo/Metallurgy-4-Reforged
+
+- title: ImmersiveCraft-MK
+  summary: A Minecraft modpack for 1.12.2 that attemps to create a realistic sort of tech gameplay without being overly tedious/grindy.
+  id: immcraft
+  image: res/img/immersivecraft.png
+  links:
+  - name: Download
+    url: https://www.curseforge.com/minecraft/modpacks/immersivecraft-mk
+  - name: Source Code
+    url: https://github.com/Davoleo/ImmersiveCraft-MK
+
+- title: Curse Updates
+  summary: A Discord bot made to fetch new mod and modpacks updates from CurseForge and announce them on discord, can be used to fetch updates manually, but also to schedule notifications every time a new version is published.
+  id: curse_updates
+  image: res/img/curseforge-updates.png
+  links:
+  - name: Invite Link
+    url: https://discordapp.com/api/oauth2/authorize?client_id=658271214116274196&permissions=537193552&scope=bot
+  - name: Source Code
+    url: https://github.com/Davoleo/curse-updates
+
+- title: Barcode Stock
+  summary: A native Android app made for the purpose of scanning and storing products barcodes and assigning metadata like titles, descriptions, prices and VAT.
+  id: barcode_stock
+  image: res/img/barcode-stock.png
+  links:
+  - name: Download
+    url: https://github.com/Davoleo/BarcodeStock/releases
+  - name: Source Code
+    url: https://github.com/Davoleo/BarcodeStock
+---
+<!DOCTYPE html>
+<html lang="en">
+
+{{> header}}
+
+<body>
+{{> back_button}}
+
+<div class="container-fluid">
+    <h1 class="glow-anim">{{title}}</h1>
+    <div id="projects_container">
+        {{#each projectCollection}}
+        <div class="card">
+            <img src="https://repository-images.githubusercontent.com/144406053/55052980-07b8-11ea-9ca2-db5f405d5fae" alt="{{this.title}} Logo" class="card-img-top">
+            <div class="card-body">
+                <h2 class="card-title">{{this.title}}</h2>
+                <p class="card-text">{{this.summary}}</p>
+                <caption>Recent Activity</caption>
+                <div class="card-feed-container" id="{{this.id}}_feed"></div>
+                <div class="card-button-container">
+                    <a href="{{this.links.0.url}}">{{this.links.0.name}}</a>
+                    <a href="{{this.links.1.url}}">{{this.links.1.name}}</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/projects.js" type="text/javascript"></script>
+</body>
+</html>

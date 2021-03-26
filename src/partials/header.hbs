@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <title>{{title}}</title>
 
@@ -11,21 +9,16 @@
     <link href="lib/mdi/css/materialdesignicons.min.css" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
 
-    {{#if projects}}
+    {{#if projectCollection}}
         <!-- github-activity -->
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
         <link rel="stylesheet" href="./lib/github-activity/github-activity-0.1.5.min.css">
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
         <script type="text/javascript" src="./lib/github-activity/github-activity-0.1.5.min.js"></script>
     {{/if}}
 
-    <link rel="stylesheet" href="../scss/main.scss" type="text/scss">
-
-    {{#if superCss}}
-        <link rel="stylesheet" href="../scss/{{title}}.scss" type="text/scss">
-    {{else}}
-        <link rel="stylesheet" href="../css/{{title}}.css" type="text/css">
-    {{/if}}
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/{{title}}.css" type="text/css">
 
     <noscript>
         <style>
