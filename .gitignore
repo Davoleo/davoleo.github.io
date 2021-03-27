@@ -3,3 +3,7 @@
 
 # npm deps
 node_modules/
+
+# build directory & lib files (from the new version)
+dist/
+src/lib
