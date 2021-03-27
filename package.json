@@ -1,13 +1,14 @@
 {
-  "name": "davoleo.github.io",
+  "name": "davoleo.net",
   "version": "1.0.0",
   "description": "My personal website",
-  "main": "index.html",
+  "main": "metal.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "watch": "node-sass --watch scss -o css"
+    "build": "node metal.js",
+    "watch-sass": "sass --watch ./src/scss -o ./dist/css"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,15 @@
   },
   "homepage": "https://github.com/Davoleo/davoleo.github.io#readme",
   "dependencies": {
-    "@mdi/font": "^5.5.55",
-    "node-sass": "^4.14.1"
+    "@mdi/font": "^5.5.55"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.6",
+    "jstransformer-handlebars": "^1.1.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-in-place": "^4.4.2",
+    "metalsmith-sass": "^1.7.0",
+    "path": "^0.12.7",
+    "sass": "^1.32.5"
   }
 }

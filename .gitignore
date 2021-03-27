@@ -4,6 +4,8 @@
 # npm deps
 node_modules/
 
-# build directory & lib files (from the new version)
+# Distribution
 dist/
+
+# Lib Files
 src/lib

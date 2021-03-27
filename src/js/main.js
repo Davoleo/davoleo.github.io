@@ -1,4 +1,5 @@
-let accentColors = [
+//Setup page colors
+const accentColors = [
     "gold",
     "lime",
     "green",
