@@ -25,7 +25,7 @@ helperKeys.forEach(key => {
 
 Metalsmith(__dirname)
     .source("src")
-    .destination("build")
+    .destination("dist")
     .metadata({
         author: "Davoleo",
         site: "https://davoleo.net"
