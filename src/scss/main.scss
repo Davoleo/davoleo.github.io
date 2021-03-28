@@ -116,8 +116,8 @@ img {
 @mixin apply-accent-color($color) {
 
   $colorHue: round(hue($color));
-  $darkAccent20: adjust_color($color, $lightness: -20%);
-  $darkAccent10: adjust_color($color, $lightness: -10%);
+  $darkAccent20: adjust_color($color, $saturation: -20%, $lightness: -20%);
+  $darkAccent10: adjust_color($color, $saturation: -20%, $lightness: -10%);
 
   /* 3.1: Global Accent Rules */
   color: $color;
@@ -140,7 +140,7 @@ img {
   }
 
   p {
-    color: adjust-color($color, $lightness: -10%);
+    color: darkAccent10;
   }
 
   img {
