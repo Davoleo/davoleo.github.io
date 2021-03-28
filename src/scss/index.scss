@@ -40,6 +40,10 @@ header {
   flex-direction: column;
   width: 30%;
   align-self: center;
+
+  p {
+    margin: 0.5em 0;
+  }
 }
 
 #img_col {

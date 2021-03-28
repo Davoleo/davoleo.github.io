@@ -54,11 +54,9 @@ links:
     <div id="first_row">
         <div id="desc_col">
             <h2>{{bioSubtitle}}</h2>
-            <p>
-                {{#each bioLines}}
-                <p>{{this}}</p>
-                {{/each}}
-            </p>
+            {{#each bioLines}}
+            <p>{{this}}</p>
+            {{/each}}
         </div>
         <img id="img_col" src="" alt="Profile picture">
         <div id="links_col">
@@ -66,12 +64,12 @@ links:
             <div id="uls">
                 <ul>
                     {{#each links.list1}}
-                        <li><a href="{{this.link}}">{{this.name}}</a></li>
+                    <li><a href="{{this.link}}">{{this.name}}</a></li>
                     {{/each}}
                 </ul>
                 <ul>
                     {{#each links.list2}}
-                        <li><a href="{{this.link}}">{{this.name}}</a></li>
+                    <li><a href="{{this.link}}">{{this.name}}</a></li>
                     {{/each}}
                 </ul>
             </div>
