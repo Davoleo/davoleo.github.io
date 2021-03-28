@@ -34,5 +34,6 @@ jobs:
         publish_dir: ./dist
         publish_branch: deploy
         cname: davoleo.net
+        allow_empty_commit: true
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
