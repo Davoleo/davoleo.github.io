@@ -6,6 +6,3 @@ node_modules/
 
 # Distribution
 dist/
-
-# Lib Files
-src/lib
