@@ -7,6 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "dev": "watch 'npm run build' src",
     "build": "node metal.js",
     "watch-sass": "sass --watch ./src/scss -o ./dist/css"
   },
@@ -30,6 +31,7 @@
     "metalsmith-in-place": "^4.4.2",
     "metalsmith-sass": "^1.7.0",
     "path": "^0.12.7",
-    "sass": "^1.32.5"
+    "sass": "^1.32.5",
+    "watch": "^1.0.2"
   }
 }
