@@ -187,7 +187,7 @@ img {
 
 .accent-gold .glow {
   color: #ff9933;
-  text-shadow: 0 0 0.1em #b86614, 0 0 0.1em #b86614, 0 0 0.5em #b86614, 0 0 0.75em #b86614, 0 0 1em #b86614;
+  text-shadow: 0 0 0.1em #e6801a, 0 0 0.1em #e6801a, 0 0 0.5em #e6801a, 0 0 0.75em #e6801a, 0 0 1em #e6801a;
 }
 
 .accent-gold .glow-anim {
@@ -212,7 +212,7 @@ img {
   }
   2% {
     opacity: 0.7;
-    text-shadow: 0 0 0.1em #b86614, 0 0 0.1em #b86614;
+    text-shadow: 0 0 0.1em #e6801a, 0 0 0.1em #e6801a;
   }
   5% {
     opacity: 0.3;
@@ -224,11 +224,11 @@ img {
   }
   10% {
     opacity: 0.80;
-    text-shadow: 0 0 0.1em #b86614, 0 0 0.1em #b86614;
+    text-shadow: 0 0 0.1em #e6801a, 0 0 0.1em #e6801a;
   }
   12% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #b86614, 0 0 0.1em #b86614;
+    text-shadow: 0 0 0.1em #e6801a, 0 0 0.1em #e6801a;
   }
   15% {
     opacity: 0.3;
@@ -236,11 +236,11 @@ img {
   }
   17% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #b86614, 0 0 0.1em #b86614, 0 0 0.5em #b86614;
+    text-shadow: 0 0 0.1em #e6801a, 0 0 0.1em #e6801a, 0 0 0.5em #e6801a, 0 0 0.75em #e6801a;
   }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #b86614, 0 0 0.1em #b86614, 0 0 0.5em #b86614, 0 0 0.75em #b86614, 0 0 1em #b86614;
+    text-shadow: 0 0 0.1em #e6801a, 0 0 0.1em #e6801a, 0 0 0.5em #e6801a, 0 0 0.75em #e6801a, 0 0 1em #e6801a;
   }
 }
 
@@ -331,7 +331,7 @@ img {
 
 .accent-lime .glow {
   color: #b9e635;
-  text-shadow: 0 0 0.1em #748f26, 0 0 0.1em #748f26, 0 0 0.5em #748f26, 0 0 0.75em #748f26, 0 0 1em #748f26;
+  text-shadow: 0 0 0.1em #95b731, 0 0 0.1em #95b731, 0 0 0.5em #95b731, 0 0 0.75em #95b731, 0 0 1em #95b731;
 }
 
 .accent-lime .glow-anim {
@@ -356,7 +356,7 @@ img {
   }
   2% {
     opacity: 0.7;
-    text-shadow: 0 0 0.1em #748f26, 0 0 0.1em #748f26;
+    text-shadow: 0 0 0.1em #95b731, 0 0 0.1em #95b731;
   }
   5% {
     opacity: 0.3;
@@ -368,11 +368,11 @@ img {
   }
   10% {
     opacity: 0.80;
-    text-shadow: 0 0 0.1em #748f26, 0 0 0.1em #748f26;
+    text-shadow: 0 0 0.1em #95b731, 0 0 0.1em #95b731;
   }
   12% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #748f26, 0 0 0.1em #748f26;
+    text-shadow: 0 0 0.1em #95b731, 0 0 0.1em #95b731;
   }
   15% {
     opacity: 0.3;
@@ -380,11 +380,11 @@ img {
   }
   17% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #748f26, 0 0 0.1em #748f26, 0 0 0.5em #748f26;
+    text-shadow: 0 0 0.1em #95b731, 0 0 0.1em #95b731, 0 0 0.5em #95b731, 0 0 0.75em #95b731;
   }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #748f26, 0 0 0.1em #748f26, 0 0 0.5em #748f26, 0 0 0.75em #748f26, 0 0 1em #748f26;
+    text-shadow: 0 0 0.1em #95b731, 0 0 0.1em #95b731, 0 0 0.5em #95b731, 0 0 0.75em #95b731, 0 0 1em #95b731;
   }
 }
 
@@ -475,7 +475,7 @@ img {
 
 .accent-green .glow {
   color: #00cc00;
-  text-shadow: 0 0 0.1em #0a5c0a, 0 0 0.1em #0a5c0a, 0 0 0.5em #0a5c0a, 0 0 0.75em #0a5c0a, 0 0 1em #0a5c0a;
+  text-shadow: 0 0 0.1em #0f8a0f, 0 0 0.1em #0f8a0f, 0 0 0.5em #0f8a0f, 0 0 0.75em #0f8a0f, 0 0 1em #0f8a0f;
 }
 
 .accent-green .glow-anim {
@@ -500,7 +500,7 @@ img {
   }
   2% {
     opacity: 0.7;
-    text-shadow: 0 0 0.1em #0a5c0a, 0 0 0.1em #0a5c0a;
+    text-shadow: 0 0 0.1em #0f8a0f, 0 0 0.1em #0f8a0f;
   }
   5% {
     opacity: 0.3;
@@ -512,11 +512,11 @@ img {
   }
   10% {
     opacity: 0.80;
-    text-shadow: 0 0 0.1em #0a5c0a, 0 0 0.1em #0a5c0a;
+    text-shadow: 0 0 0.1em #0f8a0f, 0 0 0.1em #0f8a0f;
   }
   12% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #0a5c0a, 0 0 0.1em #0a5c0a;
+    text-shadow: 0 0 0.1em #0f8a0f, 0 0 0.1em #0f8a0f;
   }
   15% {
     opacity: 0.3;
@@ -524,11 +524,11 @@ img {
   }
   17% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #0a5c0a, 0 0 0.1em #0a5c0a, 0 0 0.5em #0a5c0a;
+    text-shadow: 0 0 0.1em #0f8a0f, 0 0 0.1em #0f8a0f, 0 0 0.5em #0f8a0f, 0 0 0.75em #0f8a0f;
   }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #0a5c0a, 0 0 0.1em #0a5c0a, 0 0 0.5em #0a5c0a, 0 0 0.75em #0a5c0a, 0 0 1em #0a5c0a;
+    text-shadow: 0 0 0.1em #0f8a0f, 0 0 0.1em #0f8a0f, 0 0 0.5em #0f8a0f, 0 0 0.75em #0f8a0f, 0 0 1em #0f8a0f;
   }
 }
 
@@ -619,7 +619,7 @@ img {
 
 .accent-aqua .glow {
   color: #00ff99;
-  text-shadow: 0 0 0.1em #0f8a59, 0 0 0.1em #0f8a59, 0 0 0.5em #0f8a59, 0 0 0.75em #0f8a59, 0 0 1em #0f8a59;
+  text-shadow: 0 0 0.1em #14b876, 0 0 0.1em #14b876, 0 0 0.5em #14b876, 0 0 0.75em #14b876, 0 0 1em #14b876;
 }
 
 .accent-aqua .glow-anim {
@@ -644,7 +644,7 @@ img {
   }
   2% {
     opacity: 0.7;
-    text-shadow: 0 0 0.1em #0f8a59, 0 0 0.1em #0f8a59;
+    text-shadow: 0 0 0.1em #14b876, 0 0 0.1em #14b876;
   }
   5% {
     opacity: 0.3;
@@ -656,11 +656,11 @@ img {
   }
   10% {
     opacity: 0.80;
-    text-shadow: 0 0 0.1em #0f8a59, 0 0 0.1em #0f8a59;
+    text-shadow: 0 0 0.1em #14b876, 0 0 0.1em #14b876;
   }
   12% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #0f8a59, 0 0 0.1em #0f8a59;
+    text-shadow: 0 0 0.1em #14b876, 0 0 0.1em #14b876;
   }
   15% {
     opacity: 0.3;
@@ -668,11 +668,11 @@ img {
   }
   17% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #0f8a59, 0 0 0.1em #0f8a59, 0 0 0.5em #0f8a59;
+    text-shadow: 0 0 0.1em #14b876, 0 0 0.1em #14b876, 0 0 0.5em #14b876, 0 0 0.75em #14b876;
   }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #0f8a59, 0 0 0.1em #0f8a59, 0 0 0.5em #0f8a59, 0 0 0.75em #0f8a59, 0 0 1em #0f8a59;
+    text-shadow: 0 0 0.1em #14b876, 0 0 0.1em #14b876, 0 0 0.5em #14b876, 0 0 0.75em #14b876, 0 0 1em #14b876;
   }
 }
 
@@ -763,7 +763,7 @@ img {
 
 .accent-light-blue .glow {
   color: #00ccff;
-  text-shadow: 0 0 0.1em #0f718a, 0 0 0.1em #0f718a, 0 0 0.5em #0f718a, 0 0 0.75em #0f718a, 0 0 1em #0f718a;
+  text-shadow: 0 0 0.1em #1497b8, 0 0 0.1em #1497b8, 0 0 0.5em #1497b8, 0 0 0.75em #1497b8, 0 0 1em #1497b8;
 }
 
 .accent-light-blue .glow-anim {
@@ -788,7 +788,7 @@ img {
   }
   2% {
     opacity: 0.7;
-    text-shadow: 0 0 0.1em #0f718a, 0 0 0.1em #0f718a;
+    text-shadow: 0 0 0.1em #1497b8, 0 0 0.1em #1497b8;
   }
   5% {
     opacity: 0.3;
@@ -800,11 +800,11 @@ img {
   }
   10% {
     opacity: 0.80;
-    text-shadow: 0 0 0.1em #0f718a, 0 0 0.1em #0f718a;
+    text-shadow: 0 0 0.1em #1497b8, 0 0 0.1em #1497b8;
   }
   12% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #0f718a, 0 0 0.1em #0f718a;
+    text-shadow: 0 0 0.1em #1497b8, 0 0 0.1em #1497b8;
   }
   15% {
     opacity: 0.3;
@@ -812,11 +812,11 @@ img {
   }
   17% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #0f718a, 0 0 0.1em #0f718a, 0 0 0.5em #0f718a;
+    text-shadow: 0 0 0.1em #1497b8, 0 0 0.1em #1497b8, 0 0 0.5em #1497b8, 0 0 0.75em #1497b8;
   }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #0f718a, 0 0 0.1em #0f718a, 0 0 0.5em #0f718a, 0 0 0.75em #0f718a, 0 0 1em #0f718a;
+    text-shadow: 0 0 0.1em #1497b8, 0 0 0.1em #1497b8, 0 0 0.5em #1497b8, 0 0 0.75em #1497b8, 0 0 1em #1497b8;
   }
 }
 
@@ -907,7 +907,7 @@ img {
 
 .accent-pink .glow {
   color: #c85bff;
-  text-shadow: 0 0 0.1em #9a18dc, 0 0 0.1em #9a18dc, 0 0 0.5em #9a18dc, 0 0 0.75em #9a18dc, 0 0 1em #9a18dc;
+  text-shadow: 0 0 0.1em #b03eea, 0 0 0.1em #b03eea, 0 0 0.5em #b03eea, 0 0 0.75em #b03eea, 0 0 1em #b03eea;
 }
 
 .accent-pink .glow-anim {
@@ -932,7 +932,7 @@ img {
   }
   2% {
     opacity: 0.7;
-    text-shadow: 0 0 0.1em #9a18dc, 0 0 0.1em #9a18dc;
+    text-shadow: 0 0 0.1em #b03eea, 0 0 0.1em #b03eea;
   }
   5% {
     opacity: 0.3;
@@ -944,11 +944,11 @@ img {
   }
   10% {
     opacity: 0.80;
-    text-shadow: 0 0 0.1em #9a18dc, 0 0 0.1em #9a18dc;
+    text-shadow: 0 0 0.1em #b03eea, 0 0 0.1em #b03eea;
   }
   12% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #9a18dc, 0 0 0.1em #9a18dc;
+    text-shadow: 0 0 0.1em #b03eea, 0 0 0.1em #b03eea;
   }
   15% {
     opacity: 0.3;
@@ -956,11 +956,11 @@ img {
   }
   17% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #9a18dc, 0 0 0.1em #9a18dc, 0 0 0.5em #9a18dc;
+    text-shadow: 0 0 0.1em #b03eea, 0 0 0.1em #b03eea, 0 0 0.5em #b03eea, 0 0 0.75em #b03eea;
   }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #9a18dc, 0 0 0.1em #9a18dc, 0 0 0.5em #9a18dc, 0 0 0.75em #9a18dc, 0 0 1em #9a18dc;
+    text-shadow: 0 0 0.1em #b03eea, 0 0 0.1em #b03eea, 0 0 0.5em #b03eea, 0 0 0.75em #b03eea, 0 0 1em #b03eea;
   }
 }
 
@@ -1051,7 +1051,7 @@ img {
 
 .accent-red .glow {
   color: #ec3030;
-  text-shadow: 0 0 0.1em #942222, 0 0 0.1em #942222, 0 0 0.5em #942222, 0 0 0.75em #942222, 0 0 1em #942222;
+  text-shadow: 0 0 0.1em #be2b2b, 0 0 0.1em #be2b2b, 0 0 0.5em #be2b2b, 0 0 0.75em #be2b2b, 0 0 1em #be2b2b;
 }
 
 .accent-red .glow-anim {
@@ -1076,7 +1076,7 @@ img {
   }
   2% {
     opacity: 0.7;
-    text-shadow: 0 0 0.1em #942222, 0 0 0.1em #942222;
+    text-shadow: 0 0 0.1em #be2b2b, 0 0 0.1em #be2b2b;
   }
   5% {
     opacity: 0.3;
@@ -1088,11 +1088,11 @@ img {
   }
   10% {
     opacity: 0.80;
-    text-shadow: 0 0 0.1em #942222, 0 0 0.1em #942222;
+    text-shadow: 0 0 0.1em #be2b2b, 0 0 0.1em #be2b2b;
   }
   12% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #942222, 0 0 0.1em #942222;
+    text-shadow: 0 0 0.1em #be2b2b, 0 0 0.1em #be2b2b;
   }
   15% {
     opacity: 0.3;
@@ -1100,11 +1100,11 @@ img {
   }
   17% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #942222, 0 0 0.1em #942222, 0 0 0.5em #942222;
+    text-shadow: 0 0 0.1em #be2b2b, 0 0 0.1em #be2b2b, 0 0 0.5em #be2b2b, 0 0 0.75em #be2b2b;
   }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #942222, 0 0 0.1em #942222, 0 0 0.5em #942222, 0 0 0.75em #942222, 0 0 1em #942222;
+    text-shadow: 0 0 0.1em #be2b2b, 0 0 0.1em #be2b2b, 0 0 0.5em #be2b2b, 0 0 0.75em #be2b2b, 0 0 1em #be2b2b;
   }
 }
 
@@ -1195,7 +1195,7 @@ img {
 
 .accent-clear-sky .glow {
   color: #41ffff;
-  text-shadow: 0 0 0.1em #16c4c4, 0 0 0.1em #16c4c4, 0 0 0.5em #16c4c4, 0 0 0.75em #16c4c4, 0 0 1em #16c4c4;
+  text-shadow: 0 0 0.1em #26e7e7, 0 0 0.1em #26e7e7, 0 0 0.5em #26e7e7, 0 0 0.75em #26e7e7, 0 0 1em #26e7e7;
 }
 
 .accent-clear-sky .glow-anim {
@@ -1220,7 +1220,7 @@ img {
   }
   2% {
     opacity: 0.7;
-    text-shadow: 0 0 0.1em #16c4c4, 0 0 0.1em #16c4c4;
+    text-shadow: 0 0 0.1em #26e7e7, 0 0 0.1em #26e7e7;
   }
   5% {
     opacity: 0.3;
@@ -1232,11 +1232,11 @@ img {
   }
   10% {
     opacity: 0.80;
-    text-shadow: 0 0 0.1em #16c4c4, 0 0 0.1em #16c4c4;
+    text-shadow: 0 0 0.1em #26e7e7, 0 0 0.1em #26e7e7;
   }
   12% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #16c4c4, 0 0 0.1em #16c4c4;
+    text-shadow: 0 0 0.1em #26e7e7, 0 0 0.1em #26e7e7;
   }
   15% {
     opacity: 0.3;
@@ -1244,10 +1244,10 @@ img {
   }
   17% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #16c4c4, 0 0 0.1em #16c4c4, 0 0 0.5em #16c4c4;
+    text-shadow: 0 0 0.1em #26e7e7, 0 0 0.1em #26e7e7, 0 0 0.5em #26e7e7, 0 0 0.75em #26e7e7;
   }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #16c4c4, 0 0 0.1em #16c4c4, 0 0 0.5em #16c4c4, 0 0 0.75em #16c4c4, 0 0 1em #16c4c4;
+    text-shadow: 0 0 0.1em #26e7e7, 0 0 0.1em #26e7e7, 0 0 0.5em #26e7e7, 0 0 0.75em #26e7e7, 0 0 1em #26e7e7;
   }
 }
