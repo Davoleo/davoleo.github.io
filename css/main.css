@@ -51,6 +51,19 @@ img {
   max-width: 100%;
 }
 
+/* Makes it so that someone disables animations in the OS animations are disabled on the website */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}
+
 /********************
 2: Components
 *********************/
@@ -238,9 +251,13 @@ img {
     opacity: 1;
     text-shadow: 0 0 0.1em #e6801a, 0 0 0.1em #e6801a, 0 0 0.5em #e6801a, 0 0 0.75em #e6801a;
   }
+  18% {
+    opacity: 1;
+    text-shadow: 0 0 0.1em #e6801a, 0 0 0.1em #e6801a, 0 0 0.5em #e6801a, 0 0 0.75em #e6801a, 0 0 1em #e6801a, 0 0 1em #e6801a, 0 0 1.25em #e6801a;
+  }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #e6801a, 0 0 0.1em #e6801a, 0 0 0.5em #e6801a, 0 0 0.75em #e6801a, 0 0 1em #e6801a;
+    text-shadow: 0 0 0.1em #e6801a, 0 0 0.1em #e6801a, 0 0 0.5em #e6801a, 0 0 0.75em #e6801a, 0 0 1em #e6801a, 0 0 1em #e6801a, 0 0 1.25em #e6801a;
   }
 }
 
@@ -382,9 +399,13 @@ img {
     opacity: 1;
     text-shadow: 0 0 0.1em #95b731, 0 0 0.1em #95b731, 0 0 0.5em #95b731, 0 0 0.75em #95b731;
   }
+  18% {
+    opacity: 1;
+    text-shadow: 0 0 0.1em #95b731, 0 0 0.1em #95b731, 0 0 0.5em #95b731, 0 0 0.75em #95b731, 0 0 1em #95b731, 0 0 1em #95b731, 0 0 1.25em #95b731;
+  }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #95b731, 0 0 0.1em #95b731, 0 0 0.5em #95b731, 0 0 0.75em #95b731, 0 0 1em #95b731;
+    text-shadow: 0 0 0.1em #95b731, 0 0 0.1em #95b731, 0 0 0.5em #95b731, 0 0 0.75em #95b731, 0 0 1em #95b731, 0 0 1em #95b731, 0 0 1.25em #95b731;
   }
 }
 
@@ -526,9 +547,13 @@ img {
     opacity: 1;
     text-shadow: 0 0 0.1em #0f8a0f, 0 0 0.1em #0f8a0f, 0 0 0.5em #0f8a0f, 0 0 0.75em #0f8a0f;
   }
+  18% {
+    opacity: 1;
+    text-shadow: 0 0 0.1em #0f8a0f, 0 0 0.1em #0f8a0f, 0 0 0.5em #0f8a0f, 0 0 0.75em #0f8a0f, 0 0 1em #0f8a0f, 0 0 1em #0f8a0f, 0 0 1.25em #0f8a0f;
+  }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #0f8a0f, 0 0 0.1em #0f8a0f, 0 0 0.5em #0f8a0f, 0 0 0.75em #0f8a0f, 0 0 1em #0f8a0f;
+    text-shadow: 0 0 0.1em #0f8a0f, 0 0 0.1em #0f8a0f, 0 0 0.5em #0f8a0f, 0 0 0.75em #0f8a0f, 0 0 1em #0f8a0f, 0 0 1em #0f8a0f, 0 0 1.25em #0f8a0f;
   }
 }
 
@@ -670,9 +695,13 @@ img {
     opacity: 1;
     text-shadow: 0 0 0.1em #14b876, 0 0 0.1em #14b876, 0 0 0.5em #14b876, 0 0 0.75em #14b876;
   }
+  18% {
+    opacity: 1;
+    text-shadow: 0 0 0.1em #14b876, 0 0 0.1em #14b876, 0 0 0.5em #14b876, 0 0 0.75em #14b876, 0 0 1em #14b876, 0 0 1em #14b876, 0 0 1.25em #14b876;
+  }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #14b876, 0 0 0.1em #14b876, 0 0 0.5em #14b876, 0 0 0.75em #14b876, 0 0 1em #14b876;
+    text-shadow: 0 0 0.1em #14b876, 0 0 0.1em #14b876, 0 0 0.5em #14b876, 0 0 0.75em #14b876, 0 0 1em #14b876, 0 0 1em #14b876, 0 0 1.25em #14b876;
   }
 }
 
@@ -814,9 +843,13 @@ img {
     opacity: 1;
     text-shadow: 0 0 0.1em #1497b8, 0 0 0.1em #1497b8, 0 0 0.5em #1497b8, 0 0 0.75em #1497b8;
   }
+  18% {
+    opacity: 1;
+    text-shadow: 0 0 0.1em #1497b8, 0 0 0.1em #1497b8, 0 0 0.5em #1497b8, 0 0 0.75em #1497b8, 0 0 1em #1497b8, 0 0 1em #1497b8, 0 0 1.25em #1497b8;
+  }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #1497b8, 0 0 0.1em #1497b8, 0 0 0.5em #1497b8, 0 0 0.75em #1497b8, 0 0 1em #1497b8;
+    text-shadow: 0 0 0.1em #1497b8, 0 0 0.1em #1497b8, 0 0 0.5em #1497b8, 0 0 0.75em #1497b8, 0 0 1em #1497b8, 0 0 1em #1497b8, 0 0 1.25em #1497b8;
   }
 }
 
@@ -958,9 +991,13 @@ img {
     opacity: 1;
     text-shadow: 0 0 0.1em #b03eea, 0 0 0.1em #b03eea, 0 0 0.5em #b03eea, 0 0 0.75em #b03eea;
   }
+  18% {
+    opacity: 1;
+    text-shadow: 0 0 0.1em #b03eea, 0 0 0.1em #b03eea, 0 0 0.5em #b03eea, 0 0 0.75em #b03eea, 0 0 1em #b03eea, 0 0 1em #b03eea, 0 0 1.25em #b03eea;
+  }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #b03eea, 0 0 0.1em #b03eea, 0 0 0.5em #b03eea, 0 0 0.75em #b03eea, 0 0 1em #b03eea;
+    text-shadow: 0 0 0.1em #b03eea, 0 0 0.1em #b03eea, 0 0 0.5em #b03eea, 0 0 0.75em #b03eea, 0 0 1em #b03eea, 0 0 1em #b03eea, 0 0 1.25em #b03eea;
   }
 }
 
@@ -1102,9 +1139,13 @@ img {
     opacity: 1;
     text-shadow: 0 0 0.1em #be2b2b, 0 0 0.1em #be2b2b, 0 0 0.5em #be2b2b, 0 0 0.75em #be2b2b;
   }
+  18% {
+    opacity: 1;
+    text-shadow: 0 0 0.1em #be2b2b, 0 0 0.1em #be2b2b, 0 0 0.5em #be2b2b, 0 0 0.75em #be2b2b, 0 0 1em #be2b2b, 0 0 1em #be2b2b, 0 0 1.25em #be2b2b;
+  }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #be2b2b, 0 0 0.1em #be2b2b, 0 0 0.5em #be2b2b, 0 0 0.75em #be2b2b, 0 0 1em #be2b2b;
+    text-shadow: 0 0 0.1em #be2b2b, 0 0 0.1em #be2b2b, 0 0 0.5em #be2b2b, 0 0 0.75em #be2b2b, 0 0 1em #be2b2b, 0 0 1em #be2b2b, 0 0 1.25em #be2b2b;
   }
 }
 
@@ -1246,8 +1287,12 @@ img {
     opacity: 1;
     text-shadow: 0 0 0.1em #26e7e7, 0 0 0.1em #26e7e7, 0 0 0.5em #26e7e7, 0 0 0.75em #26e7e7;
   }
+  18% {
+    opacity: 1;
+    text-shadow: 0 0 0.1em #26e7e7, 0 0 0.1em #26e7e7, 0 0 0.5em #26e7e7, 0 0 0.75em #26e7e7, 0 0 1em #26e7e7, 0 0 1em #26e7e7, 0 0 1.25em #26e7e7;
+  }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0.1em #26e7e7, 0 0 0.1em #26e7e7, 0 0 0.5em #26e7e7, 0 0 0.75em #26e7e7, 0 0 1em #26e7e7;
+    text-shadow: 0 0 0.1em #26e7e7, 0 0 0.1em #26e7e7, 0 0 0.5em #26e7e7, 0 0 0.75em #26e7e7, 0 0 1em #26e7e7, 0 0 1em #26e7e7, 0 0 1.25em #26e7e7;
   }
 }
