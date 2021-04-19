@@ -155,6 +155,11 @@ img {
   border: 1px solid #ff9933;
 }
 
+.accent-gold hr {
+  border-color: #ff9933;
+  box-shadow: 0 0 5px #b86614;
+}
+
 .accent-gold .card {
   border: groove 2px #ff9933;
   color: #ff9933;
@@ -301,6 +306,11 @@ img {
 
 .accent-lime td {
   border: 1px solid #b9e635;
+}
+
+.accent-lime hr {
+  border-color: #b9e635;
+  box-shadow: 0 0 5px #748f26;
 }
 
 .accent-lime .card {
@@ -451,6 +461,11 @@ img {
   border: 1px solid #00cc00;
 }
 
+.accent-green hr {
+  border-color: #00cc00;
+  box-shadow: 0 0 5px #0a5c0a;
+}
+
 .accent-green .card {
   border: groove 2px #00cc00;
   color: #00cc00;
@@ -597,6 +612,11 @@ img {
 
 .accent-aqua td {
   border: 1px solid #00ff99;
+}
+
+.accent-aqua hr {
+  border-color: #00ff99;
+  box-shadow: 0 0 5px #0f8a59;
 }
 
 .accent-aqua .card {
@@ -747,6 +767,11 @@ img {
   border: 1px solid #00ccff;
 }
 
+.accent-light-blue hr {
+  border-color: #00ccff;
+  box-shadow: 0 0 5px #0f718a;
+}
+
 .accent-light-blue .card {
   border: groove 2px #00ccff;
   color: #00ccff;
@@ -893,6 +918,11 @@ img {
 
 .accent-pink td {
   border: 1px solid #c85bff;
+}
+
+.accent-pink hr {
+  border-color: #c85bff;
+  box-shadow: 0 0 5px #9a18dc;
 }
 
 .accent-pink .card {
@@ -1043,6 +1073,11 @@ img {
   border: 1px solid #ec3030;
 }
 
+.accent-red hr {
+  border-color: #ec3030;
+  box-shadow: 0 0 5px #942222;
+}
+
 .accent-red .card {
   border: groove 2px #ec3030;
   color: #ec3030;
@@ -1189,6 +1224,11 @@ img {
 
 .accent-clear-sky td {
   border: 1px solid #41ffff;
+}
+
+.accent-clear-sky hr {
+  border-color: #41ffff;
+  box-shadow: 0 0 5px #16c4c4;
 }
 
 .accent-clear-sky .card {
