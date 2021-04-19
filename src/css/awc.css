@@ -4,6 +4,7 @@
 }
 
 .badge-container {
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -16,4 +17,8 @@
 .badge > img {
     display: block;
     border-radius: 4px;
+}
+
+p {
+    text-align: center;
 }
