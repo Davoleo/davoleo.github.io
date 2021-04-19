@@ -175,6 +175,11 @@ img {
     border: 1px solid $color;
   }
 
+  hr {
+    border-color: $color;
+    box-shadow: 0 0 5px $darkAccent20;
+  }
+
   /* 3.2: Component Accent Rules */
   .card {
     border: groove 2px $color;
