@@ -283,6 +283,17 @@ img {
       0 0 0.5em $darkAccent10,
       0 0 0.75em $darkAccent10;
     }
+    18% {
+      opacity: 1;
+      text-shadow: 
+      0 0 0.1em $darkAccent10,
+      0 0 0.1em $darkAccent10,
+      0 0 0.5em $darkAccent10,
+      0 0 0.75em $darkAccent10,
+      0 0 1em $darkAccent10,
+      0 0 1em $darkAccent10,
+      0 0 1.25em $darkAccent10,
+    }
     100% {
       opacity: 1;
       text-shadow: 
@@ -290,7 +301,9 @@ img {
       0 0 0.1em $darkAccent10,
       0 0 0.5em $darkAccent10,
       0 0 0.75em $darkAccent10,
-      0 0 1em $darkAccent10;
+      0 0 1em $darkAccent10,
+      0 0 1em $darkAccent10,
+      0 0 1.25em $darkAccent10,
     }
   }
 }
