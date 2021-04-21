@@ -7,7 +7,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "dev": "watch \"npm run build\" ./src",
+    "serve": "npx serve dist",
+    "watch": "start watch \"npm run build\" ./src",
+    "dev": "(start npm run serve && start watch \"npm run build\" ./src) || (npm run serve & npm run watch)",
     "build": "node metal.js",
     "watch-sass": "sass --watch ./src/scss -o ./dist/css"
   },
