@@ -255,6 +255,9 @@ img {
     -webkit-animation-duration: 8s;
     -webkit-animation-delay: 0.25s;
     -webkit-animation-iteration-count: infinite;
+    /* Force GPU Rendering on the animated glow (should increase performances on mobile devices) */
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
   }
 
   //TODO work more on this
