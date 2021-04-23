@@ -221,6 +221,9 @@ img {
   -webkit-animation-duration: 8s;
   -webkit-animation-delay: 0.25s;
   -webkit-animation-iteration-count: infinite;
+  /* Force GPU Rendering on the animated glow (should increase performances on mobile devices) */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 @keyframes neonFlash30deg {
@@ -374,6 +377,9 @@ img {
   -webkit-animation-duration: 8s;
   -webkit-animation-delay: 0.25s;
   -webkit-animation-iteration-count: infinite;
+  /* Force GPU Rendering on the animated glow (should increase performances on mobile devices) */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 @keyframes neonFlash75deg {
@@ -527,6 +533,9 @@ img {
   -webkit-animation-duration: 8s;
   -webkit-animation-delay: 0.25s;
   -webkit-animation-iteration-count: infinite;
+  /* Force GPU Rendering on the animated glow (should increase performances on mobile devices) */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 @keyframes neonFlash120deg {
@@ -680,6 +689,9 @@ img {
   -webkit-animation-duration: 8s;
   -webkit-animation-delay: 0.25s;
   -webkit-animation-iteration-count: infinite;
+  /* Force GPU Rendering on the animated glow (should increase performances on mobile devices) */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 @keyframes neonFlash156deg {
@@ -833,6 +845,9 @@ img {
   -webkit-animation-duration: 8s;
   -webkit-animation-delay: 0.25s;
   -webkit-animation-iteration-count: infinite;
+  /* Force GPU Rendering on the animated glow (should increase performances on mobile devices) */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 @keyframes neonFlash192deg {
@@ -986,6 +1001,9 @@ img {
   -webkit-animation-duration: 8s;
   -webkit-animation-delay: 0.25s;
   -webkit-animation-iteration-count: infinite;
+  /* Force GPU Rendering on the animated glow (should increase performances on mobile devices) */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 @keyframes neonFlash280deg {
@@ -1139,6 +1157,9 @@ img {
   -webkit-animation-duration: 8s;
   -webkit-animation-delay: 0.25s;
   -webkit-animation-iteration-count: infinite;
+  /* Force GPU Rendering on the animated glow (should increase performances on mobile devices) */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 @keyframes neonFlash0deg {
@@ -1292,6 +1313,9 @@ img {
   -webkit-animation-duration: 8s;
   -webkit-animation-delay: 0.25s;
   -webkit-animation-iteration-count: infinite;
+  /* Force GPU Rendering on the animated glow (should increase performances on mobile devices) */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 @keyframes neonFlash180deg {
