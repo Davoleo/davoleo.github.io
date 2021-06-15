@@ -8,9 +8,8 @@
   },
   "scripts": {
     "serve": "npx serve dist",
-    "watch": "start watch \"npm run build\" ./src",
-    "dev": "(start npm run serve && start watch \"npm run build\" ./src) || (npm run serve & npm run watch)",
     "build": "node metal.js",
+    "dev": "npm run build && node watch.js",
     "watch-sass": "sass --watch ./src/scss -o ./dist/css"
   },
   "repository": {
@@ -22,18 +21,18 @@
   "bugs": {
     "url": "https://github.com/Davoleo/davoleo.github.io/issues"
   },
-  "homepage": "https://github.com/Davoleo/davoleo.github.io#readme",
+  "homepage": "https://davoleo.net",
   "dependencies": {
     "@mdi/font": "^5.5.55"
   },
   "devDependencies": {
+    "chokidar": "^3.5.2",
     "handlebars": "^4.7.7",
     "jstransformer-handlebars": "^1.1.0",
     "metalsmith": "^2.3.0",
     "metalsmith-in-place": "^4.4.2",
     "metalsmith-sass": "^1.7.0",
     "path": "^0.12.7",
-    "sass": "^1.32.5",
-    "watch": "^1.0.2"
+    "sass": "^1.32.5"
   }
 }

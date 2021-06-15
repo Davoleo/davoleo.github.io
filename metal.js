@@ -23,7 +23,9 @@ helperKeys.forEach(key => {
     Handlebars.registerHelper(key, helpers[key]);
 });
 
-Metalsmith(__dirname)
+function metalsmithBuild() {
+    
+    Metalsmith(__dirname)
     .source("src")
     .destination("dist")
     .metadata({
@@ -43,3 +45,9 @@ Metalsmith(__dirname)
         if (err)
             throw err;
     });
+
+}
+
+metalsmithBuild();
+
+module.exports = metalsmithBuild;
