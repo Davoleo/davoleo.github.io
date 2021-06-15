@@ -1,0 +1,41 @@
+/* Contains the first intro paragraphs */
+.intro {
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+/* A row that contains all the different buttons with their respective tooltip */
+#donate-button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* each bundle contains a link button and a tooltip that explains what kind of donation the platform supports */
+#donate-button-row .button-wtooltip {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+}
+
+/* button links styling customizations */
+#donate-button-row .button-link {
+    padding: 0.5em 1em;
+    margin: auto;
+}
+
+/* Makes tooltips text smol */
+.smol {
+    font-size: 0.70em;
+    position: relative;
+    top: 5px;
+}
+
+/* Space between buttons in vertical layout on medium/small screens */
+@media all and (max-width: 800px) {
+    .button-wtooltip + .button-wtooltip {
+        margin-top: 1.5em;
+    }
+}
