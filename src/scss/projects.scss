@@ -1,4 +1,3 @@
-
 /********************
 1: Layout
 *********************/
@@ -49,6 +48,17 @@
     text-decoration: none;
   }
 }
+
+/* --- WIP Projects section --- */
+.wip-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+//! Makes use of src/scss/more.scss
+//yeah @import is a deprecated rule and should be avoided but instead of the new @use it can be
+//used wherever you want in the stylesheet, which, in this case allows me to make it clearer how this file is making use of the more.scss file
+@import 'src/scss/more';
 
 /* Overriding Github-Activity Style */
 .gha-feed, .gha-push, .gha-activity {

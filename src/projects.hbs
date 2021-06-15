@@ -53,6 +53,24 @@ projectCollection:
     url: https://github.com/Davoleo/BarcodeStock/releases
   - name: Source Code
     url: https://github.com/Davoleo/BarcodeStock
+
+wip:
+- name: Chess Game
+  url: https://github.com/Davoleo/Chess-Game
+- name: Crystal Glass Mod
+  url: https://github.com/Davoleo/Crystal-Glass
+- name: Daily Quest App
+  url: https://github.com/Davoleo/Daily-Quest
+- name: File Tracer
+  url: https://github.com/Davoleo/file-tracer
+- name: J-Artists Page
+  url: '#'
+- name: Project MW
+  url: https://github.com/Davoleo/Project-MW
+- name: 'Rats: Rebirth of the Plague'
+  url: https://github.com/Rebirth-of-the-Night/Rats-RatN-Edition
+- name: Spotify Fluent Theme
+  url: '#'
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -82,6 +100,18 @@ projectCollection:
             </div>
         </div>
         {{/each}}
+    </div>
+
+    <div class="wip-section">
+      <hr>
+      <h2 class="glow">WIP Projects</h2>
+      <p>These are a bunch of WIP projects that I'm currently working on together with my main projects</p>
+      <p>They're listed separately because they might as well never be finished or they're just too small to be considered actual "Projects"</p>
+      <div id="wip_projects">
+        {{#each wip}}
+        <a href="{{this.url}}" class="button-link">{{this.name}}</a>
+        {{/each}}
+      </div>
     </div>
 </div>
 
