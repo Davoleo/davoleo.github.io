@@ -65,7 +65,7 @@ img {
 
 /* Makes it so that someone disables animations in the OS animations are disabled on the website */
 @media (prefers-reduced-motion: reduce) {
-  *, ::before, ::after {
+  .glow-anim {
     animation-delay: -1ms !important;
     animation-duration: 1ms !important;
     animation-iteration-count: 1 !important;
