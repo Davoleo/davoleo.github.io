@@ -27,7 +27,7 @@
     "@mdi/font": "^5.5.55"
   },
   "devDependencies": {
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "jstransformer-handlebars": "^1.1.0",
     "metalsmith": "^2.3.0",
     "metalsmith-in-place": "^4.4.2",
