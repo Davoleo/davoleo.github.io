@@ -1,0 +1,41 @@
+---
+filename: donate
+title: Support My Work
+platforms:
+- name: Patreon
+  link: https://patreon.com/Davoleo
+  tooltip: Recurring monthly pledge with small rewards
+- name: Paypal
+  link: https://paypal.me/Davoleo
+  tooltip: One-time donation of any amount
+- name: Ko-Fi
+  link: https://ko-fi.com/davoleo
+  tooltip: Another portal for one-time small donations :)
+---
+<!DOCTYPE html>
+<html lang="en">
+
+{{> header}}
+<body>
+    {{> back_button}}
+    
+    <main class="container-fluid">
+        <h1 class="glow-anim">{{title}}</h1>
+        <div class="intro">
+          <p>If you want to support my works and projects here are some ways to do it.</p>
+          <p>Choose whichever you feel it's best for you...</p>
+        </div>
+        
+        <section id="donate-button-row">
+            {{#each platforms}}
+            <div class="button-wtooltip">
+                <a href="{{this.link}}" class="button-link">{{this.name}}</a>
+                <p class="smol">{{this.tooltip}}</p>
+            </div>
+            {{/each}}
+        </section>
+    </main>
+
+{{> footer}}
+</body>
+</html>
