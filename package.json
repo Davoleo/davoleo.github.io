@@ -29,6 +29,7 @@
     "handlebars": "^4.7.7",
     "jstransformer-handlebars": "^1.1.0",
     "metalsmith": "^2.3.0",
+    "metalsmith-data-loader": "^1.1.5",
     "metalsmith-in-place": "^4.4.2",
     "metalsmith-sass": "^1.7.0",
     "nodemon": "^2.0.9",

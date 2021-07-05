@@ -3,6 +3,7 @@ const Metalsmith = require("metalsmith");
 //Handlebars templates and SCSS
 const templates = require("metalsmith-in-place");
 const sass = require("metalsmith-sass");
+//const dataLoader = require("metalsmith-data-loader");
 const fs = require('fs');
 const Handlebars = require('handlebars');
 
@@ -34,6 +35,11 @@ const smithInstance = Metalsmith(__dirname)
         author: "Davoleo",
         site: "https://davoleo.net"
     })
+    //.use(dataLoader({
+    //    dataProperty: "data",
+    //    removeSource: true,
+    //    match: "*.{hbs,html}"
+    //}))
     .use(templates({
         pattern: '*.{hbs,handlebars}',
     }))
