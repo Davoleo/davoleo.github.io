@@ -9,7 +9,7 @@
   "scripts": {
     "serve": "npx serve dist",
     "build": "node metal.js",
-    "dev": "npm run build && node watch.js",
+    "dev": "node metal.js && nodemon dev.js",
     "watch-sass": "sass --watch ./src/scss -o ./dist/css"
   },
   "repository": {
@@ -23,16 +23,16 @@
   },
   "homepage": "https://davoleo.net",
   "dependencies": {
-    "@mdi/font": "^5.5.55"
+    "@mdi/font": "^5.9.55"
   },
   "devDependencies": {
-    "chokidar": "^3.5.2",
     "handlebars": "^4.7.7",
     "jstransformer-handlebars": "^1.1.0",
     "metalsmith": "^2.3.0",
     "metalsmith-in-place": "^4.4.2",
     "metalsmith-sass": "^1.7.0",
+    "nodemon": "^2.0.9",
     "path": "^0.12.7",
-    "sass": "^1.32.5"
+    "sass": "^1.35.1"
   }
 }

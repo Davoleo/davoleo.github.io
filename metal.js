@@ -1,9 +1,12 @@
 const Metalsmith = require("metalsmith");
+
+//Handlebars templates and SCSS
 const templates = require("metalsmith-in-place");
 const sass = require("metalsmith-sass");
-
 const fs = require('fs');
 const Handlebars = require('handlebars');
+
+let devMode = false;
 
 //Register all Handlebars Partials in the partials directory
 fs.readdir('./src/partials', (err, files) => {
@@ -23,9 +26,8 @@ helperKeys.forEach(key => {
     Handlebars.registerHelper(key, helpers[key]);
 });
 
-function metalsmithBuild() {
-    
-    Metalsmith(__dirname)
+
+const smithInstance = Metalsmith(__dirname)
     .source("src")
     .destination("dist")
     .metadata({
@@ -33,21 +35,27 @@ function metalsmithBuild() {
         site: "https://davoleo.net"
     })
     .use(templates({
-        pattern: '**/*.{hbs,handlebars}',
+        pattern: '*.{hbs,handlebars}',
     }))
     .use(sass({
         outputStyle: "expanded",
         outputDir: "css/",
         sourceMaps: true,
         sourceMapsContents: true
-    }))
+    }));
+
+
+function metalsmithBuild() {
+    smithInstance
     .build((err) => {
         if (err)
             throw err;
     });
-
 }
 
 metalsmithBuild();
 
-module.exports = metalsmithBuild;
+module.exports = {
+    metalsmithBuild,
+    devMode
+};
