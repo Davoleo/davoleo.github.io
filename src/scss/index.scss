@@ -131,6 +131,27 @@ footer {
   margin: 0.5em;
 }
 
+#more_links_modal {
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin-left: auto;
+  margin-right : auto;
+  width: 50%;
+
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  #more_link_container {
+    //Space for the close button
+    margin-left: 4em;
+    display: flex;
+    justify-content: space-evenly;
+    //Allow multiple lines of buttons
+    flex-wrap: wrap;
+  }
+}
+
 /********************
 4: Media Queries
 *********************/
@@ -181,6 +202,20 @@ footer {
 
     .button-link + .button-link {
       margin-top: 1em;
+    }
+  }
+
+  #more_links_modal {
+    flex-direction: column;
+    //Fixed positioning might overflow available screen space on mobile
+    top: 10%;
+    #more_link_container {
+      //Remove the margin that was previously created to make space for the close button
+      margin-left: 0;
+    }
+    .close {
+      //Make it so it doesn't overlap with buttons
+      position: relative;
     }
   }
 }

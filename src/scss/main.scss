@@ -7,6 +7,8 @@ $pink: #c85bff;
 $red: #ec3030;
 $clearSky: #41ffff;
 
+$backgroundColor: #000;
+
 /**********************
 Table of Contents:
 
@@ -43,7 +45,7 @@ Table of Contents:
 
 body {
   //* alternative background 03030a
-  background-color: #000;
+  background-color: $backgroundColor;
   font-family: Raleway, sans-serif;
   margin: 0;
 
@@ -87,7 +89,7 @@ img {
   background-clip: border-box;
   border-radius: 0.25rem;
 
-  background-color: #000;
+  background-color: $backgroundColor;
   max-width: 400px;
 
   align-items: center;
@@ -121,6 +123,24 @@ img {
   #backwards_button {
     font-size: 2em;
   }
+}
+
+.modal {
+  .close {
+    position: absolute;
+  }
+  position: fixed;
+  z-index: 100;
+  border-radius: 5px;
+  background-color: $backgroundColor;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: -1;
 }
 
 /********************
@@ -196,6 +216,14 @@ img {
 
   .card-body {
     border-top: groove 2px $color;
+  }
+
+  .modal {
+    border: groove 2px $color;
+    box-shadow: 
+    0 0 5px $darkAccent20, 
+    0 0 5px $darkAccent20, 
+    0 0 10px $darkAccent20;
   }
 
   .button-link {

@@ -55,10 +55,30 @@
   margin: 0 auto;
 }
 
-//! Makes use of src/scss/more.scss
-//yeah @import is a deprecated rule and should be avoided but instead of the new @use it can be
-//used wherever you want in the stylesheet, which, in this case allows me to make it clearer how this file is making use of the more.scss file
-@import 'src/scss/more';
+h2 {
+  font-family: 'Poiret One', sans-serif;
+  font-weight: 100;
+  font-size: 2em;
+}
+
+h2, p {
+  text-align: center;
+}
+
+#wip_projects {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  .button-link {
+      padding: 0.5em 1em;
+      margin: 0.25em 0;
+  }
+}
 
 /* Overriding Github-Activity Style */
 .gha-feed, .gha-push, .gha-activity {

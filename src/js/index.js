@@ -43,5 +43,16 @@ function setRandomQuote() {
     quoteElement.setAttribute("data-length", quotes[quoteId].length.toString());
 }
 
+function showHideMoreLinksModal() {
+    const modal = document.getElementById("more_links_modal");
+    modal.classList.toggle("hidden");
+}
+
+//Set function to hide and show modal
+const moreButton = document.querySelector("#second_row>a:nth-child(3)");
+const closeButton = document.querySelector("#more_links_modal>a.close");
+moreButton.addEventListener('click', showHideMoreLinksModal);
+closeButton.addEventListener('click', showHideMoreLinksModal);
+
 setRandomImage();
 setRandomQuote();
