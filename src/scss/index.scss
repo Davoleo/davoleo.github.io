@@ -15,7 +15,6 @@ Table of Contents:
 1: Global Rules
 *********************/
 body {
-  overflow-x: hidden;
   margin: 0;
 }
 
@@ -94,11 +93,20 @@ footer {
   flex-direction: column;
 }
 
-#sliding_title {
-  display: inline-block;
-  position: relative;
-  animation: slide 12s infinite linear;
+#marquee_wrapper {
+  margin: 0 auto;
   white-space: nowrap;
+  overflow-x: hidden;
+  position: relative;
+  border-top: dotted 4px;
+  border-bottom: dotted 4px;
+}
+
+.marquee {
+  display: inline-block;
+  //position: relative;
+  padding-left: 25%;
+  animation: slide 12s infinite linear;
   font-weight: normal;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -108,16 +116,11 @@ footer {
 @keyframes slide
 {
   from {
-    left: 100%;
+    transform: translateX(0);
   }
   to {
-    left: -555px;
+    transform: translateX(-201%);
   }
-}
-
-#sliding_title_wrapper {
-  border-top: dotted 4px;
-  border-bottom: dotted 4px;
 }
 
 #uls {
@@ -208,6 +211,7 @@ footer {
   #more_links_modal {
     flex-direction: column;
     //Fixed positioning might overflow available screen space on mobile
+    position: absolute;
     top: 10%;
     #more_link_container {
       //Remove the margin that was previously created to make space for the close button
