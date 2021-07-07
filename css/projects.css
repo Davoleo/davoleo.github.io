@@ -55,12 +55,17 @@
   margin: 0 auto;
 }
 
-.container-fluid {
-  width: 80%;
-  margin: 0 auto;
+h2 {
+  font-family: 'Poiret One', sans-serif;
+  font-weight: 100;
+  font-size: 2em;
 }
 
-#link_container, #wip_projects {
+h2, p {
+  text-align: center;
+}
+
+#wip_projects {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
@@ -70,19 +75,9 @@
   flex-wrap: wrap;
 }
 
-#link_container .button-link, #wip_projects .button-link {
+#wip_projects .button-link {
   padding: 0.5em 1em;
   margin: 0.25em 0;
-}
-
-h2 {
-  font-family: 'Poiret One', sans-serif;
-  font-weight: 100;
-  font-size: 2em;
-}
-
-h2, p {
-  text-align: center;
 }
 
 /* Overriding Github-Activity Style */

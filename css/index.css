@@ -126,6 +126,24 @@ footer {
   margin: 0.5em;
 }
 
+#more_links_modal {
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#more_links_modal #more_link_container {
+  margin-left: 4em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 /********************
 4: Media Queries
 *********************/
@@ -168,5 +186,15 @@ footer {
   }
   #second_row .button-link + .button-link {
     margin-top: 1em;
+  }
+  #more_links_modal {
+    flex-direction: column;
+    top: 10%;
+  }
+  #more_links_modal #more_link_container {
+    margin-left: 0;
+  }
+  #more_links_modal .close {
+    position: relative;
   }
 }

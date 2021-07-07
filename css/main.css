@@ -107,6 +107,26 @@ img {
   font-size: 2em;
 }
 
+.modal {
+  position: fixed;
+  z-index: 100;
+  border-radius: 5px;
+  background-color: #000;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.modal .close {
+  position: absolute;
+  cursor: pointer;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: -1;
+}
+
 /********************
 3: Color Accent
 *********************/
@@ -176,6 +196,11 @@ img {
 
 .accent-gold .card-body {
   border-top: groove 2px #ff9933;
+}
+
+.accent-gold .modal {
+  border: groove 2px #ff9933;
+  box-shadow: 0 0 5px #b86614, 0 0 5px #b86614, 0 0 10px #b86614;
 }
 
 .accent-gold .button-link {
@@ -334,6 +359,11 @@ img {
   border-top: groove 2px #b9e635;
 }
 
+.accent-lime .modal {
+  border: groove 2px #b9e635;
+  box-shadow: 0 0 5px #748f26, 0 0 5px #748f26, 0 0 10px #748f26;
+}
+
 .accent-lime .button-link {
   display: inline-block;
   padding: 0.25em;
@@ -488,6 +518,11 @@ img {
 
 .accent-green .card-body {
   border-top: groove 2px #00cc00;
+}
+
+.accent-green .modal {
+  border: groove 2px #00cc00;
+  box-shadow: 0 0 5px #0a5c0a, 0 0 5px #0a5c0a, 0 0 10px #0a5c0a;
 }
 
 .accent-green .button-link {
@@ -646,6 +681,11 @@ img {
   border-top: groove 2px #00ff99;
 }
 
+.accent-aqua .modal {
+  border: groove 2px #00ff99;
+  box-shadow: 0 0 5px #0f8a59, 0 0 5px #0f8a59, 0 0 10px #0f8a59;
+}
+
 .accent-aqua .button-link {
   display: inline-block;
   padding: 0.25em;
@@ -800,6 +840,11 @@ img {
 
 .accent-light-blue .card-body {
   border-top: groove 2px #00ccff;
+}
+
+.accent-light-blue .modal {
+  border: groove 2px #00ccff;
+  box-shadow: 0 0 5px #0f718a, 0 0 5px #0f718a, 0 0 10px #0f718a;
 }
 
 .accent-light-blue .button-link {
@@ -958,6 +1003,11 @@ img {
   border-top: groove 2px #c85bff;
 }
 
+.accent-pink .modal {
+  border: groove 2px #c85bff;
+  box-shadow: 0 0 5px #9a18dc, 0 0 5px #9a18dc, 0 0 10px #9a18dc;
+}
+
 .accent-pink .button-link {
   display: inline-block;
   padding: 0.25em;
@@ -1114,6 +1164,11 @@ img {
   border-top: groove 2px #ec3030;
 }
 
+.accent-red .modal {
+  border: groove 2px #ec3030;
+  box-shadow: 0 0 5px #942222, 0 0 5px #942222, 0 0 10px #942222;
+}
+
 .accent-red .button-link {
   display: inline-block;
   padding: 0.25em;
@@ -1268,6 +1323,11 @@ img {
 
 .accent-clear-sky .card-body {
   border-top: groove 2px #41ffff;
+}
+
+.accent-clear-sky .modal {
+  border: groove 2px #41ffff;
+  box-shadow: 0 0 5px #16c4c4, 0 0 5px #16c4c4, 0 0 10px #16c4c4;
 }
 
 .accent-clear-sky .button-link {

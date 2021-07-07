@@ -1,5 +1,5 @@
 <head>
-    <title></title>
+    <title>{{title}}</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
@@ -9,11 +9,18 @@
     <link href="lib/mdi/css/materialdesignicons.min.css" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
 
+    {{#if projectCollection}}
+        <!-- github-activity -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+        <link rel="stylesheet" href="./lib/github-activity/github-activity-0.1.5.min.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+        <script type="text/javascript" src="./lib/github-activity/github-activity-0.1.5.min.js"></script>
+    {{/if}}
 
     <link rel="icon" href="https://avatars.githubusercontent.com/davoleo" type="image/png">
 
     <link rel="stylesheet" href="css/main.css" type="text/css">
-    <link rel="stylesheet" href="css/.css" type="text/css">
+    <link rel="stylesheet" href="css/{{filename}}.css" type="text/css">
 
     <noscript>
         <style>
