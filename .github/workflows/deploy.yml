@@ -3,7 +3,8 @@ name: Static Page Deploy
 on: 
   push:
     paths:
-      - 'src'
+      - 'src/**'
+      - 'helpers/**'
   workflow_dispatch:
 
 jobs:
