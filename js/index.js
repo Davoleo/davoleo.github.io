@@ -38,9 +38,14 @@ function setRandomImage() {
 
 function setRandomQuote() {
     const quoteId = generateRandomNumber(quotes.length);
-    const quoteElement = document.getElementById("sliding_title");
-    quoteElement.innerHTML = quotes[quoteId];
-    quoteElement.setAttribute("data-length", quotes[quoteId].length.toString());
+    const marquees = document.getElementsByClassName("marquee");
+    for (let quoteElement of marquees) {
+        let quoteString = `${quotes[quoteId]}`;
+        //while (quoteString.length < 180) {
+        //    quoteString += `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0${quotes[quoteId]}`;
+        //}
+        quoteElement.innerHTML = quoteString;
+    }
 }
 
 function showHideMoreLinksModal() {
