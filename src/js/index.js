@@ -51,6 +51,7 @@ function setRandomQuote() {
 function showHideMoreLinksModal() {
     const modal = document.getElementById("more_links_modal");
     modal.classList.toggle("hidden");
+    document.body.classList.toggle("modal-open");
 }
 
 //Set function to hide and show modal

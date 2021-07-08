@@ -48,6 +48,8 @@ body {
   background-color: $backgroundColor;
   font-family: Raleway, sans-serif;
   margin: 0;
+  //Used below to blur background when modals are shown
+  transition: filter 0.5s;
 
   h1 {
     font-family: 'Poiret One', sans-serif;
@@ -125,6 +127,7 @@ img {
   }
 }
 
+/* Modal Component */
 .modal {
   .close {
     position: absolute;
@@ -138,10 +141,20 @@ img {
   transition: opacity 0.3s;
 }
 
+/* Hidden modal */
 .hidden {
   opacity: 0;
   transition: opacity 0.3s;
   z-index: -1;
+}
+
+/* Blur Modal background */
+body.modal-open .container, body.modal-open .container-fluid {
+  filter: blur(1.5px) brightness(70%);
+  -webkit-filter: blur(1.5px) brightness(70%);
+  -moz-filter: blur(1.5px) brightness(70%);
+  -o-filter: blur(1.5px) brightness(70%);
+  -ms-filter: blur(1.5px) brightness(70%);
 }
 
 /********************
