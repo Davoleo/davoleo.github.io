@@ -52,6 +52,13 @@ img {
   max-width: 100%;
 }
 
+/* 1em margin to glowy titles on mobile */
+@media (max-width: 500px) {
+  h1.glow-anim {
+    padding-top: 1em;
+  }
+}
+
 /* Makes it so that someone disables animations in the OS animations are disabled on the website */
 @media (prefers-reduced-motion: reduce) {
   .glow-anim {
