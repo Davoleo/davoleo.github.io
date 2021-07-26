@@ -1,0 +1,36 @@
+.main-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Layout of all the different charts */
+.chart-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Offset chart title to the right a bit */
+.chart-title {
+    margin-left: 1.5em;
+}
+
+/* Styling for each chart */
+.chart {
+    border: 2px groove;
+    border-radius: 0.25rem;
+    display: inline-block;
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* Space between charts */
+.chart + .chart {
+    margin-top: 2em;
+}
+
+/* Centered subtitle */
+p {
+    text-align: center;
+}
