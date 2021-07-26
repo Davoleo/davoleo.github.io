@@ -26,12 +26,12 @@
     "@mdi/font": "^5.9.55"
   },
   "devDependencies": {
-    "handlebars": "^4.7.7",
-    "jstransformer-handlebars": "^1.1.0",
     "metalsmith": "^2.3.0",
     "metalsmith-data-loader": "^1.1.5",
-    "metalsmith-in-place": "^4.4.2",
+    "metalsmith-debug": "^1.2.0",
+    "metalsmith-handlebars-contents": "^1.1.0",
     "metalsmith-sass": "^1.7.0",
+    "minimatch": "^3.0.4",
     "nodemon": "^2.0.9",
     "path": "^0.12.7",
     "sass": "^1.35.1"
