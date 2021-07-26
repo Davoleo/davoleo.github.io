@@ -1,4 +1,8 @@
 ---
+filename: projects
+title: Projects
+hasScript: true
+
 data: '/data/projects.yaml'
 ---
 <!DOCTYPE html>
@@ -12,7 +16,7 @@ data: '/data/projects.yaml'
 <div class="container-fluid">
     <h1 class="glow-anim">{{title}}</h1>
     <div id="projects_container">
-        {{#each projectCollection}}
+        {{#each data.projectCollection}}
         <div class="card">
             <img src="{{image}}" alt="{{this.title}} Logo" class="card-img-top">
             <div class="card-body">
@@ -37,7 +41,7 @@ data: '/data/projects.yaml'
       <p>These are a bunch of WIP projects that I'm currently working on together with my main projects</p>
       <p>They're listed separately because they might as well never be finished or they're just too small to be considered actual "Projects"</p>
       <div id="wip_projects">
-        {{#each wip}}
+        {{#each data.wip}}
         <a href="{{this.url}}" class="button-link">{{this.name}}</a>
         {{/each}}
       </div>

@@ -1,4 +1,7 @@
 ---
+filename: donate
+title: Support My Work
+
 data: '/data/donate.yaml'
 ---
 <!DOCTYPE html>
@@ -16,7 +19,7 @@ data: '/data/donate.yaml'
         </div>
         
         <section id="donate-button-row">
-            {{#each platforms}}
+            {{#each data.platforms}}
             <div class="button-wtooltip">
                 <a href="{{this.link}}" class="button-link">{{this.name}}</a>
                 <p class="smol">{{this.tooltip}}</p>

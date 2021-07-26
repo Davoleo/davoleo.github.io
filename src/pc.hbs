@@ -1,4 +1,7 @@
 ---
+filename: pc
+title: PC Config
+
 data: '/data/pc.yaml'
 ---
 <!DOCTYPE html>
@@ -10,7 +13,7 @@ data: '/data/pc.yaml'
 
 {{> back_button}}
 
-<h1 class="glow-anim">{{header}}</h1>
+<h1 class="glow-anim">{{data.header}}</h1>
 
 <table class="part-list">
     <thead>
@@ -21,7 +24,7 @@ data: '/data/pc.yaml'
         </tr>
     </thead>
     <tbody>
-        {{#each components}}
+        {{#each data.components}}
             <tr class="shaded">
             <td class="part-list-type">{{this.type}}</td>
             <td class="part-list-item"><a href="{{this.url}}">{{this.name}}</a></td>

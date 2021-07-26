@@ -1,8 +1,3 @@
-filename: projects
-title: Projects
-
-hasScript: true
-
 projectCollection:
 - title: 'Metallurgy 4: Reforged'
   summary: A Minecraft mod for 1.12.2 that expands the repertory of metals in Minecraft, providing means to process and final uses too!

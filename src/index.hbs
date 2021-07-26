@@ -1,4 +1,8 @@
 ---
+filename: index
+title: Homepage
+hasScript: true
+
 data: '/data/index.yaml'
 ---
 <!DOCTYPE html>
@@ -10,7 +14,7 @@ data: '/data/index.yaml'
 <div class="container">
     <header>
         <div>
-            <h1 class="glow-anim"> {{homeName}} </h1>
+            <h1 class="glow-anim"> {{data.homeName}} </h1>
             <div id="marquee_wrapper">
                 <h2 class="marquee">Content Failed to Load</h2>
                 <h2 class="marquee">Content Failed to Load</h2>
@@ -26,8 +30,8 @@ data: '/data/index.yaml'
 
     <div id="first_row">
         <div id="desc_col">
-            <h2>{{bioSubtitle}}</h2>
-            {{#each bioLines}}
+            <h2>{{data.bioSubtitle}}</h2>
+            {{#each data.bioLines}}
             <p>{{this}}</p>
             {{/each}}
         </div>
@@ -36,12 +40,12 @@ data: '/data/index.yaml'
             <h2>Links</h2>
             <div id="uls">
                 <ul>
-                    {{#each links.list1}}
+                    {{#each data.links.list1}}
                     <li><a href="{{this.link}}">{{this.name}}</a></li>
                     {{/each}}
                 </ul>
                 <ul>
-                    {{#each links.list2}}
+                    {{#each data.links.list2}}
                     <li><a href="{{this.link}}">{{this.name}}</a></li>
                     {{/each}}
                 </ul>
