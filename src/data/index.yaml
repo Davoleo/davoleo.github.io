@@ -28,7 +28,9 @@ links:
   - name: Twitter
     link: https://twitter.com/Davoleo369
 more_links:
-- name: PC Config
-  url: pc.html
+- name: Development Stats
+  url: dev_stats.html
 - name: AWC Badges
   url: awc.html
+- name: PC Config
+  url: pc.html
