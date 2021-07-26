@@ -1,0 +1,37 @@
+filename: index
+title: Homepage
+hasScript: true
+homeName: Davoleo's Virtual Hub
+bioSubtitle: Hi, I'm Davoleo
+bioLines:
+- I'm an Italian developer who works on different kinds of projects.
+- I like learning about new things and putting them to practice, I'm also passionate about science, various music genres and anime.
+- 'I like playing games in my spare time especially some of my favourite game genres are: Platform, Plot-Rich, FPS, Relaxing, Atmospheric.'
+links:
+  list1:
+  - name: Github
+    link: https://github.com/Davoleo
+  - name: AniList
+    link: https://anilist.co/user/Davoleo
+  - name: CurseForge
+    link: https://www.curseforge.com/members/davoleo_k/projects
+  - name: Steam
+    link: https://steamcommunity.com/id/D36l/
+  - name: osu!
+    link: https://osu.ppy.sh/users/11013484
+  list2:
+  - name: Discord
+    link: http://discord.davoleo.net/
+  - name: Spotify
+    link: https://open.spotify.com/user/davoleo2001
+  - name: Twitch
+    link: https://www.twitch.tv/davoleo_k
+  - name: Reddit
+    link: https://www.reddit.com/user/Davoleo
+  - name: Twitter
+    link: https://twitter.com/Davoleo369
+more_links:
+- name: PC Config
+  url: pc.html
+- name: AWC Badges
+  url: awc.html
