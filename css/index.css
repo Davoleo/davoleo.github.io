@@ -37,7 +37,6 @@ header {
   width: 30%;
   align-self: center;
 }
-
 #desc_col p {
   margin: 0.5em 0;
 }
@@ -52,7 +51,6 @@ header {
 #links_col {
   width: 30%;
 }
-
 #links_col li {
   padding-top: 0.75em;
   font-size: 1.25rem;
@@ -64,7 +62,6 @@ header {
   justify-content: space-evenly;
   margin: 8em 0;
 }
-
 #second_row a {
   font-size: 2rem;
   padding: 0.5em;
@@ -116,7 +113,6 @@ footer {
     transform: translateX(-201%);
   }
 }
-
 #uls {
   display: flex;
   flex-direction: row;
@@ -138,7 +134,6 @@ footer {
   padding-top: 1em;
   padding-bottom: 1em;
 }
-
 #more_links_modal #more_link_container {
   margin-left: 4em;
   display: flex;
@@ -155,31 +150,37 @@ footer {
     margin-top: 50px;
     margin-bottom: 50px;
   }
+
   .github {
     display: none;
   }
+
   #first_row {
     flex-direction: column;
   }
+
   #img_col {
     width: 50%;
   }
+
   #desc_col, #links_col {
     width: 100%;
   }
+
   #desc_col, #links_col, #img_col {
     margin-top: 2em;
   }
+
   #uls {
     justify-content: space-between;
   }
 }
-
 /* 4.2: Small Screens */
 @media all and (max-width: 430px) {
   #discord_button {
     display: none;
   }
+
   #second_row {
     /* Decrease the top and bottom margin */
     margin: 4em 0;
@@ -189,6 +190,7 @@ footer {
   #second_row .button-link + .button-link {
     margin-top: 1em;
   }
+
   #more_links_modal {
     flex-direction: column;
     position: absolute;

@@ -20,26 +20,22 @@ Table of Contents:
   font-family: "Poiret One";
   src: url("../res/font/PoiretOne-Regular.ttf");
 }
-
 @font-face {
   font-family: "Gruppo";
   src: url("../res/font/Gruppo-Regular.ttf");
 }
-
 @font-face {
   font-family: "JetBrains Mono";
   src: url("../res/font/JetBrainsMono-Regular.ttf");
 }
-
 body {
   background-color: #000;
   font-family: Raleway, sans-serif;
   margin: 0;
   transition: filter 0.5s;
 }
-
 body h1 {
-  font-family: 'Poiret One', sans-serif;
+  font-family: "Poiret One", sans-serif;
   text-align: center;
   font-size: 4rem;
   font-weight: 300;
@@ -64,7 +60,6 @@ img {
     transition-delay: 0s !important;
   }
 }
-
 /********************
 2: Components
 *********************/
@@ -103,7 +98,6 @@ img {
   position: absolute;
   z-index: 1;
 }
-
 .back-button-container #backwards_button {
   font-size: 2em;
 }
@@ -117,7 +111,6 @@ img {
   opacity: 1;
   transition: opacity 0.3s;
 }
-
 .modal .close {
   position: absolute;
   cursor: pointer;
@@ -151,70 +144,56 @@ body.modal-open .container, body.modal-open .container-fluid {
   /* 3.2: Component Accent Rules */
   /* 3.3: Special Effects */
 }
-
 .accent-gold a {
   text-decoration: none;
   color: #b86614;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-gold a:hover, .accent-gold a:focus {
   outline: none;
   color: #ff9933;
   text-decoration: none;
   text-shadow: 0 0 0.5em #b86614, 0 0 0.75em #b86614, 0 0 1em #b86614;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-gold p {
   color: darkAccent10;
 }
-
 .accent-gold img {
   border-color: #ff9933;
   box-shadow: 0 0 5px #b86614, 0 0 5px #b86614, 0 0 10px #b86614;
 }
-
 .accent-gold div {
   border-color: #ff9933;
 }
-
 .accent-gold table, .accent-gold th {
   border: 2px solid #ff9933;
 }
-
 .accent-gold td {
   border: 1px solid #ff9933;
 }
-
 .accent-gold hr {
   border-color: #ff9933;
   box-shadow: 0 0 5px #b86614;
 }
-
 .accent-gold .card {
   border: groove 2px #ff9933;
   color: #ff9933;
 }
-
 .accent-gold .card a {
   color: #e6801a;
   border: transparent solid 2px;
 }
-
 .accent-gold .card a:hover {
   color: #ff9933;
 }
-
 .accent-gold .card-body {
   border-top: groove 2px #ff9933;
 }
-
 .accent-gold .modal {
   border: groove 2px #ff9933;
   box-shadow: 0 0 5px #b86614, 0 0 5px #b86614, 0 0 10px #b86614;
 }
-
 .accent-gold .button-link {
   display: inline-block;
   padding: 0.25em;
@@ -222,29 +201,24 @@ body.modal-open .container, body.modal-open .container-fluid {
   border: #b86614 groove 2px;
   border-radius: 0.25em;
   font-size: 1.5em;
-  transition: all 0.10s;
+  transition: all 0.1s;
 }
-
 .accent-gold .button-link:hover, .accent-gold .button-link:active, .accent-gold .button-link:focus {
   background-color: rgba(255, 153, 51, 0.15);
   transition: background-color 0.1s;
   text-shadow: 0 0 4px #cc6600, 0 0 4px #cc6600, 0 0 0.75em #b86614, 0 0 0.75em #b86614, 0 0 1em #b86614;
 }
-
 .accent-gold .shaded {
   transition: background-color 0.1s;
 }
-
 .accent-gold .shaded:hover {
   background-color: rgba(255, 153, 51, 0.1);
   transition: background-color 0.1s;
 }
-
 .accent-gold .glow {
   color: #ff9933;
   text-shadow: 0 0 0.1em #e6801a, 0 0 0.1em #e6801a, 0 0 0.5em #e6801a, 0 0 0.75em #e6801a, 0 0 1em #e6801a;
 }
-
 .accent-gold .glow-anim {
   animation-name: neonFlash30deg;
   animation-duration: 8s;
@@ -262,7 +236,6 @@ body.modal-open .container, body.modal-open .container-fluid {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
 @keyframes neonFlash30deg {
   0% {
     opacity: 0.1;
@@ -281,7 +254,7 @@ body.modal-open .container, body.modal-open .container-fluid {
     text-shadow: none;
   }
   10% {
-    opacity: 0.80;
+    opacity: 0.8;
     text-shadow: 0 0 0.1em #e6801a, 0 0 0.1 0.5em #e6801a;
   }
   12% {
@@ -312,70 +285,56 @@ body.modal-open .container, body.modal-open .container-fluid {
   /* 3.2: Component Accent Rules */
   /* 3.3: Special Effects */
 }
-
 .accent-lime a {
   text-decoration: none;
   color: #748f26;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-lime a:hover, .accent-lime a:focus {
   outline: none;
   color: #b9e635;
   text-decoration: none;
   text-shadow: 0 0 0.5em #748f26, 0 0 0.75em #748f26, 0 0 1em #748f26;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-lime p {
   color: darkAccent10;
 }
-
 .accent-lime img {
   border-color: #b9e635;
   box-shadow: 0 0 5px #748f26, 0 0 5px #748f26, 0 0 10px #748f26;
 }
-
 .accent-lime div {
   border-color: #b9e635;
 }
-
 .accent-lime table, .accent-lime th {
   border: 2px solid #b9e635;
 }
-
 .accent-lime td {
   border: 1px solid #b9e635;
 }
-
 .accent-lime hr {
   border-color: #b9e635;
   box-shadow: 0 0 5px #748f26;
 }
-
 .accent-lime .card {
   border: groove 2px #b9e635;
   color: #b9e635;
 }
-
 .accent-lime .card a {
   color: #95b731;
   border: transparent solid 2px;
 }
-
 .accent-lime .card a:hover {
   color: #b9e635;
 }
-
 .accent-lime .card-body {
   border-top: groove 2px #b9e635;
 }
-
 .accent-lime .modal {
   border: groove 2px #b9e635;
   box-shadow: 0 0 5px #748f26, 0 0 5px #748f26, 0 0 10px #748f26;
 }
-
 .accent-lime .button-link {
   display: inline-block;
   padding: 0.25em;
@@ -383,29 +342,24 @@ body.modal-open .container, body.modal-open .container-fluid {
   border: #748f26 groove 2px;
   border-radius: 0.25em;
   font-size: 1.5em;
-  transition: all 0.10s;
+  transition: all 0.1s;
 }
-
 .accent-lime .button-link:hover, .accent-lime .button-link:active, .accent-lime .button-link:focus {
   background-color: rgba(185, 230, 53, 0.15);
   transition: background-color 0.1s;
   text-shadow: 0 0 4px #7da114, 0 0 4px #7da114, 0 0 0.75em #748f26, 0 0 0.75em #748f26, 0 0 1em #748f26;
 }
-
 .accent-lime .shaded {
   transition: background-color 0.1s;
 }
-
 .accent-lime .shaded:hover {
   background-color: rgba(185, 230, 53, 0.1);
   transition: background-color 0.1s;
 }
-
 .accent-lime .glow {
   color: #b9e635;
   text-shadow: 0 0 0.1em #95b731, 0 0 0.1em #95b731, 0 0 0.5em #95b731, 0 0 0.75em #95b731, 0 0 1em #95b731;
 }
-
 .accent-lime .glow-anim {
   animation-name: neonFlash75deg;
   animation-duration: 8s;
@@ -423,7 +377,6 @@ body.modal-open .container, body.modal-open .container-fluid {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
 @keyframes neonFlash75deg {
   0% {
     opacity: 0.1;
@@ -442,7 +395,7 @@ body.modal-open .container, body.modal-open .container-fluid {
     text-shadow: none;
   }
   10% {
-    opacity: 0.80;
+    opacity: 0.8;
     text-shadow: 0 0 0.1em #95b731, 0 0 0.1 0.5em #95b731;
   }
   12% {
@@ -473,70 +426,56 @@ body.modal-open .container, body.modal-open .container-fluid {
   /* 3.2: Component Accent Rules */
   /* 3.3: Special Effects */
 }
-
 .accent-green a {
   text-decoration: none;
   color: #0a5c0a;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-green a:hover, .accent-green a:focus {
   outline: none;
   color: #00cc00;
   text-decoration: none;
   text-shadow: 0 0 0.5em #0a5c0a, 0 0 0.75em #0a5c0a, 0 0 1em #0a5c0a;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-green p {
   color: darkAccent10;
 }
-
 .accent-green img {
   border-color: #00cc00;
   box-shadow: 0 0 5px #0a5c0a, 0 0 5px #0a5c0a, 0 0 10px #0a5c0a;
 }
-
 .accent-green div {
   border-color: #00cc00;
 }
-
 .accent-green table, .accent-green th {
   border: 2px solid #00cc00;
 }
-
 .accent-green td {
   border: 1px solid #00cc00;
 }
-
 .accent-green hr {
   border-color: #00cc00;
   box-shadow: 0 0 5px #0a5c0a;
 }
-
 .accent-green .card {
   border: groove 2px #00cc00;
   color: #00cc00;
 }
-
 .accent-green .card a {
   color: #0f8a0f;
   border: transparent solid 2px;
 }
-
 .accent-green .card a:hover {
   color: #00cc00;
 }
-
 .accent-green .card-body {
   border-top: groove 2px #00cc00;
 }
-
 .accent-green .modal {
   border: groove 2px #00cc00;
   box-shadow: 0 0 5px #0a5c0a, 0 0 5px #0a5c0a, 0 0 10px #0a5c0a;
 }
-
 .accent-green .button-link {
   display: inline-block;
   padding: 0.25em;
@@ -544,29 +483,24 @@ body.modal-open .container, body.modal-open .container-fluid {
   border: #0a5c0a groove 2px;
   border-radius: 0.25em;
   font-size: 1.5em;
-  transition: all 0.10s;
+  transition: all 0.1s;
 }
-
 .accent-green .button-link:hover, .accent-green .button-link:active, .accent-green .button-link:focus {
   background-color: rgba(0, 204, 0, 0.15);
   transition: background-color 0.1s;
   text-shadow: 0 0 4px #006600, 0 0 4px #006600, 0 0 0.75em #0a5c0a, 0 0 0.75em #0a5c0a, 0 0 1em #0a5c0a;
 }
-
 .accent-green .shaded {
   transition: background-color 0.1s;
 }
-
 .accent-green .shaded:hover {
   background-color: rgba(0, 204, 0, 0.1);
   transition: background-color 0.1s;
 }
-
 .accent-green .glow {
   color: #00cc00;
   text-shadow: 0 0 0.1em #0f8a0f, 0 0 0.1em #0f8a0f, 0 0 0.5em #0f8a0f, 0 0 0.75em #0f8a0f, 0 0 1em #0f8a0f;
 }
-
 .accent-green .glow-anim {
   animation-name: neonFlash120deg;
   animation-duration: 8s;
@@ -584,7 +518,6 @@ body.modal-open .container, body.modal-open .container-fluid {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
 @keyframes neonFlash120deg {
   0% {
     opacity: 0.1;
@@ -603,7 +536,7 @@ body.modal-open .container, body.modal-open .container-fluid {
     text-shadow: none;
   }
   10% {
-    opacity: 0.80;
+    opacity: 0.8;
     text-shadow: 0 0 0.1em #0f8a0f, 0 0 0.1 0.5em #0f8a0f;
   }
   12% {
@@ -634,70 +567,56 @@ body.modal-open .container, body.modal-open .container-fluid {
   /* 3.2: Component Accent Rules */
   /* 3.3: Special Effects */
 }
-
 .accent-aqua a {
   text-decoration: none;
   color: #0f8a59;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-aqua a:hover, .accent-aqua a:focus {
   outline: none;
   color: #00ff99;
   text-decoration: none;
   text-shadow: 0 0 0.5em #0f8a59, 0 0 0.75em #0f8a59, 0 0 1em #0f8a59;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-aqua p {
   color: darkAccent10;
 }
-
 .accent-aqua img {
   border-color: #00ff99;
   box-shadow: 0 0 5px #0f8a59, 0 0 5px #0f8a59, 0 0 10px #0f8a59;
 }
-
 .accent-aqua div {
   border-color: #00ff99;
 }
-
 .accent-aqua table, .accent-aqua th {
   border: 2px solid #00ff99;
 }
-
 .accent-aqua td {
   border: 1px solid #00ff99;
 }
-
 .accent-aqua hr {
   border-color: #00ff99;
   box-shadow: 0 0 5px #0f8a59;
 }
-
 .accent-aqua .card {
   border: groove 2px #00ff99;
   color: #00ff99;
 }
-
 .accent-aqua .card a {
   color: #14b876;
   border: transparent solid 2px;
 }
-
 .accent-aqua .card a:hover {
   color: #00ff99;
 }
-
 .accent-aqua .card-body {
   border-top: groove 2px #00ff99;
 }
-
 .accent-aqua .modal {
   border: groove 2px #00ff99;
   box-shadow: 0 0 5px #0f8a59, 0 0 5px #0f8a59, 0 0 10px #0f8a59;
 }
-
 .accent-aqua .button-link {
   display: inline-block;
   padding: 0.25em;
@@ -705,29 +624,24 @@ body.modal-open .container, body.modal-open .container-fluid {
   border: #0f8a59 groove 2px;
   border-radius: 0.25em;
   font-size: 1.5em;
-  transition: all 0.10s;
+  transition: all 0.1s;
 }
-
 .accent-aqua .button-link:hover, .accent-aqua .button-link:active, .accent-aqua .button-link:focus {
   background-color: rgba(0, 255, 153, 0.15);
   transition: background-color 0.1s;
   text-shadow: 0 0 4px #00995c, 0 0 4px #00995c, 0 0 0.75em #0f8a59, 0 0 0.75em #0f8a59, 0 0 1em #0f8a59;
 }
-
 .accent-aqua .shaded {
   transition: background-color 0.1s;
 }
-
 .accent-aqua .shaded:hover {
   background-color: rgba(0, 255, 153, 0.1);
   transition: background-color 0.1s;
 }
-
 .accent-aqua .glow {
   color: #00ff99;
   text-shadow: 0 0 0.1em #14b876, 0 0 0.1em #14b876, 0 0 0.5em #14b876, 0 0 0.75em #14b876, 0 0 1em #14b876;
 }
-
 .accent-aqua .glow-anim {
   animation-name: neonFlash156deg;
   animation-duration: 8s;
@@ -745,7 +659,6 @@ body.modal-open .container, body.modal-open .container-fluid {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
 @keyframes neonFlash156deg {
   0% {
     opacity: 0.1;
@@ -764,7 +677,7 @@ body.modal-open .container, body.modal-open .container-fluid {
     text-shadow: none;
   }
   10% {
-    opacity: 0.80;
+    opacity: 0.8;
     text-shadow: 0 0 0.1em #14b876, 0 0 0.1 0.5em #14b876;
   }
   12% {
@@ -795,70 +708,56 @@ body.modal-open .container, body.modal-open .container-fluid {
   /* 3.2: Component Accent Rules */
   /* 3.3: Special Effects */
 }
-
 .accent-light-blue a {
   text-decoration: none;
   color: #0f718a;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-light-blue a:hover, .accent-light-blue a:focus {
   outline: none;
   color: #00ccff;
   text-decoration: none;
   text-shadow: 0 0 0.5em #0f718a, 0 0 0.75em #0f718a, 0 0 1em #0f718a;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-light-blue p {
   color: darkAccent10;
 }
-
 .accent-light-blue img {
   border-color: #00ccff;
   box-shadow: 0 0 5px #0f718a, 0 0 5px #0f718a, 0 0 10px #0f718a;
 }
-
 .accent-light-blue div {
   border-color: #00ccff;
 }
-
 .accent-light-blue table, .accent-light-blue th {
   border: 2px solid #00ccff;
 }
-
 .accent-light-blue td {
   border: 1px solid #00ccff;
 }
-
 .accent-light-blue hr {
   border-color: #00ccff;
   box-shadow: 0 0 5px #0f718a;
 }
-
 .accent-light-blue .card {
   border: groove 2px #00ccff;
   color: #00ccff;
 }
-
 .accent-light-blue .card a {
   color: #1497b8;
   border: transparent solid 2px;
 }
-
 .accent-light-blue .card a:hover {
   color: #00ccff;
 }
-
 .accent-light-blue .card-body {
   border-top: groove 2px #00ccff;
 }
-
 .accent-light-blue .modal {
   border: groove 2px #00ccff;
   box-shadow: 0 0 5px #0f718a, 0 0 5px #0f718a, 0 0 10px #0f718a;
 }
-
 .accent-light-blue .button-link {
   display: inline-block;
   padding: 0.25em;
@@ -866,29 +765,24 @@ body.modal-open .container, body.modal-open .container-fluid {
   border: #0f718a groove 2px;
   border-radius: 0.25em;
   font-size: 1.5em;
-  transition: all 0.10s;
+  transition: all 0.1s;
 }
-
 .accent-light-blue .button-link:hover, .accent-light-blue .button-link:active, .accent-light-blue .button-link:focus {
   background-color: rgba(0, 204, 255, 0.15);
   transition: background-color 0.1s;
   text-shadow: 0 0 4px #007a99, 0 0 4px #007a99, 0 0 0.75em #0f718a, 0 0 0.75em #0f718a, 0 0 1em #0f718a;
 }
-
 .accent-light-blue .shaded {
   transition: background-color 0.1s;
 }
-
 .accent-light-blue .shaded:hover {
   background-color: rgba(0, 204, 255, 0.1);
   transition: background-color 0.1s;
 }
-
 .accent-light-blue .glow {
   color: #00ccff;
   text-shadow: 0 0 0.1em #1497b8, 0 0 0.1em #1497b8, 0 0 0.5em #1497b8, 0 0 0.75em #1497b8, 0 0 1em #1497b8;
 }
-
 .accent-light-blue .glow-anim {
   animation-name: neonFlash192deg;
   animation-duration: 8s;
@@ -906,7 +800,6 @@ body.modal-open .container, body.modal-open .container-fluid {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
 @keyframes neonFlash192deg {
   0% {
     opacity: 0.1;
@@ -925,7 +818,7 @@ body.modal-open .container, body.modal-open .container-fluid {
     text-shadow: none;
   }
   10% {
-    opacity: 0.80;
+    opacity: 0.8;
     text-shadow: 0 0 0.1em #1497b8, 0 0 0.1 0.5em #1497b8;
   }
   12% {
@@ -956,70 +849,56 @@ body.modal-open .container, body.modal-open .container-fluid {
   /* 3.2: Component Accent Rules */
   /* 3.3: Special Effects */
 }
-
 .accent-pink a {
   text-decoration: none;
   color: #9a18dc;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-pink a:hover, .accent-pink a:focus {
   outline: none;
   color: #c85bff;
   text-decoration: none;
   text-shadow: 0 0 0.5em #9a18dc, 0 0 0.75em #9a18dc, 0 0 1em #9a18dc;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-pink p {
   color: darkAccent10;
 }
-
 .accent-pink img {
   border-color: #c85bff;
   box-shadow: 0 0 5px #9a18dc, 0 0 5px #9a18dc, 0 0 10px #9a18dc;
 }
-
 .accent-pink div {
   border-color: #c85bff;
 }
-
 .accent-pink table, .accent-pink th {
   border: 2px solid #c85bff;
 }
-
 .accent-pink td {
   border: 1px solid #c85bff;
 }
-
 .accent-pink hr {
   border-color: #c85bff;
   box-shadow: 0 0 5px #9a18dc;
 }
-
 .accent-pink .card {
   border: groove 2px #c85bff;
   color: #c85bff;
 }
-
 .accent-pink .card a {
   color: #b03eea;
   border: transparent solid 2px;
 }
-
 .accent-pink .card a:hover {
   color: #c85bff;
 }
-
 .accent-pink .card-body {
   border-top: groove 2px #c85bff;
 }
-
 .accent-pink .modal {
   border: groove 2px #c85bff;
   box-shadow: 0 0 5px #9a18dc, 0 0 5px #9a18dc, 0 0 10px #9a18dc;
 }
-
 .accent-pink .button-link {
   display: inline-block;
   padding: 0.25em;
@@ -1027,29 +906,24 @@ body.modal-open .container, body.modal-open .container-fluid {
   border: #9a18dc groove 2px;
   border-radius: 0.25em;
   font-size: 1.5em;
-  transition: all 0.10s;
+  transition: all 0.1s;
 }
-
 .accent-pink .button-link:hover, .accent-pink .button-link:active, .accent-pink .button-link:focus {
   background-color: rgba(200, 91, 255, 0.15);
   transition: background-color 0.1s;
   text-shadow: 0 0 4px #a200f4, 0 0 4px #a200f4, 0 0 0.75em #9a18dc, 0 0 0.75em #9a18dc, 0 0 1em #9a18dc;
 }
-
 .accent-pink .shaded {
   transition: background-color 0.1s;
 }
-
 .accent-pink .shaded:hover {
   background-color: rgba(200, 91, 255, 0.1);
   transition: background-color 0.1s;
 }
-
 .accent-pink .glow {
   color: #c85bff;
   text-shadow: 0 0 0.1em #b03eea, 0 0 0.1em #b03eea, 0 0 0.5em #b03eea, 0 0 0.75em #b03eea, 0 0 1em #b03eea;
 }
-
 .accent-pink .glow-anim {
   animation-name: neonFlash280deg;
   animation-duration: 8s;
@@ -1067,7 +941,6 @@ body.modal-open .container, body.modal-open .container-fluid {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
 @keyframes neonFlash280deg {
   0% {
     opacity: 0.1;
@@ -1086,7 +959,7 @@ body.modal-open .container, body.modal-open .container-fluid {
     text-shadow: none;
   }
   10% {
-    opacity: 0.80;
+    opacity: 0.8;
     text-shadow: 0 0 0.1em #b03eea, 0 0 0.1 0.5em #b03eea;
   }
   12% {
@@ -1117,70 +990,56 @@ body.modal-open .container, body.modal-open .container-fluid {
   /* 3.2: Component Accent Rules */
   /* 3.3: Special Effects */
 }
-
 .accent-red a {
   text-decoration: none;
   color: #942222;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-red a:hover, .accent-red a:focus {
   outline: none;
   color: #ec3030;
   text-decoration: none;
   text-shadow: 0 0 0.5em #942222, 0 0 0.75em #942222, 0 0 1em #942222;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-red p {
   color: darkAccent10;
 }
-
 .accent-red img {
   border-color: #ec3030;
   box-shadow: 0 0 5px #942222, 0 0 5px #942222, 0 0 10px #942222;
 }
-
 .accent-red div {
   border-color: #ec3030;
 }
-
 .accent-red table, .accent-red th {
   border: 2px solid #ec3030;
 }
-
 .accent-red td {
   border: 1px solid #ec3030;
 }
-
 .accent-red hr {
   border-color: #ec3030;
   box-shadow: 0 0 5px #942222;
 }
-
 .accent-red .card {
   border: groove 2px #ec3030;
   color: #ec3030;
 }
-
 .accent-red .card a {
   color: #be2b2b;
   border: transparent solid 2px;
 }
-
 .accent-red .card a:hover {
   color: #ec3030;
 }
-
 .accent-red .card-body {
   border-top: groove 2px #ec3030;
 }
-
 .accent-red .modal {
   border: groove 2px #ec3030;
   box-shadow: 0 0 5px #942222, 0 0 5px #942222, 0 0 10px #942222;
 }
-
 .accent-red .button-link {
   display: inline-block;
   padding: 0.25em;
@@ -1188,29 +1047,24 @@ body.modal-open .container, body.modal-open .container-fluid {
   border: #942222 groove 2px;
   border-radius: 0.25em;
   font-size: 1.5em;
-  transition: all 0.10s;
+  transition: all 0.1s;
 }
-
 .accent-red .button-link:hover, .accent-red .button-link:active, .accent-red .button-link:focus {
   background-color: rgba(236, 48, 48, 0.15);
   transition: background-color 0.1s;
   text-shadow: 0 0 4px #a70f0f, 0 0 4px #a70f0f, 0 0 0.75em #942222, 0 0 0.75em #942222, 0 0 1em #942222;
 }
-
 .accent-red .shaded {
   transition: background-color 0.1s;
 }
-
 .accent-red .shaded:hover {
   background-color: rgba(236, 48, 48, 0.1);
   transition: background-color 0.1s;
 }
-
 .accent-red .glow {
   color: #ec3030;
   text-shadow: 0 0 0.1em #be2b2b, 0 0 0.1em #be2b2b, 0 0 0.5em #be2b2b, 0 0 0.75em #be2b2b, 0 0 1em #be2b2b;
 }
-
 .accent-red .glow-anim {
   animation-name: neonFlash0deg;
   animation-duration: 8s;
@@ -1228,7 +1082,6 @@ body.modal-open .container, body.modal-open .container-fluid {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
 @keyframes neonFlash0deg {
   0% {
     opacity: 0.1;
@@ -1247,7 +1100,7 @@ body.modal-open .container, body.modal-open .container-fluid {
     text-shadow: none;
   }
   10% {
-    opacity: 0.80;
+    opacity: 0.8;
     text-shadow: 0 0 0.1em #be2b2b, 0 0 0.1 0.5em #be2b2b;
   }
   12% {
@@ -1278,70 +1131,56 @@ body.modal-open .container, body.modal-open .container-fluid {
   /* 3.2: Component Accent Rules */
   /* 3.3: Special Effects */
 }
-
 .accent-clear-sky a {
   text-decoration: none;
   color: #16c4c4;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-clear-sky a:hover, .accent-clear-sky a:focus {
   outline: none;
   color: #41ffff;
   text-decoration: none;
   text-shadow: 0 0 0.5em #16c4c4, 0 0 0.75em #16c4c4, 0 0 1em #16c4c4;
-  transition: text-shadow 0.10s;
+  transition: text-shadow 0.1s;
 }
-
 .accent-clear-sky p {
   color: darkAccent10;
 }
-
 .accent-clear-sky img {
   border-color: #41ffff;
   box-shadow: 0 0 5px #16c4c4, 0 0 5px #16c4c4, 0 0 10px #16c4c4;
 }
-
 .accent-clear-sky div {
   border-color: #41ffff;
 }
-
 .accent-clear-sky table, .accent-clear-sky th {
   border: 2px solid #41ffff;
 }
-
 .accent-clear-sky td {
   border: 1px solid #41ffff;
 }
-
 .accent-clear-sky hr {
   border-color: #41ffff;
   box-shadow: 0 0 5px #16c4c4;
 }
-
 .accent-clear-sky .card {
   border: groove 2px #41ffff;
   color: #41ffff;
 }
-
 .accent-clear-sky .card a {
   color: #26e7e7;
   border: transparent solid 2px;
 }
-
 .accent-clear-sky .card a:hover {
   color: #41ffff;
 }
-
 .accent-clear-sky .card-body {
   border-top: groove 2px #41ffff;
 }
-
 .accent-clear-sky .modal {
   border: groove 2px #41ffff;
   box-shadow: 0 0 5px #16c4c4, 0 0 5px #16c4c4, 0 0 10px #16c4c4;
 }
-
 .accent-clear-sky .button-link {
   display: inline-block;
   padding: 0.25em;
@@ -1349,29 +1188,24 @@ body.modal-open .container, body.modal-open .container-fluid {
   border: #16c4c4 groove 2px;
   border-radius: 0.25em;
   font-size: 1.5em;
-  transition: all 0.10s;
+  transition: all 0.1s;
 }
-
 .accent-clear-sky .button-link:hover, .accent-clear-sky .button-link:active, .accent-clear-sky .button-link:focus {
   background-color: rgba(65, 255, 255, 0.15);
   transition: background-color 0.1s;
   text-shadow: 0 0 4px #00dada, 0 0 4px #00dada, 0 0 0.75em #16c4c4, 0 0 0.75em #16c4c4, 0 0 1em #16c4c4;
 }
-
 .accent-clear-sky .shaded {
   transition: background-color 0.1s;
 }
-
 .accent-clear-sky .shaded:hover {
   background-color: rgba(65, 255, 255, 0.1);
   transition: background-color 0.1s;
 }
-
 .accent-clear-sky .glow {
   color: #41ffff;
   text-shadow: 0 0 0.1em #26e7e7, 0 0 0.1em #26e7e7, 0 0 0.5em #26e7e7, 0 0 0.75em #26e7e7, 0 0 1em #26e7e7;
 }
-
 .accent-clear-sky .glow-anim {
   animation-name: neonFlash180deg;
   animation-duration: 8s;
@@ -1389,7 +1223,6 @@ body.modal-open .container, body.modal-open .container-fluid {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
 @keyframes neonFlash180deg {
   0% {
     opacity: 0.1;
@@ -1408,7 +1241,7 @@ body.modal-open .container, body.modal-open .container-fluid {
     text-shadow: none;
   }
   10% {
-    opacity: 0.80;
+    opacity: 0.8;
     text-shadow: 0 0 0.1em #26e7e7, 0 0 0.1 0.5em #26e7e7;
   }
   12% {
