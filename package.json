@@ -30,7 +30,7 @@
     "metalsmith-data-loader": "^1.1.5",
     "metalsmith-debug": "^1.2.0",
     "metalsmith-handlebars-contents": "^1.1.0",
-    "metalsmith-sass": "^1.7.0",
+    "metalsmith-sass": "^2.0.0",
     "minimatch": "^3.0.4",
     "nodemon": "^2.0.9",
     "path": "^0.12.7",
