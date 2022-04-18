@@ -2,7 +2,7 @@ projectCollection:
 - title: 'Metallurgy 4: Reforged'
   summary: A Minecraft mod for 1.12.2 that expands the repertory of metals in Minecraft, providing means to process and final uses too!
   id: metallurgy
-  image: https://repository-images.githubusercontent.com/144406053/55052980-07b8-11ea-9ca2-db5f405d5fae
+  image: res/img/metallurgy_4_reforged.png
   links:
   - name: Download
     url: https://www.curseforge.com/minecraft/mc-mods/metallurgy-4-reforged
