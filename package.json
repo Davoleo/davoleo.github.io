@@ -32,8 +32,8 @@
     "metalsmith-handlebars-contents": "^1.1.0",
     "metalsmith-sass": "^2.0.0",
     "minimatch": "^3.0.4",
+    "node-sass": "^7.0.1",
     "nodemon": "^2.0.9",
-    "path": "^0.12.7",
-    "sass": "^1.35.1"
+    "path": "^0.12.7"
   }
 }
