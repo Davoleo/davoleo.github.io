@@ -43,6 +43,13 @@ Table of Contents:
   src: url("../res/font/JetBrainsMono-Regular.ttf");
 }
 
+/* Firefox font-bolding issue fix */
+@-moz-document url-prefix() {
+  body {
+    font-weight: 300 !important;
+  }
+}
+
 body {
   //* alternative background 03030a
   background-color: $backgroundColor;
@@ -52,11 +59,15 @@ body {
   transition: filter 0.5s;
 
   h1 {
+    /* Firefox font-bolding issue fix */
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+
     font-family: 'Poiret One', sans-serif;
     text-align: center;
 
     font-size: 4rem;
-    font-weight: 300;
     line-height: 1.2;
     margin-top: 0.25em;
     margin-bottom: 0.5em;
