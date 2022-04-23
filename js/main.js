@@ -1,3 +1,12 @@
+//--- Utility Functions ---
+
+function reloadContent() {
+    if (!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+
 //Setup page colors
 const accentColors = [
     "gold",

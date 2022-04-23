@@ -95,6 +95,10 @@ h2, p {
   font-weight: normal;
 }
 
+.gha-message small {
+  color: #BBB;
+}
+
 .gha-activity img {
   display: inline-block;
   box-shadow: none;

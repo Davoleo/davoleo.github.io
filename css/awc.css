@@ -16,9 +16,8 @@
 
 .badge > img {
     display: block;
-    border-radius: 4px;
 }
 
-p {
+h3, p {
     text-align: center;
 }

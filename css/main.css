@@ -31,6 +31,13 @@ Table of Contents:
   src: url("../res/font/JetBrainsMono-Regular.ttf");
 }
 
+/* Firefox font-bolding issue fix */
+@-moz-document url-prefix() {
+  body {
+    font-weight: 300 !important;
+  }
+}
+
 body {
   background-color: #000;
   font-family: Raleway, sans-serif;
@@ -39,10 +46,13 @@ body {
 }
 
 body h1 {
+  /* Firefox font-bolding issue fix */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
   font-family: 'Poiret One', sans-serif;
   text-align: center;
   font-size: 4rem;
-  font-weight: 300;
   line-height: 1.2;
   margin-top: 0.25em;
   margin-bottom: 0.5em;
@@ -180,7 +190,12 @@ body.modal-open .container, body.modal-open .container-fluid {
 
 .accent-gold img {
   border-color: #ff9933;
-  box-shadow: 0 0 5px #b86614, 0 0 5px #b86614, 0 0 10px #b86614;
+  box-shadow: 0 0 5px #b86614, 0 0 10px #b86614;
+}
+
+.accent-gold img.with-filter-glow {
+  box-shadow: none;
+  filter: drop-shadow(0 0 5px #b86614) drop-shadow(0 0 7px #b86614);
 }
 
 .accent-gold div {
@@ -342,7 +357,12 @@ body.modal-open .container, body.modal-open .container-fluid {
 
 .accent-lime img {
   border-color: #b9e635;
-  box-shadow: 0 0 5px #748f26, 0 0 5px #748f26, 0 0 10px #748f26;
+  box-shadow: 0 0 5px #748f26, 0 0 10px #748f26;
+}
+
+.accent-lime img.with-filter-glow {
+  box-shadow: none;
+  filter: drop-shadow(0 0 5px #748f26) drop-shadow(0 0 7px #748f26);
 }
 
 .accent-lime div {
@@ -504,7 +524,12 @@ body.modal-open .container, body.modal-open .container-fluid {
 
 .accent-green img {
   border-color: #00cc00;
-  box-shadow: 0 0 5px #0a5c0a, 0 0 5px #0a5c0a, 0 0 10px #0a5c0a;
+  box-shadow: 0 0 5px #0a5c0a, 0 0 10px #0a5c0a;
+}
+
+.accent-green img.with-filter-glow {
+  box-shadow: none;
+  filter: drop-shadow(0 0 5px #0a5c0a) drop-shadow(0 0 7px #0a5c0a);
 }
 
 .accent-green div {
@@ -666,7 +691,12 @@ body.modal-open .container, body.modal-open .container-fluid {
 
 .accent-aqua img {
   border-color: #00ff99;
-  box-shadow: 0 0 5px #0f8a59, 0 0 5px #0f8a59, 0 0 10px #0f8a59;
+  box-shadow: 0 0 5px #0f8a59, 0 0 10px #0f8a59;
+}
+
+.accent-aqua img.with-filter-glow {
+  box-shadow: none;
+  filter: drop-shadow(0 0 5px #0f8a59) drop-shadow(0 0 7px #0f8a59);
 }
 
 .accent-aqua div {
@@ -828,7 +858,12 @@ body.modal-open .container, body.modal-open .container-fluid {
 
 .accent-light-blue img {
   border-color: #00ccff;
-  box-shadow: 0 0 5px #0f718a, 0 0 5px #0f718a, 0 0 10px #0f718a;
+  box-shadow: 0 0 5px #0f718a, 0 0 10px #0f718a;
+}
+
+.accent-light-blue img.with-filter-glow {
+  box-shadow: none;
+  filter: drop-shadow(0 0 5px #0f718a) drop-shadow(0 0 7px #0f718a);
 }
 
 .accent-light-blue div {
@@ -990,7 +1025,12 @@ body.modal-open .container, body.modal-open .container-fluid {
 
 .accent-pink img {
   border-color: #c85bff;
-  box-shadow: 0 0 5px #9a18dc, 0 0 5px #9a18dc, 0 0 10px #9a18dc;
+  box-shadow: 0 0 5px #9a18dc, 0 0 10px #9a18dc;
+}
+
+.accent-pink img.with-filter-glow {
+  box-shadow: none;
+  filter: drop-shadow(0 0 5px #9a18dc) drop-shadow(0 0 7px #9a18dc);
 }
 
 .accent-pink div {
@@ -1152,7 +1192,12 @@ body.modal-open .container, body.modal-open .container-fluid {
 
 .accent-red img {
   border-color: #ec3030;
-  box-shadow: 0 0 5px #942222, 0 0 5px #942222, 0 0 10px #942222;
+  box-shadow: 0 0 5px #942222, 0 0 10px #942222;
+}
+
+.accent-red img.with-filter-glow {
+  box-shadow: none;
+  filter: drop-shadow(0 0 5px #942222) drop-shadow(0 0 7px #942222);
 }
 
 .accent-red div {
@@ -1314,7 +1359,12 @@ body.modal-open .container, body.modal-open .container-fluid {
 
 .accent-clear-sky img {
   border-color: #41ffff;
-  box-shadow: 0 0 5px #16c4c4, 0 0 5px #16c4c4, 0 0 10px #16c4c4;
+  box-shadow: 0 0 5px #16c4c4, 0 0 10px #16c4c4;
+}
+
+.accent-clear-sky img.with-filter-glow {
+  box-shadow: none;
+  filter: drop-shadow(0 0 5px #16c4c4) drop-shadow(0 0 7px #16c4c4);
 }
 
 .accent-clear-sky div {
