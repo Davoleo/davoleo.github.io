@@ -7,7 +7,8 @@ title: Development Stats
 
 {{> header}}
 
-<body>
+{{!-- Makes sure images are reloaded -> Correct Dev Data --}}
+<body onload="reloadContent();">
     {{> back_button}}
 
     <h1 class="glow-anim">{{title}}</h1>
@@ -28,14 +29,5 @@ title: Development Stats
     </div>
 
     {{> footer}}
-    {{!-- Makes sure images are reloaded -> Correct Dev Data --}}
-    <script>
-        window.onload = () => {
-            if (!window.location.hash) {
-                window.location = window.location + '#loaded';
-                window.location.reload();
-            }
-        }
-    </script>
 </body>
 </html>
