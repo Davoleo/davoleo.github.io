@@ -1,6 +1,8 @@
 ---
 filename: awc
 title: Davoleo's AWC Badges
+
+data: '/data/awc.yaml'
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -14,16 +16,14 @@ title: Davoleo's AWC Badges
 
     <div class="main-content">
         <p>This page contains badges of my completed AWC challenges on AniList (click on the specific badges for more information)</p>
-        <p><a href="https://awc.moe/challenger/Davoleo">AWC Portal</a></p>
+        <h3><a href="https://awc.moe/challenger/Davoleo">AWC Portal</a></h3>
+
         <div class="badge-container">
-            <a class="badge" href="https://anilist.co/forum/thread/4448/comment/232047">
-                <img src="https://awc.nymh.moe/assets/tier/WK1ejb8.png" alt="beginners_challenge_badge">
+            {{#each data.badges}}
+            <a class="badge" href="{{this.post}}">
+                <img class="with-filter-glow" src="{{this.image}}" alt="{{this.name}}">
             </a>
-        </div>
-        <div>
-            <a href="badge" href="https://anilist.co/forum/thread/25914/comment/1249584">
-                <img src="https://i.postimg.cc/85KKtL7n/Collection-Franchise-Love-Live.png" alt="love_live_collection_challenge_badge">
-            </a>
+            {{/each}}
         </div>
     </div>
 
