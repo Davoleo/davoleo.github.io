@@ -93,6 +93,9 @@ h2, p {
 .gha-message {
   font-family: Raleway, sans-serif;
   font-weight: normal;
+  small {
+    color: #BBB;
+  }
 }
 
 .gha-activity img {
