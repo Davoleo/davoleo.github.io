@@ -27,6 +27,15 @@ title: Development Stats
         </div>
     </div>
 
-{{> footer}}
+    {{> footer}}
+    {{!-- Makes sure images are reloaded -> Correct Dev Data --}}
+    <script>
+        window.onload = () => {
+            if (!window.location.hash) {
+                window.location = window.location + '#loaded';
+                window.location.reload();
+            }
+        }
+    </script>
 </body>
 </html>
