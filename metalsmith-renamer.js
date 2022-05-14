@@ -1,10 +1,9 @@
 const micromatch = require('micromatch');
 
 module.exports = function metalsmithRenamer(match, newExt) {
-    return function(files, metalsmith, done) {
-        Object.keys(files).forEach(filename => {
-            if (micromatch(filename, match)) {
-                const splitName = filename.split('.');
+    return function(files, _metalsmith, done) {
+        micromatch.match(Object.keys(files), match).forEach(filename => {
+            const splitName = filename.split('.');
                 //Keep a referece to actual file
                 const fileRef = files[filename];
                 //Delete the old property at the filename key
@@ -16,7 +15,6 @@ module.exports = function metalsmithRenamer(match, newExt) {
                 const newFName = splitName.join('.');
                 //Assign file ref to a property with the new filename
                 files[newFName] = fileRef;
-            }
         })
 
         done();
