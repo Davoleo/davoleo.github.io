@@ -1,9 +1,9 @@
-const minimatch = require('minimatch');
+const micromatch = require('micromatch');
 
 module.exports = function metalsmithRenamer(match, newExt) {
     return function(files, metalsmith, done) {
         Object.keys(files).forEach(filename => {
-            if (minimatch(filename, match)) {
+            if (micromatch(filename, match)) {
                 const splitName = filename.split('.');
                 //Keep a referece to actual file
                 const fileRef = files[filename];
