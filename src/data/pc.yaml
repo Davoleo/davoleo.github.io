@@ -1,55 +1,47 @@
-header: My Computer Config
+header: PC Components List
 components:
 - type: CPU
-  name: AMD Ryzen 5 2600
-  price: €187.72
+  name: AMD Ryzen 7 5800X
   url: https://www.amazon.it/gp/product/B07B41WS48/ref=ox_sc_act_title_1?smid=A3KWP5A9XVQC7A&psc=1
+- type: CPU Cooler
+  name: DeepCool AK620
+  url: https://www.amazon.it/dp/B09CKXT4FH?psc=1&ref=ppx_yo2ov_dt_b_product_details
 - type: Motherboard
   name: MSI - X470 CARBON Socket AM4 ATX
-  price: €176.42
   url: https://www.amazon.it/dp/B07C41QNDD/?coliid=I31MQNXKWER5HI&colid=3CHEIO0V3J8AX&psc=0&ref_=lv_ov_lig_dp_it
 - type: RAM
-  name: Corsair Vengeance LPX 16GB (2 x 8GB) DDR4-3000MHz Memory
-  price: €158.28
+  name: Corsair Vengeance LPX 16GB (4 x 8GB) DDR4-3000MHz Memory
   url: https://www.amazon.it/dp/B0134EW7G8/?coliid=I2T9KSN5M7YD7&colid=3CHEIO0V3J8AX&psc=1&ref_=lv_ov_lig_dp_it
 - type: SSD (Primary)
   name: Samsung MZ-V7E1T0 NVMe M.2 SSD 970 EVO 1 TB
-  price: €154.00
   url: https://www.amazon.it/gp/product/B07CGJNLBB/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1
 - type: SSD (Secondary)
   name: Samsung MZ-V7E250BW SSD 970 EVO 250 GB
-  price: €187.72
   url: https://www.amazon.it/gp/product/B07B41WS48/ref=ox_sc_act_title_1?smid=A3KWP5A9XVQC7A&psc=1
 - type: HDD
   name: Western Digital WD Blue 3TB 
-  price: €86.37
   url: https://www.amazon.it/dp/B013HNYV42/?coliid=I3IJOO2GNN5Y4T&colid=3CHEIO0V3J8AX&psc=1&ref_=lv_ov_lig_dp_it
 - type: GPU
   name: Sapphire Radeon RX 580 8GB
-  price: €307.00
   url: https://www.amazon.it/gp/product/B073F1286D/ref=ox_sc_act_title_2?smid=A11IL2PNWYJU7H&psc=1
 - type: Case
-  name: Cooler Master MasterBox Lite 5
-  price: €71.66
-  url: https://www.amazon.it/dp/B073R5GC4R/?coliid=I2J5BUD11IZWBV&colid=3CHEIO0V3J8AX&psc=0&ref_=lv_ov_lig_dp_it
+  name: LIAN-LI Lancool 216
+  url: https://www.caseking.de/Lian-Li-LANCOOL-216-RGB-E-ATX-Gehaeuse-Midi-Tower-schwarz-GELI-915.html?tplview=desktop
 - type: Power Supply
-  name: Seasonic 24147 550W
-  price: €92.90
+  name: Seasonic Focus Plus 550 Gold
   url: https://www.amazon.it/gp/product/B073GY89G5/ref=ox_sc_act_title_1?smid=A11IL2PNWYJU7H&psc=1
 - type: Main Monitor
-  name: ASUS VG248QE 24'' FHD
-  price: €212.76
+  name: ASUS VG248QE 24" FULL-HD
   url: https://www.amazon.it/gp/product/B00B19T7QC/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 - type: Secondary Monitor
-  name: Acer KG1 KG241Qbmiix Monitor, TN Film Panel 23.6", 16:9, 1920 x 1080 Full HD
-  price: €149.90
+  name: Acer KG1 KG241Qbmiix Monitor 23.6" 16:9 Full HD
   url: https://www.amazon.it/dp/B071W5THV4/?coliid=I8ZG5KO7PNSGJ&colid=3CHEIO0V3J8AX&psc=1&ref_=lv_ov_lig_dp_it
 - type: Mouse
   name: TeckNet Mouse
-  price: €25.99
   url: https://www.amazon.it/dp/B00ZOT7JR4/?coliid=I13XE3JAE87U47&colid=3CHEIO0V3J8AX&psc=0&ref_=lv_ov_lig_dp_it
 - type: Keyboard
   name: Corsair K55 RGB
-  price: €68.82
   url: https://www.amazon.it/dp/B01N99EOAT/?coliid=IK952AFLKZIPG&colid=3CHEIO0V3J8AX&psc=1&ref_=lv_ov_lig_dp_it
-  
+- type: UPS
+  name: EPYC ION - 1000VA/600W
+  url: https://www.amazon.it/dp/B0851LWQ95?psc=1&ref=ppx_yo2ov_dt_b_product_details

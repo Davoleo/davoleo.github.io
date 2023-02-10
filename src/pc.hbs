@@ -1,6 +1,6 @@
 ---
 filename: pc
-title: PC Config
+title: PC Parts
 
 data: '/data/pc.yaml'
 ---
@@ -20,23 +20,15 @@ data: '/data/pc.yaml'
         <tr class="shaded">
             <th>Component</th>
             <th>Link</th>
-            <th>Price</th>
         </tr>
     </thead>
     <tbody>
         {{#each data.components}}
             <tr class="shaded">
-            <td class="part-list-type">{{this.type}}</td>
-            <td class="part-list-item"><a href="{{this.url}}">{{this.name}}</a></td>
-            <td class="part-list-price">
-                <a href="{{this.url}}">{{this.price}}</a>
-            </td>
+                <td class="part-list-type">{{this.type}}</td>
+                <td class="part-list-item"><a href="{{this.url}}">{{this.name}}</a></td>
             </tr>
         {{/each}}
-        <tr class="shaded">
-            <td colspan="2" class="part-list-total">Total</td>
-            <td class="part-list-total-price">~€1200.00</td>
-        </tr>
     </tbody>
 </table>
 
