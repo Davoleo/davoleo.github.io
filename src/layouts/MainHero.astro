@@ -1,0 +1,26 @@
+---
+import {Content as Description} from '../components/index/ProfileDescription.md'
+import {Content as SocialLinks1} from '../components/index/SocialLinks1.md'
+import {Content as SocialLinks2} from '../components/index/SocialLinks2.md'
+---
+<div id="first_row">
+    
+    <div id="desc_col">
+        <Description />
+    </div>
+    <img id="img_col" src="" alt="Profile picture">
+    <div id="links_col">
+        <h2>Links</h2>
+        <div id="uls">
+            <SocialLinks1 />
+            <SocialLinks2 />
+        </div>
+    </div>
+</div>
+
+<style>
+    #uls {
+        display: flex;
+        flex-direction: row;
+    }
+</style>

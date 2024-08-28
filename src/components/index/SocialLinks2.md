@@ -1,0 +1,5 @@
+- [Discord](http://discord.davoleo.net/)
+- [Spotify](https://open.spotify.com/user/davoleo2001)
+- [Twitch](https://www.twitch.tv/davoleo_k)
+- [Reddit](https://www.reddit.com/user/Davoleo)
+- [Twitter](https://twitter.com/Davoleo369)

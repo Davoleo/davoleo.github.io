@@ -1,0 +1,8 @@
+title: davoleo.net
+summary: This website, it's generated statically with Metalsmith feat. SCSS and Handlebars. It's the home of things I'm passionate about and showcases my works. I'm constantly updating it to improve UI/UX or add new content.
+image: res/img/virtual_hub.png
+links:
+- name: Source Code
+  url: https://github.com/Davoleo/davoleo.github.io
+- name: Homepage
+  url: https://davoleo.net

@@ -1,0 +1,25 @@
+---
+
+interface Props {
+    url: string,
+}
+
+const { url } = Astro.props;
+---
+
+<div class="back-button-container">
+    <a id="backwards_button" class="button-link" href={url}><span class="mdi mdi-arrow-left"></span></a>
+</div>
+
+<style lang="scss">
+.back-button-container {
+    display: inline-block;
+    margin-left: 1em;
+    position: absolute;
+    z-index: 1;
+
+    #backwards_button {
+        font-size: 2em;
+    }
+}
+</style>

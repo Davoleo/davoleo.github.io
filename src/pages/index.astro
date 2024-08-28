@@ -1,0 +1,48 @@
+---
+import Wrapper from '../layouts/Wrapper.astro';
+
+import "../sass/main.scss"
+import "../sass/index.scss"
+import MainHero from '../layouts/MainHero.astro';
+import Marquee from '../components/index/Marquee.vue';
+
+const title = "Homepage"
+
+function getCurrentYear() {
+	return new Date().getFullYear();
+}
+---
+
+<Wrapper title={title}>
+	<main class="container">
+		<header>
+			<div>
+				<h1 class="glow-anim">Davoleo's Virtual Hub</h1>
+				<Marquee text="Content failed to load" count={5} />
+				<noscript>
+					<h2>Warning: Some parts of this website might not display properly if you don't have JavaScript enabled on your browser</h2>
+				</noscript>
+			</div>
+		</header>
+
+		<MainHero />
+
+		<div id="second_row">
+			<a class="button-link" href="/projects">Projects</a>
+			<a class="button-link" href="#">Donate</a>
+			<a class="button-link" href="#">More...</a>
+		</div>
+
+		<footer>
+			<div class="github">
+				<a class="button-link" id="footer_button_left" href="https://github.com/Davoleo/davoleo.github.io"><span class="mdi mdi-code-tags"></span></a>
+			</div>
+			<p>Copyright - &copy; - Davoleo - 2020-{getCurrentYear()}</p>
+			<div>
+				<a class="button-link" id="footer_button_right", href="http://discord.davoleo.net"><span class="mdi mdi-discord"></span></a>
+			</div>
+		</footer>
+	</main>
+</Wrapper>
+
+<script src="../scripts/index.js"></script>

@@ -1,0 +1,36 @@
+---
+const { title } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{title}</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600&display=swap" rel="stylesheet">
+    <!-- MDI -->
+    <link href="lib/mdi/css/materialdesignicons.min.css" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    
+    <link rel="icon" href="https://avatars.githubusercontent.com/davoleo" type="image/png">
+
+    <script src="../scripts/main.js"></script>
+
+    <noscript>
+        <style>
+            body { background-color: white; }
+        </style>
+    </noscript>
+
+</head>
+
+<body>
+    <slot />
+</body>
+
+</html>

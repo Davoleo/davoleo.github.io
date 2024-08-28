@@ -1,0 +1,9 @@
+title: Barcode Stock
+summary: A native Android app made for the purpose of scanning and storing products barcodes and assigning metadata like titles, descriptions, prices and VAT.
+id: barcode_stock
+image: res/img/barcode-stock.png
+links:
+- name: Download
+  url: https://github.com/Davoleo/BarcodeStock/releases
+- name: Source Code
+  url: https://github.com/Davoleo/BarcodeStock

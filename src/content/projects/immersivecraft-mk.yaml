@@ -1,0 +1,9 @@
+title: ImmersiveCraft-MK
+summary: A Minecraft modpack for 1.12.2 that attemps to create a realistic sort of tech gameplay without being overly tedious/grindy.
+id: immcraft
+image: res/img/immersivecraft.png
+links:
+- name: Download
+  url: https://www.curseforge.com/minecraft/modpacks/immersivecraft-mk
+- name: Source Code
+  url: https://github.com/Davoleo/ImmersiveCraft-MK

@@ -1,0 +1,9 @@
+title: Curse Updates
+summary: A Discord bot made to fetch new mod and modpacks updates from CurseForge and announce them on discord, can be used to fetch updates manually, but also to schedule notifications every time a new version is published.
+id: curse_updates
+image: res/img/curseforge-updates.png
+links:
+- name: Invite Link
+  url: https://discordapp.com/api/oauth2/authorize?client_id=658271214116274196&permissions=537193552&scope=bot
+- name: Source Code
+  url: https://github.com/Davoleo/curse-updates

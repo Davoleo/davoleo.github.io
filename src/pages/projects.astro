@@ -1,0 +1,18 @@
+---
+import Wrapper from '../layouts/Wrapper.astro';
+
+import "../sass/main.scss"
+import "../sass/projects.scss"
+import BackButton from '../components/BackButton.astro';
+
+const title = "Projects"
+
+function getCurrentYear() {
+	return new Date().getFullYear();
+}
+---
+
+<Wrapper title={title}>
+    <BackButton url='/'/>
+    
+</Wrapper>

@@ -1,0 +1,29 @@
+---
+interface LinkEntry {
+    name: string,
+    url: string,
+}
+
+interface Project {
+    title: string,
+    summary: string,
+    id: string,
+    image: string
+    links: LinkEntry[]
+}
+
+interface Props {
+    project: Project,
+}
+
+const { project } = Astro.props;
+---
+
+<div class="card">
+    <img src={project.image} alt={project.title}>
+    <div class="card-body">
+        <h2 class="card-title">{project.title}</h2>
+        <p class="card-text">{project.summary}</p>
+        
+    </div>
+</div>

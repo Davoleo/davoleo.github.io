@@ -1,0 +1,5 @@
+- [Github](https://github.com/Davoleo)
+- [AniList](https://anilist.co/user/Davoleo)
+- [CurseForge](https://www.curseforge.com/members/davoleo_k/projects)
+- [Steam](https://steamcommunity.com/id/Davoleo/)
+- [osu!](https://osu.ppy.sh/users/11013484)
